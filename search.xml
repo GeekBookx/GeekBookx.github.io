@@ -20,12 +20,14 @@
       </tags>
   </entry>
   <entry>
-    <title>还需要补充的一些功能</title>
-    <url>/2022/11/27/3/</url>
-    <content><![CDATA[<p>1.增加对图片的CDN加速<br><br>2.评论<br><br>3.访客量等数字统计<br><br>4.背景图片和透明度的修改<br><br>5.置顶文章<br><br>6.好像想不出来了。。。。</p>
+    <title>Forget It</title>
+    <url>/2022/11/27/4/</url>
+    <content><![CDATA[<p>作词 : Sixto Rodriguez<br></p>
+<span id="more"></span>
+<p>作曲 : Sixto Rodriguez<br><br>But thanks for your time<br><br>还是要感谢你给的时光<br><br>Then you can thank me for mine<br><br>这样你也会感谢我的吧<br><br>And after that’s said<br><br>说出来了<br><br>Forget it.<br><br>就忘掉吧<br><br>Don’t be inane<br><br>无需负疚<br><br>There’s no one to blame<br><br>也无需责怪谁<br><br>No reason why<br><br>不明缘由<br><br>You should stay here<br><br>你在这儿<br><br>And lie to me.<br><br>对我撒谎<br><br>Don’t say anymore<br><br>就别再说什么了<br><br>Just walk out the door<br><br>离开就好<br><br>I’ll get along fine<br><br>以后我会很好<br><br>You’ll see.<br><br>你会看到的<br><br>But thanks for your time<br><br>还是要感谢你给的时光<br><br>Then you can thank me for mine<br><br>这样你也会感谢我的吧<br><br>And after that’s said<br><br>说出来了<br><br>Forget it.<br><br>就忘掉吧<br><br>If there was a word<br><br>如果有这么一个世界<br><br>But magic’s absurd<br><br>奇迹是荒谬的<br><br>I’d make one dream come true.<br><br>那么我努力过让一个梦想实现<br><br>It didn’t work out<br><br>它虽然没有完成<br><br>But don’t ever doubt<br><br>但无需置疑<br><br>How I felt about you.<br><br>我对你的感觉<br><br>But thanks for your time<br><br>还是要感谢你给的时光<br><br>Then you can thank me for mine<br><br>这样你也可以感谢我的吧<br><br>And after that’s said<br><br>说出来了<br><br>Forget it<br><br>就忘掉吧<br></p>
 ]]></content>
       <tags>
-        <tag>建站</tag>
+        <tag>Share</tag>
       </tags>
   </entry>
   <entry>
@@ -48,14 +50,12 @@
       </tags>
   </entry>
   <entry>
-    <title>Forget It</title>
-    <url>/2022/11/27/4/</url>
-    <content><![CDATA[<p>作词 : Sixto Rodriguez<br></p>
-<span id="more"></span>
-<p>作曲 : Sixto Rodriguez<br><br>But thanks for your time<br><br>还是要感谢你给的时光<br><br>Then you can thank me for mine<br><br>这样你也会感谢我的吧<br><br>And after that’s said<br><br>说出来了<br><br>Forget it.<br><br>就忘掉吧<br><br>Don’t be inane<br><br>无需负疚<br><br>There’s no one to blame<br><br>也无需责怪谁<br><br>No reason why<br><br>不明缘由<br><br>You should stay here<br><br>你在这儿<br><br>And lie to me.<br><br>对我撒谎<br><br>Don’t say anymore<br><br>就别再说什么了<br><br>Just walk out the door<br><br>离开就好<br><br>I’ll get along fine<br><br>以后我会很好<br><br>You’ll see.<br><br>你会看到的<br><br>But thanks for your time<br><br>还是要感谢你给的时光<br><br>Then you can thank me for mine<br><br>这样你也会感谢我的吧<br><br>And after that’s said<br><br>说出来了<br><br>Forget it.<br><br>就忘掉吧<br><br>If there was a word<br><br>如果有这么一个世界<br><br>But magic’s absurd<br><br>奇迹是荒谬的<br><br>I’d make one dream come true.<br><br>那么我努力过让一个梦想实现<br><br>It didn’t work out<br><br>它虽然没有完成<br><br>But don’t ever doubt<br><br>但无需置疑<br><br>How I felt about you.<br><br>我对你的感觉<br><br>But thanks for your time<br><br>还是要感谢你给的时光<br><br>Then you can thank me for mine<br><br>这样你也可以感谢我的吧<br><br>And after that’s said<br><br>说出来了<br><br>Forget it<br><br>就忘掉吧<br></p>
+    <title>还需要补充的一些功能</title>
+    <url>/2022/11/27/3/</url>
+    <content><![CDATA[<p>1.增加对图片的CDN加速<br><br>2.评论<br><br>3.访客量等数字统计<br><br>4.背景图片和透明度的修改<br><br>5.置顶文章<br><br>6.好像想不出来了。。。。</p>
 ]]></content>
       <tags>
-        <tag>Share</tag>
+        <tag>建站</tag>
       </tags>
   </entry>
   <entry>
@@ -92,21 +92,21 @@
       </tags>
   </entry>
   <entry>
+    <title>Xbox Cloud Gaming的技巧</title>
+    <url>/2022/11/27/xbox/</url>
+    <content><![CDATA[<p>主要通过两种方法来进行<br>1.在手机或者电脑的浏览器（必须带有扩展程序功能）进行<br>2.在手机的game pass中进行<br>第一种办法需要去浏览器中的扩展商店中下载Header Editor，选择添加一个规则。<br>名称随便填，规则类型选择修改请求头，其余两项不用动<br>下面的头名称填x-forwarded-for（横杆不可少）<br>头内容选择有Cloud Gaming beta服务的地区或者国家，比如美国或者日本韩国这些。在网上随便搜一些美国IP（比如亚马逊服务器等各大公司的ip）填入。然后保存开始游玩。</p>
+<h2 id="如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。"><a href="#如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。" class="headerlink" title="如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。"></a>如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。</h2><h2 id="如果是第二种办法，在game-pass上有可能会闪退，这个时候我们要开飞行模式，还不行就要开系统英文。手机上UU加速game-pass是免费的所以不用担心。但是有时候跑不满速度。需要加一个代理。进入WIFI设置内设置高级，选择手动代理，ip选择192-168-7-2-端口选择1082，然后保存。enjoy-it"><a href="#如果是第二种办法，在game-pass上有可能会闪退，这个时候我们要开飞行模式，还不行就要开系统英文。手机上UU加速game-pass是免费的所以不用担心。但是有时候跑不满速度。需要加一个代理。进入WIFI设置内设置高级，选择手动代理，ip选择192-168-7-2-端口选择1082，然后保存。enjoy-it" class="headerlink" title="如果是第二种办法，在game pass上有可能会闪退，这个时候我们要开飞行模式，还不行就要开系统英文。手机上UU加速game pass是免费的所以不用担心。但是有时候跑不满速度。需要加一个代理。进入WIFI设置内设置高级，选择手动代理，ip选择192.168.7.2,  端口选择1082，然后保存。enjoy it"></a>如果是第二种办法，在game pass上有可能会闪退，这个时候我们要开飞行模式，还不行就要开系统英文。<br>手机上UU加速game pass是免费的所以不用担心。但是有时候跑不满速度。需要加一个代理。进入WIFI设置内设置高级，选择手动代理，ip选择192.168.7.2,  端口选择1082，然后保存。<br>enjoy it</h2>]]></content>
+      <tags>
+        <tag>Games</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于新款xbox series 2020手柄海洋行动特别版无法使用</title>
     <url>/2022/11/27/series/</url>
     <content><![CDATA[<p>最近也是非常糟心，蓝牙连接不能够使用。<br>问题：NFS17显示手柄名称六轴十六按键游戏板有帽子，不能使用且键位错乱。手柄测试没有反应，显示没接上手柄，映射键位错乱。而插线一切正常，steam平台内蓝牙一切正常。</p>
 <p>问题所在：新款xbox手柄更新了协议，最新固件是le低功耗蓝牙协议，而识别不了控制器，因而用不了。插线和用适配器都是xinput模式（模拟360控制器），因此不受影响。蓝牙本身不会断但没想到问题竟然出在这种事情上，让我真的很无语。在微软商店评价中也有很多更新最新固件出现了问题。</p>
 <p>解决办法：回退固件。如果无法在电脑上回退需要找一台xbox游戏机回退。。。而我恰恰不能在电脑上回退，显示控制器已经到最新版本，只能是看看什么时候接一个xbox机了。。。。。昨天打电话给微软售后又是叫我调steam又是干嘛干嘛的，强调很多次连接上了能在steam用就不是手柄的问题。。。这明明是自己的事情了。现在只能是把非steam游戏添加到steam内用steam自带的手柄支持功能撑着用先。。。</p>
 ]]></content>
-      <tags>
-        <tag>Games</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Xbox Cloud Gaming的技巧</title>
-    <url>/2022/11/27/xbox/</url>
-    <content><![CDATA[<p>主要通过两种方法来进行<br>1.在手机或者电脑的浏览器（必须带有扩展程序功能）进行<br>2.在手机的game pass中进行<br>第一种办法需要去浏览器中的扩展商店中下载Header Editor，选择添加一个规则。<br>名称随便填，规则类型选择修改请求头，其余两项不用动<br>下面的头名称填x-forwarded-for（横杆不可少）<br>头内容选择有Cloud Gaming beta服务的地区或者国家，比如美国或者日本韩国这些。在网上随便搜一些美国IP（比如亚马逊服务器等各大公司的ip）填入。然后保存开始游玩。</p>
-<h2 id="如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。"><a href="#如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。" class="headerlink" title="如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。"></a>如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。</h2><h2 id="如果是第二种办法，在game-pass上有可能会闪退，这个时候我们要开飞行模式，还不行就要开系统英文。手机上UU加速game-pass是免费的所以不用担心。但是有时候跑不满速度。需要加一个代理。进入WIFI设置内设置高级，选择手动代理，ip选择192-168-7-2-端口选择1082，然后保存。enjoy-it"><a href="#如果是第二种办法，在game-pass上有可能会闪退，这个时候我们要开飞行模式，还不行就要开系统英文。手机上UU加速game-pass是免费的所以不用担心。但是有时候跑不满速度。需要加一个代理。进入WIFI设置内设置高级，选择手动代理，ip选择192-168-7-2-端口选择1082，然后保存。enjoy-it" class="headerlink" title="如果是第二种办法，在game pass上有可能会闪退，这个时候我们要开飞行模式，还不行就要开系统英文。手机上UU加速game pass是免费的所以不用担心。但是有时候跑不满速度。需要加一个代理。进入WIFI设置内设置高级，选择手动代理，ip选择192.168.7.2,  端口选择1082，然后保存。enjoy it"></a>如果是第二种办法，在game pass上有可能会闪退，这个时候我们要开飞行模式，还不行就要开系统英文。<br>手机上UU加速game pass是免费的所以不用担心。但是有时候跑不满速度。需要加一个代理。进入WIFI设置内设置高级，选择手动代理，ip选择192.168.7.2,  端口选择1082，然后保存。<br>enjoy it</h2>]]></content>
       <tags>
         <tag>Games</tag>
       </tags>
