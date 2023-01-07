@@ -43,9 +43,9 @@
     <link href="https://geekbookx.github.io/2023/01/07/photosbad/"/>
     <id>https://geekbookx.github.io/2023/01/07/photosbad/</id>
     <published>2023-01-07T09:19:20.000Z</published>
-    <updated>2023-01-07T09:26:12.687Z</updated>
+    <updated>2023-01-07T12:26:49.510Z</updated>
     
-    <content type="html"><![CDATA[<p>1.利用github pages自带的100M空间，上传图片到文件夹内（需要hexo-asset-image插件支持）</p><p>2.国内外的各种图床，这其中分为自建和第三方服务商</p><p>自建：利用github仓库等托管平台（github限制不能超过1G，且国外环境需要CDN加持）（gitee已不能使用）</p><p>第三方：如七牛云，腾讯云，阿里云，SM.MS，Imgur和又拍云等（瑟瑟怕删）</p><p>3.由于图片是超链接都能引用，于是第三个想法是用上能复制超链接的各种网站，比如在b站动态上上传图片然后复制图片链接到文章中，LOFTER和b站目前是我能想到的</p><hr><p>PS:在使用picgo+七牛云时，图片在相册中无法显示的解决办法：在图床设置中加入http:&#x2F;&#x2F;或者https:&#x2F;&#x2F;</p><p>七牛云给的访问网址里面没有加上http需要自己加上，但是加上https是用不了的，只能用http</p>]]></content>
+    <content type="html"><![CDATA[<p>1.利用github pages自带的100M空间，上传图片到文件夹内（需要hexo-asset-image插件支持）</p><p>2.国内外的各种图床，这其中分为自建和第三方服务商</p><p>自建：利用github仓库等托管平台（github限制不能超过1G，且国外环境需要CDN加持）（gitee已不能使用）</p><p>第三方：如七牛云，腾讯云，阿里云，SM.MS，Imgur和又拍云等（瑟瑟怕删）</p><p>3.由于图片是超链接都能引用，于是第三个想法是用上能复制超链接的各种网站，比如在b站动态上上传图片然后复制图片链接到文章中，LOFTER和b站目前是我能想到的</p><hr><p>PS:在使用picgo+七牛云时，图片在相册中无法显示的解决办法：在图床设置中加入http:&#x2F;&#x2F;或者https:&#x2F;&#x2F;</p><p>七牛云给的30天访问网址里面没有加上http需要自己加上，但是加上https是用不了的，只能用http</p>]]></content>
     
     
       
