@@ -130,15 +130,15 @@
     <url>/9407d8c8/</url>
     <content><![CDATA[<p><strong>百度网盘满速下载</strong></p>
 <p>第一种是使用油桃的百度网盘下载助手</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/20230107165632.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107165632.png" alt="img"></p>
 <p><a href="https://greasyfork.org/zh-CN/scripts/425895-%E6%9C%80%E6%96%B0%E5%AE%8C%E7%BE%8E%E7%89%88-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B">点此下载此油桃插件</a></p>
 <p>使用效果</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/20230107165810.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107165810.png" alt="img"></p>
 <p>三个选项分别支持IBM和aria2（也包括motrix）和xshell，任选其一对应的工具来下载。</p>
 <hr>
 <p>或者使用极下解析（别的百度网盘解析也行，不过大多数不是要钱就是倒闭了。。。）</p>
 <p><a href="https://jixia.baidui.vip/">极下解析链接</a></p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/20230107170355.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107170355.png" alt="img"></p>
 <p>支持的工具也都差不多</p>
 <hr>
 <p>个人目前主力是motrix，感觉页面简洁而且功能不错，不仅可以拿来下度盘有时候还可以顶替一下种子下载</p>
@@ -196,8 +196,8 @@
 <hr>
 <p>个人图床使用选择过程：</p>
 <p>因为picgo+Typora组合太好用的缘故，picgo没有支持的图床不会太考虑，最希望能用picgo，因为太方便。</p>
-<p>1.七牛云：虽然免费10G但是只有三十天的试用域名，需要自己备案过的域名才能继续使用（直接把我劝退）。而且在我自己的浏览器里发现blog的图片用七牛云不能显示，但外链正常，别的设备别的浏览器访问正常，也不知道为什么。（**发现就只有七牛云的这样，腾讯云不会，美滋滋~~**）突然发现七牛云的试用域名回收时间是无，但是不确定30天后是否回收，决定先让他过完30天看看怎么样先，且我的blog内也有七牛云储存下的图片，暂时不想改外链地址了。</p>
-<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/%255D1O01S$BTS%255B@37%257D%257B$%2560WE4YD.png"></p>
+<p>1.七牛云：虽然免费10G但是只有三十天的试用域名，需要自己备案过的域名才能继续使用（直接把我劝退）。而且在我自己的浏览器里发现blog的图片用七牛云不能显示，但外链正常，别的设备别的浏览器访问正常，也不知道为什么。（发现就只有七牛云的这样，腾讯云不会，美滋滋~~）突然发现七牛云的试用域名回收时间是无，但是不确定30天后是否回收，决定先让他过完30天看看怎么样先，且我的blog内也有七牛云储存下的图片，暂时不想改外链地址了。</p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/56$%7DQ58A@">DKQ9~EMI3QYCM.png)</p>
 <p>随便留一个七牛云图片迁移的方法，怕自己以后要跑路~ </p>
 <p><a href="https://blog.csdn.net/weixin_34336292/article/details/88595787">被七牛云OSS对象存储测试域名回收后正确数据迁移姿势!_weixin_34336292的博客-CSDN博客</a></p>
 <p>2.SM.MS</p>
@@ -250,16 +250,16 @@
 <p>问题所在：新款xbox手柄更新了协议，最新固件是le低功耗蓝牙协议，而识别不了控制器，因而用不了。插线和用适配器都是xinput模式（模拟360控制器），因此不受影响。蓝牙本身不会断但没想到问题竟然出在这种事情上。在微软商店评价中也有很多更新最新固件出现了问题。</p>
 <p>解决办法：</p>
 <p>1.电脑删除xbox蓝牙设备重新添加xbox蓝牙，有可能是因为没安装上xinput的驱动，因此多删多加几次有可能电脑给安装上了驱动，就能正常了。比如我就是这样，在手机上连接手柄玩了几天的XGPU，突然到电脑上连接不了，把蓝牙设备删除后重新添加惊喜的发现我的手柄正常了。而且我没有回退固件。</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/%E6%8D%95%E8%8E%B7.PNG"></p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720230106231831.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/%25E6%258D%2595%25E8%258E%25B7.PNG"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%25E5%259B%25BE%25E7%2589%258720230106231831.png"></p>
 <p>2.回退固件。如果无法在电脑上回退需要找一台xbox游戏机回退固件</p>
 <p>3.在steam设置控制器中的常规控制器设置中勾上xbox配置支持和通用手柄配置支持</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20230107145549.jpg"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E6%88%AA%E5%9B%BE20230107145549.jpg"></p>
 <p>添加非steam游戏，在库里添加的非steam游戏页面点设置中的控制器布局</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20230107145604.jpg"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E6%88%AA%E5%9B%BE20230107145604.jpg"></p>
 <p>设置好按键然后开游戏</p>
 <p>如果按上述操作不能正常使用的话，可以试试打开steam大屏幕模式查看一下库内添加的游戏有没有控制器设置</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20230107150201.jpg"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E6%88%AA%E5%9B%BE20230107150201.jpg"></p>
 <p>利用steam完善的手柄控制器支持来对一些不识别手柄的游戏进行一个辅助</p>
 <p>对于一些不能用steam添加非steam游戏的游戏，试着直接把steam控制器适用范围调成桌面看看</p>
 <p>4.如果不想用steam添加的方法，也可以试试一些虚拟映射出xinput的工具，比如XOutput（全部按键除了扳机都映射上了虚拟的xbox360手柄，但是我的两个扳机在XOutput中没有反应，因而我放弃了这个工具）或者使用Xinput Plus （没有使用过，可用不可用请自行尝试）</p>
@@ -293,7 +293,7 @@
     <title>如何查看自己的hexo安装了多少插件和如何删除</title>
     <url>/9c51e278/</url>
     <content><![CDATA[<p>hexo插件安装路径在根目录下的node_modules文件夹里面含有全部插件和自己的一些依赖包，插件都是hexo-XXXXX开头的</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/20230107164505.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107164505.png"></p>
 <p>卸载就是和npm install一样，命令改为</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm uninstall</span><br></pre></td></tr></table></figure>
 
@@ -308,12 +308,12 @@
     <title>如何在自己的blog内添加内嵌视频</title>
     <url>/75da54dc/</url>
     <content><![CDATA[<p>首先是b站，可以在旧版网页版中点分享获取嵌入代码</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/20230107155330.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107155330.png"></p>
 <p>如果是自己的视频可以在自己的创作中心中点要嵌入的稿件的分享按钮获取嵌入代码</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/20230107155450.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107155450.png"></p>
 <hr>
 <p>YouTube则更简单，点开任意一个视频右键获取嵌入代码即可</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/20230107155626.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107155626.png"></p>
 <p>其他平台大同小异，核心是获取嵌入代码（即iframe代码）。</p>
 <hr>
 <p>在markdown文章中编辑嵌入视频的大小：只要在代码内加入width&#x3D;XXX height&#x3D;XXX（X为数值）即可调整大小。</p>
@@ -340,13 +340,13 @@
     <content><![CDATA[<p>主要通过两种方法来进行<br>1.在手机或者电脑的浏览器（必须带有扩展程序功能）进行<br>2.在手机的game pass中进行</p>
 <hr>
 <p>第一种办法需要去浏览器中的扩展商店中下载Header Editor，选择添加一个规则。</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20230107151408.jpg">名称随便填，规则类型选择修改请求头，其余两项不用动。下面的头名称填x-forwarded-for（横杆不可少）。头内容选择有Cloud Gaming beta服务的地区或者国家，比如美国或者日本韩国这些。在网上随便搜一些美国IP（比如亚马逊服务器等各大公司的ip)填入。然后保存。</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20230107151503.jpg"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E6%88%AA%E5%9B%BE20230107151408.jpg">名称随便填，规则类型选择修改请求头，其余两项不用动。下面的头名称填x-forwarded-for（横杆不可少）。头内容选择有Cloud Gaming beta服务的地区或者国家，比如美国或者日本韩国这些。在网上随便搜一些美国IP（比如亚马逊服务器等各大公司的ip)填入。然后保存。</p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E6%88%AA%E5%9B%BE20230107151503.jpg"></p>
 <h2 id="如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。"><a href="#如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。" class="headerlink" title="如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。"></a>如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。</h2><p>游戏到这个时候已经能玩了，但是Header Editor默认全部网站都开启这个规则，我们如果需要更智能化，就要去扩展程序管理点击Header Editor的详情修改成特定网站上使用</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/20230107151804.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107151804.png"></p>
 <hr>
 <p>或者比较方便的方法是使用油桃的脚本Xbox CLoud Gaming优化整合</p>
-<p><img src="http://ro3acqwor.hn-bkt.clouddn.com/20230107152049.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107152049.png"></p>
 <p><a href="https://greasyfork.org/zh-CN/scripts/455741-xbox-cloud-gaming%E4%BC%98%E5%8C%96%E6%95%B4%E5%90%88">点此打开脚本网站</a></p>
 <hr>
 <p>如果在电脑上没有手柄可以试着用XOutput把键盘按键映射成手柄来玩一些只能手柄玩的游戏。</p>
