@@ -54,6 +54,16 @@
       </tags>
   </entry>
   <entry>
+    <title>还需要补充的一些功能</title>
+    <url>/18769841/</url>
+    <content><![CDATA[<p>1.置顶文章</p>
+<p>2.统计访问量</p>
+]]></content>
+      <tags>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Forget It</title>
     <url>/d75deaab/</url>
     <content><![CDATA[<p>作词 : Sixto Rodriguez<br></p>
@@ -62,16 +72,6 @@
 ]]></content>
       <tags>
         <tag>Share</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>还需要补充的一些功能</title>
-    <url>/18769841/</url>
-    <content><![CDATA[<p>1.置顶文章</p>
-<p>2.统计访问量</p>
-]]></content>
-      <tags>
-        <tag>建站</tag>
       </tags>
   </entry>
   <entry>
@@ -178,7 +178,7 @@
 <p>使用</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![]()</span><br></pre></td></tr></table></figure>
 
-<p>命令来插入图片（typora快捷键Ctrl+shift+K）命令括号内的路径不是文件的绝对路径，而是文件在文件夹中的名字就行，比如你在A文件夹中放入X.jpg</p>
+<p>命令来插入图片（typora快捷键Ctrl+shift+I）命令括号内的路径不是文件的绝对路径，而是文件在文件夹中的名字就行，比如你在A文件夹中放入X.jpg</p>
 <p>那么你括号内就是</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](X.jpg)</span><br></pre></td></tr></table></figure>
 
