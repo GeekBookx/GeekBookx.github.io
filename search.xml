@@ -8,7 +8,8 @@
 <p>2.手柄左肩键有点问题，声音和正常的有区别而且按下去难按回弹小，我试着用力按下到底，好像又恢复正常了，具体再观察一段时间看看。</p>
 <p>3.发现OBS可以切换多个配置文件，OBS的设置文件每个配置文件都是单独设置的（很方便单独分辨率和一些快捷键的模板），但是场景不是单独的，删了这个配置文件下的场景另外一配置文件下也会不见，只能方便一半。</p>
 <p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230112214943.png"></p>
-<p>4.快看完初音岛第一季了，见到网上有说法是也有译名叫初樱岛，我更认同后者。因为确实和初音没关系，第二个是整个第一季下来从开头到结尾还是中间的一些场景，都充满了樱花。</p>
+<p>4.用ContextMenuManager管理了一下右键菜单，变得清爽多了。</p>
+<p>5.快看完初音岛第一季了，见到网上有说法是也有译名叫初樱岛，我更认同后者。因为确实和初音没关系，第二个是整个第一季下来从开头到结尾还是中间的一些场景，都充满了樱花。</p>
 ]]></content>
       <tags>
         <tag>随笔</tag>
@@ -53,16 +54,6 @@
       </tags>
   </entry>
   <entry>
-    <title>还需要补充的一些功能</title>
-    <url>/18769841/</url>
-    <content><![CDATA[<p>1.置顶文章</p>
-<p>2.统计访问量</p>
-]]></content>
-      <tags>
-        <tag>建站</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Forget It</title>
     <url>/d75deaab/</url>
     <content><![CDATA[<p>作词 : Sixto Rodriguez<br></p>
@@ -71,6 +62,16 @@
 ]]></content>
       <tags>
         <tag>Share</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>还需要补充的一些功能</title>
+    <url>/18769841/</url>
+    <content><![CDATA[<p>1.置顶文章</p>
+<p>2.统计访问量</p>
+]]></content>
+      <tags>
+        <tag>建站</tag>
       </tags>
   </entry>
   <entry>
@@ -341,6 +342,18 @@
       </tags>
   </entry>
   <entry>
+    <title>关于域名白嫖</title>
+    <url>/f9f5d3c6/</url>
+    <content><![CDATA[<p>免费域名的来源</p>
+<p>1.freenon</p>
+<p>2.eu.org</p>
+<p>单独只是弄域名不需要备案</p>
+]]></content>
+      <tags>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Xbox Cloud Gaming的技巧</title>
     <url>/5004c50b/</url>
     <content><![CDATA[<p>主要通过两种方法来进行<br>1.在手机或者电脑的浏览器（必须带有扩展程序功能）进行<br>2.在手机的game pass中进行</p>
@@ -362,18 +375,6 @@
 <h2 id="enjoy-it"><a href="#enjoy-it" class="headerlink" title="enjoy it"></a>enjoy it</h2>]]></content>
       <tags>
         <tag>Games</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于域名白嫖</title>
-    <url>/f9f5d3c6/</url>
-    <content><![CDATA[<p>免费域名的来源</p>
-<p>1.freenon</p>
-<p>2.eu.org</p>
-<p>单独只是弄域名不需要备案</p>
-]]></content>
-      <tags>
-        <tag>建站</tag>
       </tags>
   </entry>
 </search>
