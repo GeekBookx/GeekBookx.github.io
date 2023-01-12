@@ -88,11 +88,14 @@
 <meta property="og:site_name" content="AlphaUnkX.">
 <meta property="og:description" content="我也是第一次弄，所以基本上参考了很多资料。使用的是Hexo+Next。非常常规。 1.要注意常用多用hexo cl这条命令，有时候不清理之前的缓存很有可能弄乱全部的文件，在部署之前都最好先用一用。2.在安装了主题后不能使用是因为hexo5.0之后删除了swig，需要自己安装。3.在github的库中是main而不是master目录，记得在_config.yml中branch: 一栏的master改">
 <meta property="og:locale">
+<meta property="og:image" content="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230112140015961.png">
+<meta property="og:image" content="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230112140027991.png">
 <meta property="article:published_time" content="2022-11-27T04:31:12.000Z">
-<meta property="article:modified_time" content="2023-01-07T14:55:53.566Z">
+<meta property="article:modified_time" content="2023-01-12T06:01:06.638Z">
 <meta property="article:author" content="AlphaUnkX">
 <meta property="article:tag" content="建站">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230112140015961.png">
 
 
 
@@ -368,6 +371,11 @@
       
         <p>我也是第一次弄，所以基本上参考了很多资料。使用的是Hexo+Next。非常常规。</p>
 <p>1.要注意常用多用hexo cl这条命令，有时候不清理之前的缓存很有可能弄乱全部的文件，在部署之前都最好先用一用。<br>2.在安装了主题后不能使用是因为hexo5.0之后删除了swig，需要自己安装。<br>3.在github的库中是main而不是master目录，记得在_config.yml中branch: 一栏的master改为main<br>4.在部署之后github会审核一次才会更新内容，需要等待，审核过程可以在仓库的action一栏查看过程。只有三个绿才会更新网站。<br>5.实际上hexo中心在本地，只是提交到了Github上，所以其部署过程全按照你本地的文件来部署，你本地是多少上面仓库就会变成和本地一样，你在本地删了文件仓库也会删掉那个文件。所以删文章是在本地进行，然后再部署就行了。<br>6.在建站时部署前可以开hexo s命令监测，如果有什么错误可以第一时间排查解决，否则很难一个一个扒开来看。</p>
+<p>7.背景等图网上的教程都是插入本地图片，这样上传到github上打开很慢，建议把图片文件改为图床里的url，能加快速度</p>
+<p>8.每次上传到github上，自己的自定义域名总是不绑定，可以在source文件夹下面新建一个名叫CNAME的txt，在里面写入自己的域名</p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230112140015961.png" alt="image-20230112140015961"></p>
+<p>然后保存去掉后缀名<img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230112140027991.png" alt="image-20230112140027991"></p>
+<p>这样之后hexo d上传不会再需要手动加自定义域名</p>
 
       
     </div>

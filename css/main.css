@@ -1823,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0de2ff;
+  background: #4da61a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2755,7 +2755,7 @@ pre .javascript .function {
   padding: 20px 0;
   color: #fff;
   background: #87daff;
-  background-image: url("/images/blogHead.jpg");
+  background-image: url("https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/Screenshot_20230102_191348.jpg");
 }
 @media (min-width: 992px) {
   .site-meta {
@@ -2998,7 +2998,7 @@ pre .javascript .function {
   }
 }
 body {
-  background: url("/images/yourbackground.jpg");
+  background: url("https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/ZbT034Hs.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
