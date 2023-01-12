@@ -197,7 +197,7 @@
 <p>个人图床使用选择过程：</p>
 <p>因为picgo+Typora组合太好用的缘故，picgo没有支持的图床不会太考虑，最希望能用picgo，因为太方便。</p>
 <p>1.七牛云：虽然免费10G但是只有三十天的试用域名，需要自己备案过的域名才能继续使用（直接把我劝退）。而且在我自己的浏览器里发现blog的图片用七牛云不能显示，但外链正常，别的设备别的浏览器访问正常，也不知道为什么。（发现就只有七牛云的这样，腾讯云不会，美滋滋~~）突然发现七牛云的试用域名回收时间是无，但是不确定30天后是否回收，决定先让他过完30天看看怎么样先，且我的blog内也有七牛云储存下的图片，暂时不想改外链地址了。</p>
-<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/56$%7DQ58A@">DKQ9~EMI3QYCM.png)</p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/A.png" alt="A"></p>
 <p>随便留一个七牛云图片迁移的方法，怕自己以后要跑路~ </p>
 <p><a href="https://blog.csdn.net/weixin_34336292/article/details/88595787">被七牛云OSS对象存储测试域名回收后正确数据迁移姿势!_weixin_34336292的博客-CSDN博客</a></p>
 <p>2.SM.MS</p>
@@ -250,8 +250,8 @@
 <p>问题所在：新款xbox手柄更新了协议，最新固件是le低功耗蓝牙协议，而识别不了控制器，因而用不了。插线和用适配器都是xinput模式（模拟360控制器），因此不受影响。蓝牙本身不会断但没想到问题竟然出在这种事情上。在微软商店评价中也有很多更新最新固件出现了问题。</p>
 <p>解决办法：</p>
 <p>1.电脑删除xbox蓝牙设备重新添加xbox蓝牙，有可能是因为没安装上xinput的驱动，因此多删多加几次有可能电脑给安装上了驱动，就能正常了。比如我就是这样，在手机上连接手柄玩了几天的XGPU，突然到电脑上连接不了，把蓝牙设备删除后重新添加惊喜的发现我的手柄正常了。而且我没有回退固件。</p>
-<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/%25E6%258D%2595%25E8%258E%25B7.PNG"></p>
-<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%25E5%259B%25BE%25E7%2589%258720230106231831.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230112181211.png"></p>
+<p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230112181257.png"></p>
 <p>2.回退固件。如果无法在电脑上回退需要找一台xbox游戏机回退固件</p>
 <p>3.在steam设置控制器中的常规控制器设置中勾上xbox配置支持和通用手柄配置支持</p>
 <p><img src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E6%88%AA%E5%9B%BE20230107145549.jpg"></p>
