@@ -1,2 +1,2 @@
 my blog
-Alphax.top
+https://Alphax.top
