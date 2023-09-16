@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1月12号随笔</title>
+    <url>/61cf24a5/</url>
+    <content><![CDATA[<p>​</p>
+<span id="more"></span>
+<p>1.今天PG总算在FH4上修复晚上灯光乱闪和车体有黑影的bug了，以后晚上也可以正常玩了</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230112162756_1.jpg" alt></p>
+<p>2.手柄左肩键有点问题，声音和正常的有区别而且按下去难按回弹小，我试着用力按下到底，好像又恢复正常了，具体再观察一段时间看看。</p>
+<p>3.发现OBS可以切换多个配置文件，OBS的设置文件每个配置文件都是单独设置的（很方便单独分辨率和一些快捷键的模板），但是场景不是单独的，删了这个配置文件下的场景另外一配置文件下也会不见，只能方便一半。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230112214943.png" alt></p>
+<p>4.用ContextMenuManager管理了一下右键菜单，变得清爽多了。<br></p>
+<p>5.快看完初音岛第一季了，见到网上有说法是也有译名叫初樱岛，我更认同后者。因为确实和初音没关系，第二个是整个第一季下来从开头到结尾还是中间的一些场景都有满屏的樱花出现。这个比较符合小镇环境，没有太多的城市场景描写，环境除了家里就是学校，节奏和氛围都比较缓慢和善。</p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>想学的</title>
     <url>/a9cfb358/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -36,6 +53,20 @@
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>个人清单</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何给自己的博客添加404页面</title>
+    <url>/fedbcad4/</url>
+    <content><![CDATA[<p>​</p>
+<span id="more"></span>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page 404</span><br></pre></td></tr></table></figure>
+<p>在index.md内写以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">date: 2023-02-18 17:15:39</span><br><span class="line">comments: false</span><br><span class="line">permalink: /404.html</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&lt;!-- markdownlint-disable MD039 MD033 --&gt;</span><br><span class="line"></span><br><span class="line">## 这是一个不存在的页面</span><br><span class="line"></span><br><span class="line">对不起，您所访问的页面不存在或者已删除。</span><br><span class="line"></span><br><span class="line">预计将在约 &lt;span id=&quot;timeout&quot;&gt;5&lt;/span&gt; 秒后返回首页。</span><br><span class="line"></span><br><span class="line">当然，你可以 **[点这里](https://Alphax.top)** 直接返回首页。</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">let countTime = 5;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">function count() &#123;</span><br><span class="line"></span><br><span class="line">  document.getElementById(&#x27;timeout&#x27;).textContent = countTime;</span><br><span class="line">  countTime -= 1;</span><br><span class="line">  if(countTime === 0)&#123;</span><br><span class="line">    location.href = &#x27;https://alphax.top&#x27;;</span><br><span class="line">  &#125;</span><br><span class="line">  setTimeout(() =&gt; &#123;</span><br><span class="line">    count();</span><br><span class="line">  &#125;, 1000);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">count();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>记得把alphax.top改成自己的域名，才能正常回到首页。</p>
+]]></content>
+      <tags>
+        <tag>建站</tag>
       </tags>
   </entry>
   <entry>
@@ -101,37 +132,6 @@ Forget it<br><br>
 ]]></content>
       <tags>
         <tag>Share</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>1月12号随笔</title>
-    <url>/61cf24a5/</url>
-    <content><![CDATA[<p>​</p>
-<span id="more"></span>
-<p>1.今天PG总算在FH4上修复晚上灯光乱闪和车体有黑影的bug了，以后晚上也可以正常玩了</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230112162756_1.jpg" alt></p>
-<p>2.手柄左肩键有点问题，声音和正常的有区别而且按下去难按回弹小，我试着用力按下到底，好像又恢复正常了，具体再观察一段时间看看。</p>
-<p>3.发现OBS可以切换多个配置文件，OBS的设置文件每个配置文件都是单独设置的（很方便单独分辨率和一些快捷键的模板），但是场景不是单独的，删了这个配置文件下的场景另外一配置文件下也会不见，只能方便一半。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230112214943.png" alt></p>
-<p>4.用ContextMenuManager管理了一下右键菜单，变得清爽多了。<br></p>
-<p>5.快看完初音岛第一季了，见到网上有说法是也有译名叫初樱岛，我更认同后者。因为确实和初音没关系，第二个是整个第一季下来从开头到结尾还是中间的一些场景都有满屏的樱花出现。这个比较符合小镇环境，没有太多的城市场景描写，环境除了家里就是学校，节奏和氛围都比较缓慢和善。</p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何给自己的博客添加404页面</title>
-    <url>/fedbcad4/</url>
-    <content><![CDATA[<p>​</p>
-<span id="more"></span>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page 404</span><br></pre></td></tr></table></figure>
-<p>在index.md内写以下内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">date: 2023-02-18 17:15:39</span><br><span class="line">comments: false</span><br><span class="line">permalink: /404.html</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&lt;!-- markdownlint-disable MD039 MD033 --&gt;</span><br><span class="line"></span><br><span class="line">## 这是一个不存在的页面</span><br><span class="line"></span><br><span class="line">对不起，您所访问的页面不存在或者已删除。</span><br><span class="line"></span><br><span class="line">预计将在约 &lt;span id=&quot;timeout&quot;&gt;5&lt;/span&gt; 秒后返回首页。</span><br><span class="line"></span><br><span class="line">当然，你可以 **[点这里](https://Alphax.top)** 直接返回首页。</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">let countTime = 5;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">function count() &#123;</span><br><span class="line"></span><br><span class="line">  document.getElementById(&#x27;timeout&#x27;).textContent = countTime;</span><br><span class="line">  countTime -= 1;</span><br><span class="line">  if(countTime === 0)&#123;</span><br><span class="line">    location.href = &#x27;https://alphax.top&#x27;;</span><br><span class="line">  &#125;</span><br><span class="line">  setTimeout(() =&gt; &#123;</span><br><span class="line">    count();</span><br><span class="line">  &#125;, 1000);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">count();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>记得把alphax.top改成自己的域名，才能正常回到首页。</p>
-]]></content>
-      <tags>
-        <tag>建站</tag>
       </tags>
   </entry>
   <entry>
@@ -498,25 +498,6 @@ I ain’t know that it would be like this<br><br>
       </tags>
   </entry>
   <entry>
-    <title>B站</title>
-    <url>/2640fd4b/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="5e9277c7606a9be2ef600dc140d12e5fec172f0ba5413a6313b40bcc9cc982e6">25193ae2d4aad5d9de1840ffda46677405c8d2723f8480f8f1808340a05e45954c9f660858a7b5f6ebe76adedafbfcfd69748cbd7be6927e1393980e86040ab57035422c5484b4e6c4813b5441110200dff9600e604b9664f0088d31d5cde41722e8624ad01ed614aa67a2048bb257ebd94eb956d3874ef6390cda92db22aadf63ef73de83d38299487fd44afdc29b351ebf81d0a258278497334f0ce0d596e4858ad9b74f988b1f3b6418deef14429b3a7e8f53d3b9188d4ac630bbac1dc4dea968ce96e4d5a04ef2dc3f4bb9cc1bd3397e611321256e725ba5d3a448376ea7df845992b669583f022dd17742f6a0af94729cba3d7f73ac05ee632b2bab1ca0501be300f5cb37bb2a8c90494c1b114c8404f77e0dad2bd8e128cf852d4493390b9a1ee267604f0bee48ba25a9ffff3582298bd37c38910f70f54a8064835735350bfec5dcc03ae995c004c6c224f5e823d8fa07e337c36b674fdb17484d21d879e2cb317d25cab15315cc02214fe8c48836a194f0e2161c74c39184429063fe7dd432026c4d48ef054185e7bb997e27c621cb0dfb46161d931f17860893aaf709402e0f144e276ebc3db8514b7847a2d824b289e691094fcfceb6f57be68b718cad7819cf175a2a3d93238d88ee67c9118c551d1d400a18d39348b90b6bb07cf2bc99cc83ee35771895e5b50334546b41f7afdbf7ee0bcf6013f32aa4a58cb548a6a0fadccd79a46fe68133a6ae2d1a4924d6d3fd1a3ab704e4aba6694cad33bcf4a6ce3f19f1228c70e441cdeaff4402809f1580b5aafd9c857496cb56186b7eba0f04fb2fc1dde7e5b3e3c94f8d904ba8d1f6d5cdfcf91da716e3f189a22f10ba148cb09e7532f473a924b715c2cdcdf2ef448568c9804264e19b221898f21f2d4e477644472780a56f852c6fff8c2d78f970b0c5fc498b529133490ae0abce70ebaf24a6035bea8babc5f0c25551927bf906ea61e7428c9bda1f19b92c4e7eb0296ade58cac2d86105402e3005d171b355c424e70b3dcb7b479ba4ee54df682ba9e5245449c577d503ad38ac46e8711db2316f0dc6ff654a9abd69d6c92296be00b32462e173f458fdaf97b40663193cc6eb6b8957b1aefb6db913b45c20e20b9d4da57eca634c8401372730b1bbae4898c707509a07a332d036fe8d8b643b9585c3c152912c8156f151e3213ac65e58e1fadb41aa10e33da16441773619d3c0752f63f70fdf5ed358ce4c9fdde0f7f421076f1a2c4910c8f71dbcc6f1b5a7556ebdc84900fff918b2403f4c1f22c5e89c4ad15bcc55c6eef26beb6c642ea6982b5d36b5a37f671f5c972eb6d42f306d5fe28b5a69b7517775ddd52b861a48a245de76d39a0401170e79af03bd5499c39aec0fb817561689bdb05bca5d4dc9fb16c64d1ec7fa8d49f713cb7557490e693f1a9e2ed92b0fa7a99d758738333329e2b0a5eec0bbb9621f748adec252fd17938e7cbd4a1fe767519be9e9777b8c154b7117dc5c6dd8b9b54f927b2ce0f6ad89b73b1b6cde65c94990e49a1e7902ca249229e22efe70800c43a6db753601829b6bf55fc3c6608826bb677b4196939c1a24a916ad59e0447285e366ad33cacfee954012710e4a1a466d0cb01ce885a14952bbf7a795131897f9be6a6ab25a9b5ea4d589b247329d8d805e7551705968ce30dc73c87a632264a5380d55d0303c312113336130ecbff026c05b4addddc7bdff4c9f293b0bbdec777c702f5fba947b427ef73baf88f4565d86ff8bee6864a31c79e7855f67ff73ee9ab10e9df8bc2a3fc93b5e8fe117faf86ade3c72982a26fd0ce5af7ecea46f22cdd2b86b19ceeebb4ea60dd0f318f02b6eb283f7a88d6bcddeb168b8f2c2c66736aa987ae2923ec2590b2b3c1d8ba2dad446ea0a82f55e5f7a78bc0a82439bb0956bb3a33aa88e3eca625713fa75f095077848bd0aa4775854dbcb7ca7d57dea04a3bd53f46cefb75047aae2ae0c05a34f52a5b1051e938993763e2cc1f34973b2d3bea0577c8f04dea9edfa12a93d53c2cb621c68762b4f88949485c3984a7009d3f14d3ff31df5e4840303f30ed229b299732dc281bba472a7b361208f3446046818e6f7c11972e9992c9cc5397c3a3409b166425cd3c78d02e01767a85a3316809f4c83a79ac87d70462c4b646cb546ac13b69eb9e38f1b1639199252a4b5d3a40bc8a3d5bd3cb870bd11ade0c845109b8531e841fd09dddc55bd0bd3144ef9da6d8118b52bd95341ca35dea12cfe364ca27b7ac8c0d8ba0acf35f7b80aaf9959bdbba2a9bdc9912334b6f593f635e0cf6e87d21a30599bb87db905034eb488f10416e69b0804631e8c9922893ac867b24916011e33484b5aafe355cc7020b07ee844f7a70b8634d8b211a2c392f83578872d50b8a2205a713e7a21b7ffc0991a0bb537e82c7d007e5e2629b7a7bab4207a6f4ed962e677c3c12767767fce9c35a5c03eeec109a9c01b72f6794a52a88abed8ff02db1d5131a109a899336c2d869d3de144fe7e40438e17a47dac3f7d3ed3e08ec8b2c7a3571f2539111d74e9e53f692a7555ecc9d5a53e057bbc49c32d7900662422861b05589b3f27fa8c27b24c622d5c16b4c0e1fb6c2cf4d03c7345be2fa27cbe1266fa6b7e21b0c50ebe21b54f740d97991186eefb3dd5dbd7db1f4f0438641f57e76dd1bdb6b1b18e6dc51002e40fd2bc72fa85c853024f564f1bbd33fc92019b053b96b90d45104d2402f2914a4314c9fc86569e36754ab6a2716119818de72901568315e55fe2a9ce544d96a89efc417269abaf0a643ace6793fccdcf3271c46ef70372e4c6f3a6d7b691eb25cde43b5b973b6ee345119a164f473807ba808b181cbd4e1d0bb4133476309eb00b6c257df31d0c2af4deee34351d134ea4998aa5202eaa8b2b0758ba99570375464b01255caa5c0fb5cbb45389afc1c3bbc248162f8dd11482a2b7ce293be2da5920d2c3ec748d6fe7dcce638144876d4d32c2c92cbe8c21c742b6141bbfd3fe01ebb8063cd9d7fa6af141ebe443ab91dd97dd9bf5d5a418617b7743f4ff563b7acda3d8be3d61f56e8b7a7c4e1afe54445e1920f926ac36343265d8b765177835f3b4d6545cea67a0a7da278799b3f7ea500f396f810a8b1c62ea82ab3a50b133f7d75fa23f0eb0d83d4fd6298790237ccaac9e0505ec18b9111d9d1b6d7e53da90f0be25bd3f88d16e9f8f20fe83b2f7a124d2953024cb9fa952ca1ffe3dd71989630de4b0f0ab63d8f6edb44a98db0f5f3c880395f790461e24fd1bcf62c4a4ff1005f574c63873041e4fdfb925598598d8618f6454f9a4a1b0ea3658bac3c7db00f1404b9ac2d94eb646112d21861ca75e3758a5915906c22d68f3b133a48907077b94bc029cf12cc0d6139505a0ef875e95fa8836b13b16372b2b9e4725988cbfba14b8fe107bd54fd5e354971187cd2464e3e34d97780b22e90aaee44f5efb32a404f81fe7744a1fa080ece0829d3991bd6ccbbb3a4103765d1d911429a78389ce5dcf5ab362c70f0502984aabcbfbfc30c7a69f4594b99e8747898d8b857007dbb44ed06c76665404d35a1225e1078615caf12f396680e585e4cc526db75d86920867b3bbe6a173068cba4e243eea44af3193835ce1dfa94e8620a706f7c842154288a22f1adff7ae012127ce729f285721615cd72ea37ba9caa6daf7b5b98c67a28036f06caaaecec70322c7df6c8ef755201851c17eefc0e8ffb9964a07b174327da71c2250759b377901869e9244c9aa60d5d29ffb559793d62be4dcbf36ebcf99daf9ab1792521651c94528c055dfb99133cb3cd8d96173dee6ea12f23b78ce9d71d38defe29f77c4a4f9de82cd9319335bcf3d07cb197a311d29d280c8400bb29e726cc16d6708cb3f7e9505342188032d20ac7e45eb0fa262bb85068cc87345c9f1f46f052a43111d4f0e017ebf10134982a934bf06dad54833a7ccbb0b684d0a0bca9566f67ed1120e2e9c1d01b95ddbbe6fb156b5d8261961a7d8a33a9c294ebb2ac18abe511de67bfa6b0c5448e897e393716bbf5909e6e665021f9078c6dc247e6ee28d797664fa8efce8d288a3f706a7b08d15a081ff44afa576c1524a1b8adcdc9cd08fcc90d57fdf5401ed4d20e5cc1f307ce59c6d6595bfb76797e7c6bd072556c5ad170d8a98c5d0f6179555dc543ac87bc67c34f63ab3e63daaa900e41def1d929b9bcefc58a0c68a768c25372f480b9c00af29375745cfbfb828a31593d508c48a572445592022cfd4d0226354de132a21f3111200017ac1938d99e32fc42c8c7832064f6512a569743020ba2550158a87a941ba4d87fcf470c9a9c7d710e4b5140e66d15e857755c935210a24e8dbd35f51a1fb093d42993f352b754da789a9feedfd225b22605f89cb1af8e8effd722ecc6cb0b49703efa3bf21066fc373a68c3d178d8a18729772d6fdd3c647d0ada66d18c500ae4ef09c8676b90118929785ecf32f37c319df58d8cf8f2208ea8385caba8c3588fbc8ec5391959e5856117ecd022c07968708fa34142d7c685feb2aa75581fdc290055a38b56b79180e00c81bf55b42594275ec804adf3969e764f404661ac3d01abeb653358ffa58b695cf15d730f8cb3f0e21a37400062ba0dd563a11c8cc298e7ed3bd2bcbfb3af2feb35e5f91fb48c284ced5a916066f8f5697b97b8111e4623db1154dc9f869fe724ff5884c85aec07dee745ac1a9bb16726f7eed02e394b647502adba35b7a5fd9563ab1e5ef2b37d765358e4168a9ff1ed713584f0130857b63a8cfefc6f51c7bd109ce9fbdfa5c85efbbaa706317f6cd5a73dd6b2a5fce03d31dfe4cb0a82cfd88d10bf2bf10f9c051fa226f3398a5e9260cd7994491cf7498226ee2890b35d8071e6550e2848dc8ba925a9fdf42388c998218a1e3c9468c85f71e0b4176004427a688f2b8735f1e936841a8f1f3f0086545303bd783ec08db80a40d8bac9a6b6efa1438a3f167b765b3cc9df255ba989f6259e389fc103e0feb2f78f58cdc20175d36ca5f77c06a29e1291e62c5473113d92ebb5c735e3d90fe48964f7ccaad7603f156675cbff256dcf1528959fa7ceddbb407c303017848748183c386cbc019c3bdcd05c74196769398bb123dd181767f9734966a763b1991a4540a76fdc98a8fa645416904c48698eb88033c6655e885e6c9c094473a6387689cb67c3d653aed5bc57fa2b3c388900adae164da9dfeb832be09f4610e7f0df6f1233d2f96bae2ff8030d4598a766fe6376b45804b964c2f921fdf8366cb8904fc6552da8723135389787dea8a59080ad59e2ad3c85a89929191e4ab2075286c2ec20b97664195468211822a0cbda0563cd823078816e71ca1f644a1fdfbfa46ff9aaa36c610596d9b8a79783d1b930438a762394e4fc817caaea8f7c2e3e3ea57a708c128d25a18578ba0ed9d07f7d5fbe461b512c530314ef88867b579381105e9d86f0912dcf865811c7ce4a68e57a9fafbb4dd6428c681f7ba4d00193763464bea4d8c41a24b3d2571ebc180e61597c9f2ca506828ad467d6e1d4c8defbc7d83d4a47ae03a065f905a55af8c31d91504c6b827e4d6bcbae3efad78099be71719dac85b57d68a4f58c01fa81b542e5b68eb6cf53014036ab8d771874d2eeb59469a4192f00466f238ee03ba63b6896c897038882f43c3bf598682cf1f9914c701a8487d897853c49fd0aee7ded1946bd91e1ec2bb148ce1c6d475193bc00378fe72bf6b804a9836c38f65e99edf10874f4003477e8508abc5b042621476ac435cc88593ec973d039f77946578a8182dc0d8e316677c9a5448ca054fec272f63fef2052b354851b219428826de2402d1e11699e0a6429d54edf828226d23fd64ec42bae9ac8db3</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这里需要密码才能访问。</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo博客日常操作自动化部署</title>
     <url>/66ba25fa/</url>
     <content><![CDATA[<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230116194156434.png" alt="image-20230116194156434"></p>
@@ -563,24 +544,22 @@ I ain’t know that it would be like this<br><br>
       </tags>
   </entry>
   <entry>
-    <title>如何搭建一个属于自己的BING AI</title>
-    <url>/2bb1e0e3/</url>
-    <content><![CDATA[<p>项目地址：<a href="https://github.com/adams549659584/go-proxy-bingai#Docker">https://github.com/adams549659584/go-proxy-bingai#Docker</a></p>
-<span id="more"></span>
-<p>支持docker，可以拿来给家里的nas等设备使用</p>
-<p>或者使用在线部署到Railway、Render、Vercel的选项，在上面链接的github项目主页也有一键部署的选项</p>
-<p>想要部署到自己的网站的话，要用到nginx和宝塔。</p>
-<p>聊天时需要调用服务器，可以选择连接到哪个服务器，有bing ai官方和Cloudflare的服务器（Cloudflare这个服务器是公用的，每天有限制次数）</p>
-<p>可以自己搭一个Cloudflare服务器来支撑bing的聊天服务，比公用的服务器好，而且一个人使用Cloudflare服务器很难达到额定限制次数</p>
-<p>步骤：</p>
-<p>1.下载核心代码 <a href="https://github.com/adams549659584/go-proxy-bingai/blob/master/cloudflare/worker.js">worker.js</a></p>
-<p>2.注册 Cloudflare 账号</p>
-<p>3.创建 Worker 服务，复制 <a href="https://github.com/adams549659584/go-proxy-bingai/blob/master/cloudflare/worker.js">worker.js</a> 全部代码，粘贴至创建的服务中，保存并部署。</p>
-<p>4.触发器中自定义访问域名。</p>
-<p>最后贴上自己的bing ai网站：<a href="https://alphax.up.railway.app/web/#/">https://alphax.up.railway.app/web/#/</a></p>
-]]></content>
+    <title>B站</title>
+    <url>/2640fd4b/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="5e9277c7606a9be2ef600dc140d12e5fec172f0ba5413a6313b40bcc9cc982e6">25193ae2d4aad5d9de1840ffda46677405c8d2723f8480f8f1808340a05e45954c9f660858a7b5f6ebe76adedafbfcfd69748cbd7be6927e1393980e86040ab57035422c5484b4e6c4813b5441110200dff9600e604b9664f0088d31d5cde41722e8624ad01ed614aa67a2048bb257ebd94eb956d3874ef6390cda92db22aadf63ef73de83d38299487fd44afdc29b351ebf81d0a258278497334f0ce0d596e4858ad9b74f988b1f3b6418deef14429b3a7e8f53d3b9188d4ac630bbac1dc4dea968ce96e4d5a04ef2dc3f4bb9cc1bd3397e611321256e725ba5d3a448376ea7df845992b669583f022dd17742f6a0af94729cba3d7f73ac05ee632b2bab1ca0501be300f5cb37bb2a8c90494c1b114c8404f77e0dad2bd8e128cf852d4493390b9a1ee267604f0bee48ba25a9ffff3582298bd37c38910f70f54a8064835735350bfec5dcc03ae995c004c6c224f5e823d8fa07e337c36b674fdb17484d21d879e2cb317d25cab15315cc02214fe8c48836a194f0e2161c74c39184429063fe7dd432026c4d48ef054185e7bb997e27c621cb0dfb46161d931f17860893aaf709402e0f144e276ebc3db8514b7847a2d824b289e691094fcfceb6f57be68b718cad7819cf175a2a3d93238d88ee67c9118c551d1d400a18d39348b90b6bb07cf2bc99cc83ee35771895e5b50334546b41f7afdbf7ee0bcf6013f32aa4a58cb548a6a0fadccd79a46fe68133a6ae2d1a4924d6d3fd1a3ab704e4aba6694cad33bcf4a6ce3f19f1228c70e441cdeaff4402809f1580b5aafd9c857496cb56186b7eba0f04fb2fc1dde7e5b3e3c94f8d904ba8d1f6d5cdfcf91da716e3f189a22f10ba148cb09e7532f473a924b715c2cdcdf2ef448568c9804264e19b221898f21f2d4e477644472780a56f852c6fff8c2d78f970b0c5fc498b529133490ae0abce70ebaf24a6035bea8babc5f0c25551927bf906ea61e7428c9bda1f19b92c4e7eb0296ade58cac2d86105402e3005d171b355c424e70b3dcb7b479ba4ee54df682ba9e5245449c577d503ad38ac46e8711db2316f0dc6ff654a9abd69d6c92296be00b32462e173f458fdaf97b40663193cc6eb6b8957b1aefb6db913b45c20e20b9d4da57eca634c8401372730b1bbae4898c707509a07a332d036fe8d8b643b9585c3c152912c8156f151e3213ac65e58e1fadb41aa10e33da16441773619d3c0752f63f70fdf5ed358ce4c9fdde0f7f421076f1a2c4910c8f71dbcc6f1b5a7556ebdc84900fff918b2403f4c1f22c5e89c4ad15bcc55c6eef26beb6c642ea6982b5d36b5a37f671f5c972eb6d42f306d5fe28b5a69b7517775ddd52b861a48a245de76d39a0401170e79af03bd5499c39aec0fb817561689bdb05bca5d4dc9fb16c64d1ec7fa8d49f713cb7557490e693f1a9e2ed92b0fa7a99d758738333329e2b0a5eec0bbb9621f748adec252fd17938e7cbd4a1fe767519be9e9777b8c154b7117dc5c6dd8b9b54f927b2ce0f6ad89b73b1b6cde65c94990e49a1e7902ca249229e22efe70800c43a6db753601829b6bf55fc3c6608826bb677b4196939c1a24a916ad59e0447285e366ad33cacfee954012710e4a1a466d0cb01ce885a14952bbf7a795131897f9be6a6ab25a9b5ea4d589b247329d8d805e7551705968ce30dc73c87a632264a5380d55d0303c312113336130ecbff026c05b4addddc7bdff4c9f293b0bbdec777c702f5fba947b427ef73baf88f4565d86ff8bee6864a31c79e7855f67ff73ee9ab10e9df8bc2a3fc93b5e8fe117faf86ade3c72982a26fd0ce5af7ecea46f22cdd2b86b19ceeebb4ea60dd0f318f02b6eb283f7a88d6bcddeb168b8f2c2c66736aa987ae2923ec2590b2b3c1d8ba2dad446ea0a82f55e5f7a78bc0a82439bb0956bb3a33aa88e3eca625713fa75f095077848bd0aa4775854dbcb7ca7d57dea04a3bd53f46cefb75047aae2ae0c05a34f52a5b1051e938993763e2cc1f34973b2d3bea0577c8f04dea9edfa12a93d53c2cb621c68762b4f88949485c3984a7009d3f14d3ff31df5e4840303f30ed229b299732dc281bba472a7b361208f3446046818e6f7c11972e9992c9cc5397c3a3409b166425cd3c78d02e01767a85a3316809f4c83a79ac87d70462c4b646cb546ac13b69eb9e38f1b1639199252a4b5d3a40bc8a3d5bd3cb870bd11ade0c845109b8531e841fd09dddc55bd0bd3144ef9da6d8118b52bd95341ca35dea12cfe364ca27b7ac8c0d8ba0acf35f7b80aaf9959bdbba2a9bdc9912334b6f593f635e0cf6e87d21a30599bb87db905034eb488f10416e69b0804631e8c9922893ac867b24916011e33484b5aafe355cc7020b07ee844f7a70b8634d8b211a2c392f83578872d50b8a2205a713e7a21b7ffc0991a0bb537e82c7d007e5e2629b7a7bab4207a6f4ed962e677c3c12767767fce9c35a5c03eeec109a9c01b72f6794a52a88abed8ff02db1d5131a109a899336c2d869d3de144fe7e40438e17a47dac3f7d3ed3e08ec8b2c7a3571f2539111d74e9e53f692a7555ecc9d5a53e057bbc49c32d7900662422861b05589b3f27fa8c27b24c622d5c16b4c0e1fb6c2cf4d03c7345be2fa27cbe1266fa6b7e21b0c50ebe21b54f740d97991186eefb3dd5dbd7db1f4f0438641f57e76dd1bdb6b1b18e6dc51002e40fd2bc72fa85c853024f564f1bbd33fc92019b053b96b90d45104d2402f2914a4314c9fc86569e36754ab6a2716119818de72901568315e55fe2a9ce544d96a89efc417269abaf0a643ace6793fccdcf3271c46ef70372e4c6f3a6d7b691eb25cde43b5b973b6ee345119a164f473807ba808b181cbd4e1d0bb4133476309eb00b6c257df31d0c2af4deee34351d134ea4998aa5202eaa8b2b0758ba99570375464b01255caa5c0fb5cbb45389afc1c3bbc248162f8dd11482a2b7ce293be2da5920d2c3ec748d6fe7dcce638144876d4d32c2c92cbe8c21c742b6141bbfd3fe01ebb8063cd9d7fa6af141ebe443ab91dd97dd9bf5d5a418617b7743f4ff563b7acda3d8be3d61f56e8b7a7c4e1afe54445e1920f926ac36343265d8b765177835f3b4d6545cea67a0a7da278799b3f7ea500f396f810a8b1c62ea82ab3a50b133f7d75fa23f0eb0d83d4fd6298790237ccaac9e0505ec18b9111d9d1b6d7e53da90f0be25bd3f88d16e9f8f20fe83b2f7a124d2953024cb9fa952ca1ffe3dd71989630de4b0f0ab63d8f6edb44a98db0f5f3c880395f790461e24fd1bcf62c4a4ff1005f574c63873041e4fdfb925598598d8618f6454f9a4a1b0ea3658bac3c7db00f1404b9ac2d94eb646112d21861ca75e3758a5915906c22d68f3b133a48907077b94bc029cf12cc0d6139505a0ef875e95fa8836b13b16372b2b9e4725988cbfba14b8fe107bd54fd5e354971187cd2464e3e34d97780b22e90aaee44f5efb32a404f81fe7744a1fa080ece0829d3991bd6ccbbb3a4103765d1d911429a78389ce5dcf5ab362c70f0502984aabcbfbfc30c7a69f4594b99e8747898d8b857007dbb44ed06c76665404d35a1225e1078615caf12f396680e585e4cc526db75d86920867b3bbe6a173068cba4e243eea44af3193835ce1dfa94e8620a706f7c842154288a22f1adff7ae012127ce729f285721615cd72ea37ba9caa6daf7b5b98c67a28036f06caaaecec70322c7df6c8ef755201851c17eefc0e8ffb9964a07b174327da71c2250759b377901869e9244c9aa60d5d29ffb559793d62be4dcbf36ebcf99daf9ab1792521651c94528c055dfb99133cb3cd8d96173dee6ea12f23b78ce9d71d38defe29f77c4a4f9de82cd9319335bcf3d07cb197a311d29d280c8400bb29e726cc16d6708cb3f7e9505342188032d20ac7e45eb0fa262bb85068cc87345c9f1f46f052a43111d4f0e017ebf10134982a934bf06dad54833a7ccbb0b684d0a0bca9566f67ed1120e2e9c1d01b95ddbbe6fb156b5d8261961a7d8a33a9c294ebb2ac18abe511de67bfa6b0c5448e897e393716bbf5909e6e665021f9078c6dc247e6ee28d797664fa8efce8d288a3f706a7b08d15a081ff44afa576c1524a1b8adcdc9cd08fcc90d57fdf5401ed4d20e5cc1f307ce59c6d6595bfb76797e7c6bd072556c5ad170d8a98c5d0f6179555dc543ac87bc67c34f63ab3e63daaa900e41def1d929b9bcefc58a0c68a768c25372f480b9c00af29375745cfbfb828a31593d508c48a572445592022cfd4d0226354de132a21f3111200017ac1938d99e32fc42c8c7832064f6512a569743020ba2550158a87a941ba4d87fcf470c9a9c7d710e4b5140e66d15e857755c935210a24e8dbd35f51a1fb093d42993f352b754da789a9feedfd225b22605f89cb1af8e8effd722ecc6cb0b49703efa3bf21066fc373a68c3d178d8a18729772d6fdd3c647d0ada66d18c500ae4ef09c8676b90118929785ecf32f37c319df58d8cf8f2208ea8385caba8c3588fbc8ec5391959e5856117ecd022c07968708fa34142d7c685feb2aa75581fdc290055a38b56b79180e00c81bf55b42594275ec804adf3969e764f404661ac3d01abeb653358ffa58b695cf15d730f8cb3f0e21a37400062ba0dd563a11c8cc298e7ed3bd2bcbfb3af2feb35e5f91fb48c284ced5a916066f8f5697b97b8111e4623db1154dc9f869fe724ff5884c85aec07dee745ac1a9bb16726f7eed02e394b647502adba35b7a5fd9563ab1e5ef2b37d765358e4168a9ff1ed713584f0130857b63a8cfefc6f51c7bd109ce9fbdfa5c85efbbaa706317f6cd5a73dd6b2a5fce03d31dfe4cb0a82cfd88d10bf2bf10f9c051fa226f3398a5e9260cd7994491cf7498226ee2890b35d8071e6550e2848dc8ba925a9fdf42388c998218a1e3c9468c85f71e0b4176004427a688f2b8735f1e936841a8f1f3f0086545303bd783ec08db80a40d8bac9a6b6efa1438a3f167b765b3cc9df255ba989f6259e389fc103e0feb2f78f58cdc20175d36ca5f77c06a29e1291e62c5473113d92ebb5c735e3d90fe48964f7ccaad7603f156675cbff256dcf1528959fa7ceddbb407c303017848748183c386cbc019c3bdcd05c74196769398bb123dd181767f9734966a763b1991a4540a76fdc98a8fa645416904c48698eb88033c6655e885e6c9c094473a6387689cb67c3d653aed5bc57fa2b3c388900adae164da9dfeb832be09f4610e7f0df6f1233d2f96bae2ff8030d4598a766fe6376b45804b964c2f921fdf8366cb8904fc6552da8723135389787dea8a59080ad59e2ad3c85a89929191e4ab2075286c2ec20b97664195468211822a0cbda0563cd823078816e71ca1f644a1fdfbfa46ff9aaa36c610596d9b8a79783d1b930438a762394e4fc817caaea8f7c2e3e3ea57a708c128d25a18578ba0ed9d07f7d5fbe461b512c530314ef88867b579381105e9d86f0912dcf865811c7ce4a68e57a9fafbb4dd6428c681f7ba4d00193763464bea4d8c41a24b3d2571ebc180e61597c9f2ca506828ad467d6e1d4c8defbc7d83d4a47ae03a065f905a55af8c31d91504c6b827e4d6bcbae3efad78099be71719dac85b57d68a4f58c01fa81b542e5b68eb6cf53014036ab8d771874d2eeb59469a4192f00466f238ee03ba63b6896c897038882f43c3bf598682cf1f9914c701a8487d897853c49fd0aee7ded1946bd91e1ec2bb148ce1c6d475193bc00378fe72bf6b804a9836c38f65e99edf10874f4003477e8508abc5b042621476ac435cc88593ec973d039f77946578a8182dc0d8e316677c9a5448ca054fec272f63fef2052b354851b219428826de2402d1e11699e0a6429d54edf828226d23fd64ec42bae9ac8db3</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这里需要密码才能访问。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
-        <tag>PC</tag>
+        <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
@@ -603,14 +582,52 @@ I ain’t know that it would be like this<br><br>
       </tags>
   </entry>
   <entry>
-    <title>cmd如何快速打开指定路径</title>
-    <url>/e0b2f28c/</url>
-    <content><![CDATA[<p>.</p>
+    <title>如何搭建一个属于自己的BING AI</title>
+    <url>/2bb1e0e3/</url>
+    <content><![CDATA[<p>项目地址：<a href="https://github.com/adams549659584/go-proxy-bingai#Docker">https://github.com/adams549659584/go-proxy-bingai#Docker</a></p>
 <span id="more"></span>
-<p>电脑cmd转为指定的路径用cd命令非常麻烦</p>
-<p>最近找到一个比较方便的办法</p>
-<p>直接在资源管理器对应的路径下把路径删除，输入cmd</p>
-<p>打开的cmd窗口直接已经在这个路径下了</p>
+<p>支持docker，可以拿来给家里的nas等设备使用</p>
+<p>或者使用在线部署到Railway、Render、Vercel的选项，在上面链接的github项目主页也有一键部署的选项</p>
+<p>想要部署到自己的网站的话，要用到nginx和宝塔。</p>
+<p>聊天时需要调用服务器，可以选择连接到哪个服务器，有bing ai官方和Cloudflare的服务器（Cloudflare这个服务器是公用的，每天有限制次数）</p>
+<p>可以自己搭一个Cloudflare服务器来支撑bing的聊天服务，比公用的服务器好，而且一个人使用Cloudflare服务器很难达到额定限制次数</p>
+<p>步骤：</p>
+<p>1.下载核心代码 <a href="https://github.com/adams549659584/go-proxy-bingai/blob/master/cloudflare/worker.js">worker.js</a></p>
+<p>2.注册 Cloudflare 账号</p>
+<p>3.创建 Worker 服务，复制 <a href="https://github.com/adams549659584/go-proxy-bingai/blob/master/cloudflare/worker.js">worker.js</a> 全部代码，粘贴至创建的服务中，保存并部署。</p>
+<p>4.触发器中自定义访问域名。</p>
+<p>最后贴上自己的bing ai网站：<a href="https://alphax.up.railway.app/web/#/">https://alphax.up.railway.app/web/#/</a></p>
+]]></content>
+      <tags>
+        <tag>PC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>总结了一下还能用的国内镜像ChatGpt</title>
+    <url>/6c71df46/</url>
+    <content><![CDATA[<p>质量可能参差不齐，请自行判断。</p>
+<span id="more"></span>
+<h3 id="咒语和绕过限制">咒语和绕过限制</h3>
+<ul>
+<li><a href="https://qddmercny4.feishu.cn/sheets/shtcnMklYu0WsXEDUXXanrSEB2m">ChatGPT中文提示词秘籍（Prompt圣经）K-Render整理 - 飞书云文档</a></li>
+<li><a href="https://github.com/PlexPt/awesome-chatgpt-prompts-zh/find/main">chatgpt咒语-github</a></li>
+<li><a href="https://www.zhihu.com/question/584786896">new Bing 新增的限制措施破解</a></li>
+<li><a href="https://www.make-safe-ai.com/is-bing-chat-safe/">跳过new bing限制</a></li>
+</ul>
+<h3 id="CHAT-AI">CHAT AI</h3>
+<ul>
+<li><a href="https://chat.extkj.cn/#/chat/1002">Chat机器人</a></li>
+<li><a href="https://wen.geekr.dev/">GeekChat</a></li>
+<li><a href="https://aka.mydog.buzz/">QAChat</a></li>
+<li><a href="https://dev.yqcloud.top/#/chat/1680750727982">仅用于开发学习交流</a></li>
+<li><a href="https://ai.usesless.com/scene">ChatGPT</a></li>
+<li><a href="https://chat.moyunav.com/">ChatGPT</a></li>
+<li><a href="http://omg.j5r4.us/">TDChat</a></li>
+<li><a href="https://chat.aidutu.cn/#/chat/1002">AiDuTu</a></li>
+<li><a href="http://www.chatcleand.xyz/#/home/chat">AI对话</a></li>
+</ul>
+<p>自己做了一个bing ai部署网站。</p>
+<p><a href="https://alphax.up.railway.app/web/#/">https://alphax.up.railway.app/web/#/</a></p>
 ]]></content>
       <tags>
         <tag>PC</tag>
@@ -648,6 +665,75 @@ I ain’t know that it would be like this<br><br>
 ]]></content>
       <tags>
         <tag>PC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cmd如何快速打开指定路径</title>
+    <url>/e0b2f28c/</url>
+    <content><![CDATA[<p>.</p>
+<span id="more"></span>
+<p>电脑cmd转为指定的路径用cd命令非常麻烦</p>
+<p>最近找到一个比较方便的办法</p>
+<p>直接在资源管理器对应的路径下把路径删除，输入cmd</p>
+<p>打开的cmd窗口直接已经在这个路径下了</p>
+]]></content>
+      <tags>
+        <tag>PC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>尘埃2在win10和11等系统下不能运行的解决办法和联机办法</title>
+    <url>/704f6294/</url>
+    <content><![CDATA[<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E5%9B%BE%E7%89%8720230114142143.png" alt></p>
+<span id="more"></span>
+<h2 id="解决无法运行">解决无法运行</h2>
+<p>特此说明 这里说的尘埃2不是尘埃拉力赛2.0，而是09年码王发布的科林麦克雷：尘埃2</p>
+<p>1.本地的绝对路径是不能有中文的，就是整条路径下不能有中文字符，必须全英文。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230114214456.png" alt></p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/ef215c9df5b6b359251f83f24ca24bc729cd3d13.jpg@543w_140h_progressive.webp" alt="img"></p>
+<p>PS：路径是E:\Program Files\DIRT2，不会看你的系统盘符前面的名称，你的分区命名成中文的也是可以的。</p>
+<p>2.检查游戏内是否有安装xlive补丁。（有些网上下载的安装包已经内置也有没内置xlive补丁的，我下的3DM就没有内置，需要自己判断。）这代需要配合已经嘎了的Games For Windows来游玩，因而这里就容易出现一些问题。如果没安装xlive首先把xlive补丁（一共四个文件）放入游戏根目录下并重启电脑。（理论上我猜测Game for windows是内嵌在游戏文件的，因而装了xlive后就不需要再安装game for windows）</p>
+<p><a href="https://pan.baidu.com/s/1fCvMlqgCb05nMPuCgMN7gQ?pwd=uc2x">xlive补丁点此下载</a></p>
+<p>3.3.检查游戏环境运行库是否安装完整（包括DirectX9、OpenAL、VC2005）（已经安装xlive补丁的可以不安装game for windows），安装完毕后重启电脑再尝试</p>
+<p><a href="https://pan.baidu.com/s/1fYw6I5PC3qr6pt5AuD8ZQQ?pwd=6key">点此下载四个运行库</a></p>
+<p>4.如果上一步全部安装到位依然无法打开，试着打开根目录删除dbxLive32.dll、XLive.dll两个文件，再打开game for windows安装包安装game for windows并重启电脑</p>
+<p>5.如果依旧不行或者游戏内第一次创建存档出现问题，比如点不了games for windows的done等问题试着先把系统的输入法切成英文试试</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/V%5B@$NC8IUVZFI9COXUI61%60A.png" alt="img"></p>
+<p>还不行试着点游戏根目录的游戏exe右键属性勾选以兼容性模式的windows vista sp2模式运行，再到game for windows的安装目录下找到GFWLive.exe和GFWLClient.exe都右键属性勾选以兼容性模式的windows vista sp2模式运行</p>
+<p>如果依旧不行，在C，D等盘符下任选一个盘，将整个游戏文件夹全部剪切</p>
+<p>在你选择的盘符的根目录下创建一个DIRT2文件夹，再将游戏文件全部复制到内。</p>
+<p>还不行的可以对照这张表来看看自己运行库是否安装完整。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230819234503.png" alt></p>
+<p>参考资料：<a href="https://tieba.baidu.com/p/5826657270">https://tieba.baidu.com/p/5826657270</a></p>
+<hr>
+<h2 id="关于联机">关于联机</h2>
+<p>尘埃2支持LAN局域网联机但是games for windows有对LAN局域网联机的延迟限制，如果超过一定的值就不给允许联机，因而我们需要一个破解工具，这就是TeknoGods。</p>
+<p><a href="https://pan.baidu.com/s/1OeIjBHPbB8oySyuVT_7bMQ?pwd=988r">点此下载TeknoGods</a></p>
+<p>可以把这个工具放到游戏或者任意一个地方，只要你下载的三个文件都在同一目录下。因为这个工具是通过检测游戏是否运行的原理来注入dll的。它也可以用于其他同样机制下的游戏，比如F1 2010，生化危机5等。即运行游戏后程序会检测到运行的游戏是什么，再进行相对应的dll注入，没检测到游戏就会一直在寻找状态。</p>
+<p>先打开teknohelper.exe，这时候程序会自动寻找TeknoGods.dll。显示的日志为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">File found:TeknoGods.dll!</span><br></pre></td></tr></table></figure>
+<p>然后我们点开最左边这个按钮</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230114215738145.png" alt="image-20230114215738145"></p>
+<p>然后用vlan或者游侠对战平台等局域网联机工具打开游戏。打开游戏后听到一声不同寻常的响声就说明你游戏被发现了，同时在日志中也是有记录的。此时开始dll注入</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230114220207539.png" alt="image-20230114220207539"></p>
+<p>当进度条满后dll处×变为√说明已注入</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230114220253952.png" alt="image-20230114220253952"></p>
+<p>回到游戏，点一下F12键，会听到一声女声说working，没有的话点到有声音为止。</p>
+<p>进入到别人房间后或者自己创建好房之后再点一次F12，会听到一个电子音，没有听到的话也是点到有为止，不点F12会玩的时候弹出去。</p>
+<p>如果退出来房间想换别的房间，要在进房之前再点一次F12听到working的声音，否则搜不到房间。</p>
+<hr>
+<h2 id="游戏感想">游戏感想</h2>
+<p>个人感觉转向的灵敏d2和d3是一脉相承的（我从d3转过来玩d2）。但d2重点在油门的控制，需要非常频繁的松和加油门。车身的姿态全靠油门控制。</p>
+<p>d2可以非常容易的用切换油门输出几次（点按油门)来起飘,而D3不行。D2不需要减速的情况下点按油门几次就能起飘（不习惯也可以用点一下刹车代替），需要减速就用刹车起飘。</p>
+<p>在侧滑过程中油门输出数值不变化会导致车辆一直在侧滑过程而不前进，如果要向前就改变油门输出数值（也是点按油门几次）来让车辆在侧滑过程中也往前运动而不是拖漂浪费时间，当改变的油门输出数值时间长了或者频率多了之后就会逐渐断飘。<em><strong>（这个存疑，现在我认为出弯松油门有用是因为重新按下油门的时候强行让车辆升档而输出动力变化断飘，上手动挡试试就知道了）（且弯中到底全油门会不会拖拉而松油门又能真的改善吗等问题我会后面再尝试，用伦敦图试试。）</strong></em></p>
+<p>同时d2有很多地方可以偷路程走捷径，规则上没真正的WRC严格。</p>
+<p>当没有手感的时候可以多松加油门几次找感觉。</p>
+<p>进阶是钟摆进弯。</p>
+<hr>
+<p>参考资料：<a href="https://tieba.baidu.com/p/5826657270">https://tieba.baidu.com/p/5826657270</a></p>
+]]></content>
+      <tags>
+        <tag>Games</tag>
       </tags>
   </entry>
   <entry>
@@ -719,61 +805,6 @@ I ain’t know that it would be like this<br><br>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>个人清单</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>尘埃2在win10和11等系统下不能运行的解决办法和联机办法</title>
-    <url>/704f6294/</url>
-    <content><![CDATA[<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E5%9B%BE%E7%89%8720230114142143.png" alt></p>
-<span id="more"></span>
-<h2 id="解决无法运行">解决无法运行</h2>
-<p>特此说明 这里说的尘埃2不是尘埃拉力赛2.0，而是09年码王发布的科林麦克雷：尘埃2</p>
-<p>1.本地的绝对路径是不能有中文的，就是整条路径下不能有中文字符，必须全英文。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230114214456.png" alt></p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/ef215c9df5b6b359251f83f24ca24bc729cd3d13.jpg@543w_140h_progressive.webp" alt="img"></p>
-<p>PS：路径是E:\Program Files\DIRT2，不会看你的系统盘符前面的名称，你的分区命名成中文的也是可以的。</p>
-<p>2.检查游戏内是否有安装xlive补丁。（有些网上下载的安装包已经内置也有没内置xlive补丁的，我下的3DM就没有内置，需要自己判断。）这代需要配合已经嘎了的Games For Windows来游玩，因而这里就容易出现一些问题。如果没安装xlive首先把xlive补丁（一共四个文件）放入游戏根目录下并重启电脑。（理论上我猜测Game for windows是内嵌在游戏文件的，因而装了xlive后就不需要再安装game for windows）</p>
-<p><a href="https://pan.baidu.com/s/1fCvMlqgCb05nMPuCgMN7gQ?pwd=uc2x">xlive补丁点此下载</a></p>
-<p>3.3.检查游戏环境运行库是否安装完整（包括DirectX9、OpenAL、VC2005）（已经安装xlive补丁的可以不安装game for windows），安装完毕后重启电脑再尝试</p>
-<p><a href="https://pan.baidu.com/s/1fYw6I5PC3qr6pt5AuD8ZQQ?pwd=6key">点此下载四个运行库</a></p>
-<p>4.如果上一步全部安装到位依然无法打开，试着打开根目录删除dbxLive32.dll、XLive.dll两个文件，再打开game for windows安装包安装game for windows并重启电脑</p>
-<p>5.如果依旧不行或者游戏内第一次创建存档出现问题，比如点不了games for windows的done等问题试着先把系统的输入法切成英文试试</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/V%5B@$NC8IUVZFI9COXUI61%60A.png" alt="img"></p>
-<p>还不行试着点游戏根目录的游戏exe右键属性勾选以兼容性模式的windows vista sp2模式运行，再到game for windows的安装目录下找到GFWLive.exe和GFWLClient.exe都右键属性勾选以兼容性模式的windows vista sp2模式运行</p>
-<p>如果依旧不行，在C，D等盘符下任选一个盘，将整个游戏文件夹全部剪切</p>
-<p>在你选择的盘符的根目录下创建一个DIRT2文件夹，再将游戏文件全部复制到内。</p>
-<p>还不行的可以对照这张表来看看自己运行库是否安装完整。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230819234503.png" alt></p>
-<p>参考资料：<a href="https://tieba.baidu.com/p/5826657270">https://tieba.baidu.com/p/5826657270</a></p>
-<hr>
-<h2 id="关于联机">关于联机</h2>
-<p>尘埃2支持LAN局域网联机但是games for windows有对LAN局域网联机的延迟限制，如果超过一定的值就不给允许联机，因而我们需要一个破解工具，这就是TeknoGods。</p>
-<p><a href="https://pan.baidu.com/s/1OeIjBHPbB8oySyuVT_7bMQ?pwd=988r">点此下载TeknoGods</a></p>
-<p>可以把这个工具放到游戏或者任意一个地方，只要你下载的三个文件都在同一目录下。因为这个工具是通过检测游戏是否运行的原理来注入dll的。它也可以用于其他同样机制下的游戏，比如F1 2010，生化危机5等。即运行游戏后程序会检测到运行的游戏是什么，再进行相对应的dll注入，没检测到游戏就会一直在寻找状态。</p>
-<p>先打开teknohelper.exe，这时候程序会自动寻找TeknoGods.dll。显示的日志为</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">File found:TeknoGods.dll!</span><br></pre></td></tr></table></figure>
-<p>然后我们点开最左边这个按钮</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230114215738145.png" alt="image-20230114215738145"></p>
-<p>然后用vlan或者游侠对战平台等局域网联机工具打开游戏。打开游戏后听到一声不同寻常的响声就说明你游戏被发现了，同时在日志中也是有记录的。此时开始dll注入</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230114220207539.png" alt="image-20230114220207539"></p>
-<p>当进度条满后dll处×变为√说明已注入</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230114220253952.png" alt="image-20230114220253952"></p>
-<p>回到游戏，点一下F12键，会听到一声女声说working，没有的话点到有声音为止。</p>
-<p>进入到别人房间后或者自己创建好房之后再点一次F12，会听到一个电子音，没有听到的话也是点到有为止，不点F12会玩的时候弹出去。</p>
-<p>如果退出来房间想换别的房间，要在进房之前再点一次F12听到working的声音，否则搜不到房间。</p>
-<hr>
-<h2 id="游戏感想">游戏感想</h2>
-<p>个人感觉转向的灵敏d2和d3是一脉相承的（我从d3转过来玩d2）。但d2重点在油门的控制，需要非常频繁的松和加油门。车身的姿态全靠油门控制。</p>
-<p>d2可以非常容易的用切换油门输出几次（点按油门)来起飘,而D3不行。D2不需要减速的情况下点按油门几次就能起飘（不习惯也可以用点一下刹车代替），需要减速就用刹车起飘。</p>
-<p>在侧滑过程中油门输出数值不变化会导致车辆一直在侧滑过程而不前进，如果要向前就改变油门输出数值（也是点按油门几次）来让车辆在侧滑过程中也往前运动而不是拖漂浪费时间，当改变的油门输出数值时间长了或者频率多了之后就会逐渐断飘。<em><strong>（这个存疑，现在我认为出弯松油门有用是因为重新按下油门的时候强行让车辆升档而输出动力变化断飘，上手动挡试试就知道了）（且弯中到底全油门会不会拖拉而松油门又能真的改善吗等问题我会后面再尝试，用伦敦图试试。）</strong></em></p>
-<p>同时d2有很多地方可以偷路程走捷径，规则上没真正的WRC严格。</p>
-<p>当没有手感的时候可以多松加油门几次找感觉。</p>
-<p>进阶是钟摆进弯。</p>
-<hr>
-<p>参考资料：<a href="https://tieba.baidu.com/p/5826657270">https://tieba.baidu.com/p/5826657270</a></p>
-]]></content>
-      <tags>
-        <tag>Games</tag>
       </tags>
   </entry>
   <entry>
@@ -1098,6 +1129,49 @@ I ain’t know that it would be like this<br><br>
       </tags>
   </entry>
   <entry>
+    <title>如何快速批量的下载网站里的图片</title>
+    <url>/10585d2f/</url>
+    <content><![CDATA[<p>直接在网站上点击另存为，下载下来一个文件夹和一个html文件，文件夹内有全部的图片</p>
+<p>把自己需要保留的部分留下，其余删除</p>
+]]></content>
+      <tags>
+        <tag>PC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>黄色滤镜</title>
+    <url>/716249f6/</url>
+    <content><![CDATA[<p>画面带点暗黄色，噪点多一点，很有年代感。</p>
+<p>参考：</p>
+<iframe src="//player.bilibili.com/player.html?aid=520592192&bvid=BV1sM411k72e&cid=904851284&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="610" height="610"> </iframe>
+<p>videos的要点</p>
+<p>1.年代感，故事感的滤镜</p>
+<p>2.360p的分辨率，4:3的比例</p>
+<p>3.噪点的多少</p>
+<p>4.缩放镜头的穿插、</p>
+]]></content>
+      <tags>
+        <tag>PC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>局域网联机的替代方案</title>
+    <url>/69280d35/</url>
+    <content><![CDATA[<p>最近游侠对战平台宣布从免费改为收费机制，我开始寻找一些其他的替代方案，以下是我找到的</p>
+<span id="more"></span>
+<hr>
+<h2 id="1-EasyN2N-小黄鸭-br">1.EasyN2N\小黄鸭<br></h2>
+<p>是一个大佬制作出来的工具，<a href="https://www.bilibili.com/video/BV1hM411t76V">教程点此</a></p>
+<h2 id="2-VLAN">2.VLAN</h2>
+<p>老牌的软件，质量还行。但是记得提前注册，注册是人工审核，需要几天时间。</p>
+<h2 id="3-蒲公英游戏版">3.蒲公英游戏版</h2>
+<p>说实话不太好用，麻烦，还不知道什么时候要收费，现在只是体验尝鲜时间</p>
+]]></content>
+      <tags>
+        <tag>PC</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo的搭建和后续优化等踩坑经验记录</title>
     <url>/fed4c719/</url>
     <content><![CDATA[<p>​</p>
@@ -1343,32 +1417,6 @@ I ain’t know that it would be like this<br><br>
       </tags>
   </entry>
   <entry>
-    <title>如何快速批量的下载网站里的图片</title>
-    <url>/10585d2f/</url>
-    <content><![CDATA[<p>直接在网站上点击另存为，下载下来一个文件夹和一个html文件，文件夹内有全部的图片</p>
-<p>把自己需要保留的部分留下，其余删除</p>
-]]></content>
-      <tags>
-        <tag>PC</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>黄色滤镜</title>
-    <url>/716249f6/</url>
-    <content><![CDATA[<p>画面带点暗黄色，噪点多一点，很有年代感。</p>
-<p>参考：</p>
-<iframe src="//player.bilibili.com/player.html?aid=520592192&bvid=BV1sM411k72e&cid=904851284&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="610" height="610"> </iframe>
-<p>videos的要点</p>
-<p>1.年代感，故事感的滤镜</p>
-<p>2.360p的分辨率，4:3的比例</p>
-<p>3.噪点的多少</p>
-<p>4.缩放镜头的穿插、</p>
-]]></content>
-      <tags>
-        <tag>PC</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>解决一下Hexo首页简介的一些bug</title>
     <url>/5d0d9d5a/</url>
     <content><![CDATA[<span id="more"></span>
@@ -1385,23 +1433,6 @@ I ain’t know that it would be like this<br><br>
 ]]></content>
       <tags>
         <tag>建站</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>局域网联机的替代方案</title>
-    <url>/69280d35/</url>
-    <content><![CDATA[<p>最近游侠对战平台宣布从免费改为收费机制，我开始寻找一些其他的替代方案，以下是我找到的</p>
-<span id="more"></span>
-<hr>
-<h2 id="1-EasyN2N-小黄鸭-br">1.EasyN2N\小黄鸭<br></h2>
-<p>是一个大佬制作出来的工具，<a href="https://www.bilibili.com/video/BV1hM411t76V">教程点此</a></p>
-<h2 id="2-VLAN">2.VLAN</h2>
-<p>老牌的软件，质量还行。但是记得提前注册，注册是人工审核，需要几天时间。</p>
-<h2 id="3-蒲公英游戏版">3.蒲公英游戏版</h2>
-<p>说实话不太好用，麻烦，还不知道什么时候要收费，现在只是体验尝鲜时间</p>
-]]></content>
-      <tags>
-        <tag>PC</tag>
       </tags>
   </entry>
   <entry>
@@ -1493,25 +1524,6 @@ I ain’t know that it would be like this<br><br>
 <p>最后高阶的玩法就是解BL锁，ROOT，刷调控，解云控，刷面具和LSPosed。</p>
 <p><a href="https://blog.51cto.com/u_15672212/5983217">https://blog.51cto.com/u_15672212/5983217</a></p>
 ]]></content>
-      <tags>
-        <tag>PC</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python初见笔记</title>
-    <url>/f52b8996/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="dca31770beecf732ba2260ef589096e47226525e22b8c9b404e2cc533b3131c3">25193ae2d4aad5d9de1840ffda466774b043449e632349c968e508ecf8d8fd3ae0a1e28bc88e047530faaf223d0a70ec6224ab8d3540a2c932dedb293adf8015d00e8f4644c74f2a649887b5559ba230f42eef4a84f2a57d32ce8d3fc3fde6322a75c28aa5add49f5865b9b95ffa2df8f7c9a26dbf26ca53e84ecbc89dcc395ce99312318b1854430c4e506699102e7dc8d3244f433146a0d223bdab929c14b6476ee87fb78cd73faa06271f08156b4ee533e610c6fb4f12d5c209a2a096dc052b7c5487ba4e8f668cf65d95db87a52dd41825cf9a81407e00316dab197e193a9494929af4ae1d5f9ea1cf56ec290182cdd05ed3e56fd5852b42b926a6003426c46ca64eb0a062c6ab8706b77268b76a36b4eeabf685675d1766cf3ec43e09ba3d0e2a6fc169d767583375d4d89185835b91690e321492603d26edc7f3e9d8cf737f97298e03764e706b48c5198f787b2e40e040ec2a1496049f190ce244c4c046e70f5d9c692c32b02dc11c475d4039b7d1959899f82360d5d1f743cfdada6eb433fb79293c1ecc21b5a8773a62a904df0c97a4291a92bc4ae239a1bc156a583507dd0b7d1805c542cc427f46fbaf6d3ed992a8563bd739d3cf7cbbbd03aa7459893529a91223cccbd4737ce6df61510f94e5b1500f104de864599333ddc3ff41cb4be1eed3ebe7dac168f4ac8d4a37a8ed1d5f5c54202cecd0185be7abde2df49c88e1e4c23b91c06680589956fb601670897ff97107c3ae8fe720ecbf70ddeac76906e7b63eb9f6847e0435d796444e3dd2492d0d59880ef5af56bdd32fb0f8f56317e057ba059bf972cd662a021d9f9d076064d370aaf3964f8eed049fcc8cee37ec8f5e8f5a5f34e470cb4a127da35460e56b77b429f307c29eebd7dbe892eeb9aaf2f8f6e5981e7cda76d779de6a80894d7b5f364bdb7acac9c8695f58a8f9517953be8d8376abee80b019feab41b4e216b402c500731ef89a3fe2a9ffcec8de3429ced9d4e5756fdeb7c23b91b15c0cec5bdaffeb73b5ee1b19956fe9dc9dc97c1b8bdc3237ee4fed2ef96f4ce48ffbf047242633097eab6ed2895318f1ad7eef6efa0d3268025e378509d3117f1b513312cd1bac7246436b44e3c0f73dc89e8920707e1ecce57a9bb5c7c4ddaabdd72314e55d85db71d5b4a9becfd2e1e6f6f416e22b8aa9e952a869ec36a09c3708ed855bb0990e685a31b3c0bbc9908bbd3d7411153936524fafabd62e799ab0e7d3c7148aa5c97b7e12e59cb73aee678b5ad53a370b54d17a764443b451c0738b8998afbd90047ddcc976997b52007cdf24da0dc935cd3e8286c4058265a2daab46cb7748f47c9a5f05b1e537712a7fb8d0a86135fd11e476facb0c20a4789ca80231d7b33b114f900466fbd8582e8b449781b318a5aebff15f788a0862ebcc5a7a0d01a5b862409da251eb296f6e421033db62aacc0315dad2344a1fe172eca97f29f57a97a7d11ce7be370dacd35c2d384c19a5842fa6751c9a59f829e7780eb385403cfa3ca7b4385701e446020e1900a10d2f10fc672513d69ea592cff81e2ac5289e1f770e59aeffc32c0f774254c0756187d88117dfee7e78e2a27ee20715aea80934208549440c33f6b30de25b5ce26af8c3abcfc66608a59236723632968866ac67aac6907cb637b55274ab069e1c9573a5e8ac0e65b10a32dc1cedf4ed3500de69698d5f4ee609d7b5ea9a6a10163a14aa99e02cd049fcf67713fe39a94f27056f0e8e083f4619abadc5cb27b402b3c281afa300890de20863459774ba4882d0a77c38344cfcc5b13c0b658a15f3808c73f13e8d67c0663d7b3fc11c5f34a702707dfff3af41e65fa2866e324e6492d95a4614a1adf55197c52003f68a0c657b497e4918593a497786af96e43e070ff54b4dba6624c0dec6397b0e5a53bed70069b440327f44890e7b82c2213205b68a69732b2e0b5dc64a477bec0d086d63af2b2ea0c7526b7f579a4718ff30e10c907dbd31436fa918e192c77ad809d2f7b3dfd341f374173d6c06e4c7a3b45fa17b148d12137c5cade5f97b735d839147fdc78f400b27183dbaf3039f17fe16a57e684b37e0c58a6cd000868589ca421e50d29738dd1543bf6a8d02634619eda8ef99294f5340e547bcfd711a72770b52648047eb8e751bb643f934a5bf2fcb1d8d1b1affa52ddb3715ce9b2bc79011bc7c56af3f16addd26b50769cd346b893aae8c039955cb8ebf326c2d6cf7c08ccbc1e2abaf744cea2cc4a930a82695cf39c67f801e613a6b640fa983056f94dd70fd1810e99b4c5bde218c1e16ebb5b644e3d566c5aebb3b0045f4c08b6d88677bf5c2b9a5c100779a6a7f0d22c37adba95bf5017344a0402f0649a86f397ec126cba6cc9ba7951d0feb106b8af731254041e3b991d449d00fb5ff79fc8699ac496117e55690ef881448558d2293dc61f4ead0bd328663b48a73e0e19da9aa6305ccd32d792bc2a0d96c7cc39e2554b4a07e07fbaa96b6bb0696f4a66b8f34c98e78e542dcf5d2246448bef9b1f3dc7e4da40b63fb661602aa093a2218fd64c8df0400bea31bc85bb5e222a8367052e8fe292d4a65ecb990eae083aea201770284fcbbca82a6c2f52f09f7dd29cf7288120154945f4193d4ee9cd8708752bd1933a15fb43cdf40ac4b500d84dcee51a9a8f83e519ce9add9612e78f64b7ec0d42a05e675c1b682e280571821e0c10f09700383673b71271e054027ace3f6de9dc3099f512ba9613d7e98b7a3a25d4f9c53b4dfaf3a571bddb8ac5d8ae1029af8f759d384b4c109b6243db2aab86bef02ea483f44e376919be64fdefb47cac92ee4ec76d60ae552c8c2477bc1d0261c7c854530eae44389a706c7f5bbe65dc5af3f02ead6db5819e9abb02b5ad419dd193e7abfc8ab02746ced6ef4488171fde1828274476179af3b29fa222a24fae2d37e273c1051a0d791b4a1fddc3188a2e0b0a8806375f6284a3e0bbef0892ae42956587f82aabdd15b6e165d13c770b4c91561afa253f27ca0083993f4d7117aace994f6116e064110e60e4d505f8b267e927650899f8b92ecdebe01a8007a3e70a7282d02bb78a55ab8257c8987b638c4c0a5fde77d0677f6984d05bc178092d65a77149911d36badf391a7ccd97886c8a9c61070126e226ec8e645d78df7dd9d9ce6c1d1fc6d86b82d8fdba6f95bad0479b961bff9d2584024e238e8050952310dcf2f817e40cdef8cf32f00842d95789d1bd50df618b3e05474cbcf033ddc5f71da4fcb946fc7835eb5dba53ad182fc15cc628cde4ad1af25b25cd827b49d554a87937e4718d161178d375a088a175f641a234b5de372ebd526e73f7ad5f014aba53382e3fde8a12bec316da5ce94eb276b055184d08f5d8f7acfe29ea93ce8ed096a99491d5326c7569c3b22123df5b34def2d4a599c257301c81a264d83262b64536ac7e06657f3b078644fe42ec21416962c158288754d6a334933dafb1536e2589c38ccbc944a4cff69e1bf71dcd84833d3a2a10df00e3befa4d8590c7e35c4c3f080dd531f59e3a0f4f2ab6b189607e1a8b6c6d8615be461b5e4de08be9db7e47055ce41011b6d07978d548a1935ff0bc44ad95a191adfecbe55d6d38853b2422fad2194eec87ea38f70f9079216a6df1de3c8f68d8cc9d761af97ea5cfabf0e554680b456ee3425cb443fc4b4c2c511a07d7de06f1c6a1f4e29058d40dc4efe8dc57ca1029ea3eed3db84c23e2a01ab878686f6fac7a7000e860a71444467e5ed1ed05e0018049e95fc9391332224f398eac9c3ded4076eee35ce045ae6c454492d09afe5f32a6a0b477002f8ba433f47bf0b49a92eaded9cd4f27ae73063d5904128ed14da467df091d11790ff1fa51011cdb389fd9f55e060523c8deb0239fa76f182e87eb585f173093458981d71920bd77136fe80c35b1ebcee56f2a6e94a8d7fd070b1ca23809a798a45d69827606d7f15a8e2b3640934892f44b887587321338bddcd0cfdd54d3943001aaa52997c582c15895d21c98f91cee459bef621d77f5da974eab5c232c6ae1d90eb925edaa4c10e781d838d9b8987db669d43585ecc23cc789b665515131128d05ce5f560dda266c0ac394edfbb2ffed77d2bdc120644a3767995a5067ea108978c9ee5c65130b98715c4c414482b1ec8aef1afd446eade266cbc6e181986de67d257b37447a0c11eff7eb6335de3c49e2e142488c992b65ec7ee5f78a7fe20cf43fb5ac044a200cc0937fe02f206fe953a8f78cb0d8c701b536d9a1bbfaec6e9e98a6c685b81d39a27d8178cf82bfd143f78953d701bbe9fe2b48be29ab11d601de730dff79e7ac973e388bded628c1b26c3125a151e82e0ad6511fc46176755c26cd782794c7eff7d0468a17cb26ac6cc4c4b9b1ef1c27868320b1e136c27762098c9cd1a20cf5a2f221751ff6b6aca18b22fb798bc909ccfd229143a859f6985dfc68385fcefb04f0d3748d15d57a088e54da9c6806c44aebf62ebdc4d9945d30be3c0c9ca3865ae6119259973b4824ad3a6c424d647594d2647d79f3674bc670a3a0b480369157ae896c4fd0a82909d7faa7dc4ad54e6314069528c715630c7768b5584b59e312c1649941069294a622a84103b4b7ca67d6b6990ac117741527d22c210bbf4916978440daa3a50519d9ec21afe3d3a16ee94199bc9607e52651dc7e2c1032018c6428372e51ac5cc20612404b9f2b686a8c8bd548ec9d9e36cdeb4f03cf6f80d4585d154f7c7f6b781b97fb621e716b1481c39d2e20bc3f1ab7b06a51c3575b92cb9f34159eee11b0f0b930421e1f3cbd471d6e22717c8b0846e6827ebdc7617960c3774a58cc2f1a85921a5812a55d2e9011f91e46d2e7c0cf35732189cd246b64cae39f552d38b960a5f45f01f1caf7557008c287611e28929a06e0d86ecf6ef8f3460f6860120a8064d7e590b1e4e1b1f44eb065b29b7489366ea19b43398231b6f43d768ed5137b96ce387faa517e1e7b456133eafc2518e8e75e121a6af96c73ded0d7dae4e53c9008950a04e3145958c31f3ae9fb277a4b5ca56f04924cb7253ef6efc3f1cb086554ba752b8003533ef0c9eeb3b688ca449874866a34090f843d1847410dfcc04ed7851184b94a188b261669c60bf449c1eb33e5cc2c6b1ad3e72ff13da31edb3f8895e842d621e4ce7b4b1b9978d2e89bce48bdfe829f0edff3866870fbb49a2ac45ed172e259dd66208e9417a9b944770e157a754bc5d2668fc64714ebfe56f8665a909bb5850d27bbbabd169f24f8d43298b3ff97bdffee5dda89c2ae52aa410e67ad1691ddfbef8de0d97e2299e615450c5c98996387dd14ff638bf59754e7d81a32da8615704832ba0ce022a90524a492c87f4abd445c8e4ab827fdbcd58b1123eb73401f7d3d1c5b658d87f7d9e62e9bf64a234bcb3</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这里需要密码才能访问。</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>PC</tag>
       </tags>
@@ -1609,6 +1621,25 @@ I ain’t know that it would be like this<br><br>
       </tags>
   </entry>
   <entry>
+    <title>python初见笔记</title>
+    <url>/f52b8996/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="06139538c87604b67d64203ae928cb68f85185380b9eab0e1a4a3f804a364622">5f913970b5a1cb7b5c815aed895c433833a6db6311e33ab7b9260ce5aa18f8a8d44f17f0f119e365b5281c0f5f80b73480347423d316fc1f84b9729b74dc71616c012afb098e1cd8d981bc743a0486e35b499af4547d3a0a93173b9c78293887940e97ecbe86e6b8fa28b9b93bfb6a0e1ff5cc245a64e1d625fdf294d8c8f60510661fb580482e570e0122282530360794653a82bc5522d4c59d6ce318a948a6aec0c71ef93b29b82bce81b9edf09bed396715ee0e93175a71353acbaf22dd9465ab3c43b15714804ab6318e0a4910fd45611f2cd51606102986294ef33761bf467d6059c216e14021f767e01407eb9f0f0851ca8440096a96d243884a1f6ab4b6b886d64726c9e8cb8428315f15f2fcaabd9c80d6d27a279b9a972236895f0654c5f08d970630016c035f9d4aa2b1de854b88e66f2a35c2bac76f90e47ce1d8017668a4b9430fd2ed42053e5c5b1904b873739787d9b1f004bf28137956a2cf5ee91e9e40a56f089bb0bd6722ab8f1e2f3078a499065d0ae0d98093fec2ec402c721a67323b13d6a558415fd71b91ceefaf8f27bd7241fddf5ca3d534030cb4cbe13b02a26e072b36995ce37adf5ba03af488212d4fa610f6baea42a0928908cc949bd83afa960610ee9c4b91f7359682d38346cd8f25da598ad9ff3d9a1088a606a7c4b787cba93a59f0c0bf0a934ae1fb008dca03c11cb762f5003cd9ac139be956813679a7928e975a44b98cdcd32fd7f41b19701e21e5c67b93b711e1a8d81e0f2b60697b5b4e37ad81afbc0082b6660c6d01dfc42868804cece6560a09f8e65c9dd97068d19408697d0af2a9274bf00f8da9bd3927d0e75ada15a6a907686119041e2119f59a715a2a686d8dc25f5f5ae0c1bd91e87ce8a07058cae7786d0c563c63a5f2155553f7ce006eefae3fbafc7dd9e25476fb4e539c4afc4e06672d9a21053032979c00b170eb86d2b16ea1373bf1607a52de79d1b24502a03f6bf4adbe3a4b705e8fef7ff37512378d3475f906a1ba2ba0c3eef16a5ff79e29e5d429f921039294fa87e00bccd8b5ed9380fe6018083bfc63ca1346945c1a20c7d376f99355d29bc7fac4cc43d818e696c6edd3f39d5ea7dfc855ca36bd1eb093ae96887e98f82e7e7dc90ade9b627ef642b4cf8e17c63c44f5868c3b10a213031ba336a95c278129cb667f550d67377ae856aa6613f659aeb09cb2e0680d6296242c76e3159b79716e4b077c5a0fc8d8fcaa60c41636d83c97618cfb749666490b228ab580fc7af877a408f47f005cd26b41f1e9d075b60078aa3ce44ba85ae82cc106cbb327d5bf4237c0c41f05a6c0a7d6a5f55c262fb6f90b2977f76b67a869dfeeb43dff691c4260794703ccd921c999d444e518e32fc931bfec970e71b6911d9666c16f25678eb3bc074051a6b26e2c9a401db6dcde13099f2070607126b5e1eb4fc223d2683e16e109a2bb98215def6be74985196f84fe0865eb2c102e38c33f830d5fd19f1619e3e231e9761f8aa8fa826a37e51c799a3fc195d505f515f41498f3c09f181d3d1bc66bbc6e219eb613e768563c6ca3df40d500d892c864d827a6d4d6a9557b4fff6ee1792a4f7226bb91a53cf2b3853a94ce79b2594a65ab60b8e810bf272ffddee9c86d94210058d6e52ab008d3a7b628bfa97b35ff4f4ef21a9bab7c377c478ba414a9ac8b59752dccd0071dcd81c771958d15df2ee24fbe92b0a8415a47320667a57f9cd07f9dd61cdc18d4086a53f3e32ae1619b5811269f94193adcffbe7fa3b7cdf6bc34837a9f8e90333c2dfc0a20a6fe0201fae9ce02bb4bc0e15f4e1bc476aca120a14dbbaa809b97ed84dc44cb727b0d16194db56e7e7859396db29e338afe333e33d77babf5cfedcee5f63c3cfd27f9140f05a7eb01f3baa22c4feb4cefe1a2d187c990da5eb6834a2ec8d00e7b5894a1797a9f4aebda140bcd4436913d62826881a1c59629aa563cb79da9f9f53fa57ff554d3127a50b7283617901dae4bb3ef74229340ead595be605cd13cdd30e748e51342ff9f74b96d190d4241dcad692b1121ea6b9b9adc9d3216651e25e6da4c5742afec3586fea839da9fc286851404d83ac1e181c3d2ba5366cb712336fe8a09686138342c8a8d98edfe427e35c3e894981af860ade6a24c852f62fb214f8e68956c74aae43c7c91d7e118d24b15ca9ce05ca57f69b1000e5fa012ece42fcc8f2cc8a5772846107cb8da8f28200725822748004e2bdb44346d29f52698103103abe7fbacd57028565f17b46f1c3788a0326791cc8bb1866dc3c5b6d63f3a7159f9898fce444812754618d7a32ae3a3755e8d358d5d68a28f88cd284e0f11be73b75357a86a77f5878a7455b7cc028b1128497e57ea01abea83ad9424138e6b7e2937149cab961fb385c2027d50ed4f8aa2c0f098d85f5465a0f8206adbb57b923beb3e22d02c886d30acf986c25e36c88ed89ad978986102cb93a116721871a9c3d9e5374a257f967a40dbf87d5c26fab02a02e0d7776dc9f0706c85dba584b396b64de5683f26443c52ba2b1eed2f4fcd72cb5fd26e19d821038d7931344d43b861d251192931eaa8a8c183b93cc37ddee761fc9f1cfffd6ee0d05a969758649f2ac12182d7e782d27d37855e17e231739e75c766dcc83351e2520ed40862fdd371fefc8d9b5882210b8040da76ce3449e27504be78f06b67fdba6ca9474570efb95028be947992b44521584fd68104782c07513f1438ef743c392dbaaa108f4c8819b5b0b904b2dc49b54fcfef4bc76c34d0dbd5404785ca08b6c5968bc0b4bf5f08e82891153b0d74a60c4795b78522097336ed904b2c88159fae5d76a446b7eee72b206a1452bd79ace8834e8520563c0b6dbb93f4d27946cabbe81f7be99099c28e7480d5a623f6e529a91b5314593084e30739bf4f2d624fbf938664321a53c397cdfc952cd9e0c322f80696397b16bafae61f67d74f397292113ab0cfcbf330f14bdfb5bb132de87a85ca094ca077542e19a16a9a7ebeff2945e967d9b190def1664732833e151490d1b943b17a468ccfb7d69fd2ad806e892c07f131376d1ff34185fbcae583168ddc0b776a50535b9b510832054d326f1b74bd723fd15ae3bd077c5d504eb421584853f5d86ba63d19e303842224bc43623c4e08a107f93640fa016ab97fbdda36a605062bd37c01d4b6bb347749b28582625914e8e092c8a6b7e89b2220c2b6c3b418624da9544be2a140f92d5975097f3f8a39aa239cbfd9e4866f037fb58affc97e6264ee2c750701ab0bdc9abcdf2d54882f676462a72a6d2c7feabe443a3e75909825320ccca38b7d011f4b0c900dc6312cf41ac6c315aadd0855afbc1ca36484e5f29948abac6ff5b4ab92736b173ab0b731ce1146e9b7d4ec5f8c5049c34d6026eeaffe824359e83d00f32b0834a1be2bd3a6dad9177b4003b9bc0dddb466a92d03c6d34416c69fdd74bbc7db2ab0e7628c953b94aa8aac59c52a4fddb414ebe5799abe8968275c3e3de35c7e9efbd395fcc8613082fa6b73f2ec9aa422ed790dff26ab72cecc9cd8ffbf4fbf52505d0e32c7c41608c824652cd4cc044c413243c87fa2b0a697df6ec2a5cb5fdba3e0272e17658c67df122430c6698227d831489984d0ae8658f4474c4e7347bb76672b927ed586bdee58fbaf3b6e33e3f77d5343e9fe686e9f02b8c0dd16e0c9bcd07999d85c4a38a1dc51c0af79ff3105468e145cab3d9808e0b3e74ebc076c97838c6e4ec3d9d4fdf905b1896024e5901df98fb65370eed722318fb25fce3ea0933eef6f900028c41965b11df6537f31831976b1ed19c66b272377972fb7825646dce6afb68b7fdfa3654251f9f5c541778b93de431d7245bab8ddc92e3b06439b3a8511a106499dfd12168c8986e3e651376753e22c93cc87486e44a59ea42bb7fc77bc74068b11472ba508cc35626a71bb49228119cfed944160170257dc6cc4c6a531f35462ee6f30295162f04c94a066f98fe3028ed53baab162212ed8b7662fbd67a87ce4bc0dbe46b1bb5f06c70d6757073fa8588660dc86dfc777a57e16a7a836a4e9797ba2d98b270eff8cb4118be4097e9daf54c664916be7606babd19592fc9fa5967f3033ffd94c6efcfe5aaee16a3f0096af1e13ddc4b25348b60c536fc01378b5c8254af38b9feec35e0479d3dc83fa654a1c221d553f5339256e33509e11f5b441ad0ce1fbd45fad2e5899e62b73b852a9eb0ecdb8bc3bb6f3c95bb36e1566e17e29052f8a17d505ef75273ed99b0452acae9f167a3c5974941650bea55838cf5cf852bbd46897da7e054408388ed96d8af44c11bc096ec60c2bb303313277f86513caa5155b4d14bcd81b41dc844ca9182718becc230a8128ac2bb73405d0f78c64e01ebfd81b25e597eb9710dad19e07912f9aa6d6af98d99b485a81fb7135fff890e8bcbaa5565db9e75d04c3f6115a1c26ee58d6e6ca46b96b231d91c7545f5907ee0388800278fb1682d326c65dffe045f99bc8e481b65a13169e70d4e868c9f36316f43312bb723bf8c5de0f47b91671f825c8a9ad74c5c0254760a2a2bfe42a732abc996b4a5ebf010538a4ff9fdfdbaae2c9f068cae49a88e1e40ef58695b3827b8738b5e19e4a06afbcff57056fd762c69156e8cc43a5a67c44b78527fe41f218440d29ea8fdb58ac9ceb34722f0e2ed079c97033041fec93d5789b5c4be0cf21e4e3371d03ae712c91bf625f9755345833249d806f96a2c5031e81f048efbf977571f882100f8b39b46c55399614b79be5553c16e64bdc1dfa917b5e1aaf10cdcdefbee541e8aaaef55cf08ed78097200162d3ff587a45af7aa3e0ff6181dfa6b9d801b6f2db40bd8d31dad8a6fa9fbcfab2eee9c914c6dc169530f8baa132cab383d271027708d1f192210aa603145a3e789925e1f55fbc8b0af713afe702c72081226c286234dac5ad8e38ab4a883f6fa6f7544d4d31092c77514e25ee97029e410bff0cd0226a1ee7221d978a32d8d2e9e645c776b17c0441fe1e4d1245c193b2a1569f8aeb353ec4b5972925dc547fd948d007b10edc8dd3d170089251f0a475598533f1c43ffe737d06a10f92d5b8a86462df873183e2dfbe7becb1dd712ab169a09a6288a2870593a62e3945a6c0d1e708b42785c3acb58dd8a8d780d100b482a795e4cf27728deae998b0ab5083ef190cc2be13e1a4f6c1d2aa6e0821c6969b3eeb8510839241260bfdae666d774aa03c0cd945f0f37d191a044cc1e481485a041e2b9711553c6cca9310ef998e19e8a424614200fa8d0c1c3d4e0a1c2d6aa4e3642928554ffeb61a3bf37d0938d1ab84dc16a58449b36230befb01f0d542fc845508c0d3bc4b2165fd3efbf1bb35e8e6420df32cd8ed63fe239870b2c7722aa9bd9e386db86e3ed5c003861578ef387d635bfba5d3c5064180242ebb3f9ee5fae3a42c0f28ab797e5cec2bc6dbf5d4d44382961283b195d84e062faf48c6373c4c8e7808d18913aea3856e50263516de9e307c87d8b988d7dc102f7418d853b0ef1f51cb9925d3ac4274bc879f76ede60595ec96556740aa471806a64e0fa8ad90112b5fc0d9fb1440bccd7654cd15bc3c1b1a4826575b617b141efea0c89050c702c53aa73dbbf5442b81429fe06155839a22f1eb5aa57489b707b87e39cede1ba4e7e0811d2f05260c0345ae0ef84a3d46badc9f72105bb9c4cf8f5799c8324fede00537e0dd51107d939b03658858ada445d9b8dec9f55756d81d310b3a91d7370e2965cc8fddbeae24932006ff18f3912ee92e01f3f5791b6119de0d62bea7dd92b39969d78d2eafb6e4eff9e4fa70c097722b3e61039efcafeeb125985aa264a0ab6e186a9c7224bc3b333c96be3ba3150f0a07ade026494ab18111ab9953dc118204edc4eb9755ae74064de4ef202009c0fe3621ff233ba3c5216fc92f32cd9c3c99343be2971aff1733b2359d8d417d557741f27028c05ebb3a3d975ed492d8f58c3c206302d8f366d3153ff1aba0e9b32ae664b66c6fc929a62f45805df4838b3bddfa63271612b4e98927d9e1d146a4407bb981e44466057c336251595487ad809e9d0e3df726fe09948a92b499b2b29245f6b3be4a380545e66eb278c8fc8db7670e6418b3a218cb60e7498501af8f0f7dfd2663fa7a07fc545353d2b5563715610610450b7e64ab98ed790a7111f85564f79e85180cac53cb59cf3503bd1941367b8369aab73fbdd6094b5ef8a254bb91a9f68223717fbaaf10a1a92982eca2e7460e94c1d16725c79af39858f305deb9d67dff6aed2218750f6d8c963034367e7d4daf7831f7c005a2cd54b84f92c42fb45259898f502e3a84716509366251309374327344de7b291c51406721338022cfb646309177c136ae32d558fabcfe1fc652e5d3a843d72b55113fad38e29f4777ca07f85774c9a8ffd76caea8cec838e67c681d4500050b03e2184956483567b7dc668f5be1698a7380bdd8c53fa5a805c836ff3503feec6a1ae82a25a4533fbe922eaf3a40aac4b34d8bd0a25a72236068a7df9aeeea7558fb6e1b071e4362e616e885d95d228dbbde5201c9437052999bc3d00365bcdfe01ef4cefa6ac48e607e5635fd635be41a8345dcb237e1016e0fb56385904e0b307b983b78ec567ff4afdc400cb976d48563e0ed4a28f4115d2bec9678ec76ebac9d953e98b0085c89df9e9d696629760f3c76637f2db88bb5c255ba0aa86d88cf70b346d1efda52f7fa5ef7cbcfc258d3bfd8df7cd59d9a18dcb4096ee64adaf8825d29b444bb0e2297459603b8f42b81c96c966717980e7dc5174107522c827d89bf6c4df1f5b99166bf37eb9af16d39551b710c31bdb50b97e8cf42e75c360f6b66678eb5402322131d6a6e4369a93cf828d46264b9f3541aac39fe95e58cd60f9c7362dc6a2e7c4fd0f462043005378d6e013ef5b895ab362d9724803154c39bf8249dd66e1042523e1308b20dd94ae6644342eb60adace90ae2823ab86964b4c0ad87d80f61633d5bf57869e225f63db275b5f30159947787044e5ec866c5dea69b42d5fd097119c93227113b7140078e521207e64ddbb2662ed0b1ea134ee41f1349f4b15759111c3e76da2eadc12cbf8e69e51db33477b7ff220005085cf0a5d2afa7c4cbbfb791b3ce6346d62db1f045953c7c272835ef4d508e902019a5249702cb8c22cba0abf7b726ff288180cc54f63d60e52d27f18dfb6a9c058a5b8d6e7ce5193b5ba561aed47af73abccec5fe08a25b4fbc826e53fee1e300868e7332e69088b417963da40a7a87a0da8d61d0ac27b29b3b34ebff699e7c0d909cd184278428e658bc0bfc94b6e7ada9eaad5da0d6d0a4ffbd5a6c374f6333abe8967f64ea72989573d1744d6e37159b1d5f8f9161d224b3c7da3f73b5dbff7fda29274e383225bc3b1dadf0286e15e931f67a72715cf17e7c44c4c1c61488f879e3cd0411c63490d8ff9d1493a77fafd38c2a49c2040d1efec3ece18ebfb08dcab34418d007a1dae38a4692c3e47c9a7b472f8324d299b43f5d8e50087896c15d79e51b2372ebdb2f924b53b09e17e7a85e1263771f98dcd8880a1769ad22f83eb3529e4ac369526af0714b1ca37a50a3233aea230ee9f26f76d40ab03eac985dcd85e3a8794c8acd772f276d77e267ea026b091f200ecc0b2c3960d270343c6186e799f35907670034af02f4bad1ef95483f37ed4d694d5e2ec555b012317ba333a7273f264d2040977a37a1f2becc8e219157ed62f979a81178843de7b768f8fd89c9a032790f63f95743eb64a5c8f1731a3a1abab627b154853b759701a651e932965c245236d6a0fb3c71d07ff64e41e02626438cbfc9444814736334e8b12749d8d6fa1bab9c2c78feee93a40dd7945820a209f2001965da74f3fa97cbfc340e2e4cd703080452bc73d97a88e3fc2e93288948444df2b4a356864d88305b4c13f96b5b2202cc3d64a66f84d50f5f5c2fe859ea9ea89d188c7a40b36b0755fa7929ac8c34078917fbe70685720f9a9e8166bcb42ae07ca8a3a5e9f4e86ce129dd1ce86e7400b7e2612bca05491b92572d237bcb546c106e7105f72c9b65b95a6ae860d1fa36c4ff3cd39221c3d7c082537ebf7407a047c7d4dc153728b3332712eb3f2c661f1652810bc5a7c2312689ddc129eb67b7a88d67526166ef9758b35b94cbb47ee7cde20db864190bd9a28a95f40ccc6bfe07bc5e8172dfa219963639f72528f41a67c2626154ad89e9fc8351e50a46a139cba1191a42bbd78dab73761aa02a6fa82a241277b19cf06ea168f049bda324a9d5eaa02ce2d6e89b0f91f423dcb654915432e0084e5806912079a5b41ebaf9c7155eb7c53fa11385b714fd78561ee0cbeaba0f103f3fd4c420e3b432d7d76da4babf6393608fa7710ad89f762a02d58fa40b747fc55b5f237cad7994be2499d0e28ece5e0d2eb69c7c067044197b11a79c0adb1801561ed175df4bc491207535b3ecd4e84411e776a3382195a996a3651d073ebb304114199f693d75b06d9c779a4db0e2cead6885e8a3b73144b8c3274c8d6d61b4c9e3a8999b40befd3e7748789fad1c1c874dcb9da54282eb8169a60a83ad410e2faf088dfbc18184d47499c1fd17559321ba59f0f61628e8b796793363104005083b9a25756e15cd691c10b7245846cc3b1796d08bb01203299c3e276021a4b3b0cf0cab475861a3e6cc42148dab40fe07bc3c8f4460a02d1ffe49b4c9d70f807967e8a5f69a14a147956939d8fe9ad9ac17b1faf855825277ede479a624e32aa46bf0e12b903afe5defd9ed393812477bc01e53869d042311490ceaa1479081ff6b23b197bd1b275096db9f275da8125712c72e46afc6736b003e00223b938d5450e4029aae92f687286b87f6dfd5d2a2f282592db958ec28335c23d68fdd58ca2686ed7cb8226be97f048c4b67cdeae319bd4dca09b87f547771080ae3cebcc9458df7efe233f003ab87fe31bcd8f04ec9ad0db05909c8a774e69d3d97cd707f4cdb51bdb048dc35c8d3881b5bb4f621a302e474229083d8fecef383d32494506a21c3c9875fe723f89a760c27576607df1b518c4c78b79eaa9b1814d5619fd95ef5435a8e35c1e232cb7cb4b4992ade477c60b7761a2c1d467830e85790d99b2b51da9aa40012c8699fd776c32e59d043b37944ea6cf7f4e33fd733621254bd06cc4f208a6b58525186d69d48fdd6958ff678185b64418292fe64b0a2566f371481f1fcf6fafe1c39832950b43f63ebb5f5d006fd6b8d370fcf720596376476f61926e4a2c9d15a413bd26bbbe21d6a7056cecef6986592d1cfd172c255cdc96b05e442dd953a390234e7616570401f61d7aa963b694e08d92c2ef4d9c00c5752a0dd7379a52893d055e443028e9a01280979ac8ed41f7ed6172d542817e4d0771d48aa0c6b7336c9ca1ebf7e3586935713e7689b877d54bc913ad0a6c367b22d5376feb3197f050a664672a426182a57769265578e3de962924b9f41e5a56bdb2664dbb194fb64d9d165240edb0432c5cd8d2ed5c6104c2891d76554241a2c0200430237fe4ad91b8943a7d9aa6f2dee6d7c34ab3ed5deaceef5747059bb8836b25192fca269b96fa7fc41eafe418d9d57982d0adf70d9bf82e4a1630f04214553eabb4da3dfde4d0ad65666332ddba41244ee38046cc58eaca2ed44d09b83b1cc37e422f6cb00c0cd522b7c3834eb67aa664e1d9acce309628a851d6bf8d6fae7f4fe54c8d03327bfd2e57a6c60906aaab6099b2564bc94659a496bce8be27c80962c452c4ba9aa2241a2a373ab82cb6c1cfb31970e376442203ca7a03dddcda8d7599eddae18ba7908a1481e8335b33a79567a8ea79ab06c588c419784fcd360233795a2995ba82cf8eb805296eedfc569bc8a2a24143632f1e4130dc98d79dcd63b7860e3f5c2bd1fef2eccee55f52b4a938f2a74749ce37fdc6ee872603f1eec531973b921d92353ac942a4bf15a7f21bf187f02fa1084c057f3f6ec6a0139903e40737737257ce1373f5b21d039a9abdc0efb98093fcf7ef597a6902a8dbb3beed41d4ebbfbe708ce9ad082105e6e9964e916c73f06d9f94e5071d808bcc7ad5ffb20c406bc2addb9e2adc28a3ccdb712da5346ae3702ffc2d6f8476587b17ffcfff228bab44d089f3147a690ca8b3c701cd6f8062b70dd49c778ea9b540f9af3b5bb2588eeadebc496e0ee9dbc2a6c229da38aefa476907465a494cd8469a401e7ed36e4cd8456e37a21546421cd58146b52e82cf6bf760892c76a76ffcc90021b6d98278a7ce225670552d28dff4582bb0aff98739ef355a8ce3e931827ca52da31f1a36dcbc5e8542f3dd03fbf110ebc1f0a4ae9f4ac6828f5302bff93094635376896683d627561a76c421184e049ef64918a1393d153911cdcf51ea946c7ddba4c82be4b1bdef15f133c5ce3d5051b4b18c877581898b293ebefa1db00f1504f3004fe44797fb2c3878e2986edb52e132bbc2a8eafc80c7d35ca6eba23816568ea3ed0150d0e9a9c83f003452a495652a6934cc80da860ba37a0bd86f25a52d62492d38b6eeddb2b126a350679880aa4a8d78df3915a11c7493ecbc9e92889a4bd135ae2604e9a6f928dd5080c79ac45faee6555fe29e439bbb42a196ceb39306cadd716ce745b3cf4d9cb8dc3cbb72440ccf258ac1dc1f3fa086ddea1e98da653d7102e500bd3cb290cf0b094e16424e47f1f7b772bea109e2ed98d251ce087864735e731b0fe72ecca40742d740d519c32cf13b9d2da8cb71a59a102b64c0404afcb2c59a0ad7f5784a8cc0e2b6526935a744d6218d7b8a299e940f57c2835ca316259c5c12fdb6015f7c2e83c0fc0f50ad96a36d5d3e55feb68624e0673983d152ebd7d55f56b5410fd2426f2cc39b5044a4a04977b1923f952541b0b4bdd602f0a6cbbcf3ce0060014512a8d20550dc3d856c36043533357adff5203f59eea7ce2558a1369e17d69e7fb1d665f24efc1d09c2067ff6de60c28daf4bc77da7305595ba5167248ccd39a1a3d6c05e9f8280c1726626b276cb43ad69d0d9574a4746aea1732a218597ce1f2faa5e4a4ab9c018ae7d5b20da8180d9ad35220b6a0b2cd092cdf7a801ec6a51093f1e885c500900361b384cc0b9908c3b4da8eba2eefa899888f3d9e1c3fecb5002bbc594f8df97762a8395eb16ed4c777b43256bcdc7fc2e6542c4e46b019daf7d4abccc32a1cafa4faa934d466e6e2dd2366d52776a106d9b6e58003d28e8ef368015a6274816940e6a5e17601cdfe471c49df652547db5c5522e64b8fb36e570e7dc80f8c3a361de646cc02ea106683857c405648d11d2e02a89e92d59ab026b8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这里需要密码才能访问。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>PC</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于手柄我所知道的全部知识</title>
     <url>/2e2c76c0/</url>
     <content><![CDATA[<p><img data-src="http://zkres2.myzaker.com/202209/63338bb1b15ec06b80149c8e_1024.jpg" alt="img"></p>
@@ -1689,6 +1720,345 @@ I ain’t know that it would be like this<br><br>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>Games</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Next5.1.4更新至8.2记</title>
+    <url>/4a339ed/</url>
+    <content><![CDATA[<p>从下午三点弄到晚上的12点，总算把Next的版本更新到了最新。总体的感受是，总算不用理会那么多bug了，hexo g也更加快了，Next内部集成的功能也更多了。</p>
+<span id="more"></span>
+<h3 id="原因">原因</h3>
+<p>一开始建站的时候使用的还是他人的旧教程，所以安装的Next版本也是旧的。在使用过程中发现有很多的bug，但迫于没有时间和精力的无奈只能是忍着用下去。最近找了个空闲的时间，提起干劲总算一口气把next版本一口气提了上来。</p>
+<h3 id="过程">过程</h3>
+<h4 id="下载新版本">下载新版本</h4>
+<p>1.把新的主题直接git clone到hexo的主题文件夹内</p>
+<p>2.把旧版本的Next文件夹改成其他名字，比如next-old。把新版本的文件夹名字改为next。</p>
+<h4 id="更改相关config配置文件">更改相关config配置文件</h4>
+<p>3.打开根目录下的_config.yml，把language从zh-Hans改为zh-CN，把theme改成新主题的名字。</p>
+<p>4.原来修改配置文件是到theme文件夹下的对应主题文件夹下修改config文件，但为了更新主题，不建议这样做，因为更新时会把原来的配置文件覆盖。Hexo提供了一种办法，在根目录（注意是根目录）下找到_config.xxxx.yml，这个是Hexo提供的方案，hexo不从主题文件夹内读取配置而是从这里读取。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq22915519023113713520230625190139.webp" alt></p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq23013617022915519020230625190210.webp" alt></p>
+<p>找到这个文件，把xxx改成自己主题文件夹下的名字，比如我的新版本名字改成了next，那这个文件名字应该为_config.next.yml（下文以此为例）</p>
+<p>4.打开主题文件夹内的_config.yml，把所有内容复制到 _config.next.yml内，然后打开对内容逐个修改。</p>
+<h4 id="除了配置文件其他一些问题…">除了配置文件其他一些问题…</h4>
+<h5 id="SideBar社交链接的图标问题">SideBar社交链接的图标问题</h5>
+<p>5.有些图标在Font Awesome内没有，需要我们自己下载添加。</p>
+<p>SVG图标可以在这里下载:<a href="https://www.iconfont.cn/">https://www.iconfont.cn/</a></p>
+<p>在source文件夹下打开images文件夹（没有的自己建一个），把自己下载的图标SVG文件放进去。</p>
+<p>在根目录的source文件夹下打开_data文件夹（没有的自己建一个），然后新建一个styles.styl文件。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">.fa-bangumi &#123;</span><br><span class="line">  background-image: url(<span class="string">&#x27;/images/bangumi.svg&#x27;</span>);</span><br><span class="line">  background-size: <span class="number">1</span>em <span class="number">1</span>em;</span><br><span class="line">  opacity: <span class="number">0.55</span>;</span><br><span class="line">  background-position: <span class="number">0.05</span>rem <span class="number">0.2</span>rem;</span><br><span class="line">  background-repeat: no-repeat;</span><br><span class="line">  height: <span class="number">1</span>rem;</span><br><span class="line">  width: <span class="number">1</span>rem; </span><br><span class="line">  border-radius: <span class="number">0</span>rem;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>标红的一串路径是图标的位置，我们要把这个路径中图标的名字改成和images文件夹中图标的名字一样。</p>
+<p>比如我往images文件夹内放入了b.svg，那么上面那串红色路径，就应该是’/images/b.svg’。修改好后保存文件。</p>
+<p>打开主题的配置文件，找到自己要加图标的那行链接。</p>
+<p>上文的fa-bangumi就是在图标引用时候的名称，可以自定义。引用时和引用Font Awesome图标一样。</p>
+<p>格式按照fab+图标名即可</p>
+<p>哦对了，所有图标都是这样，要在前面加一个fab，引用Font Awesome图标也是。</p>
+<p>要引入多个图标，复制上方代码再另起一行粘贴到代码底下，改一下fa-bangumi和路径名字即可。</p>
+<p>最后到主题的配置文件的custom_file_path这行，找到style一行，把style前面的注释去掉即可。</p>
+<p>如果发现图标显示不正常，先检查下载的SVG图标文件是否正常，再排查Font Awesome图标库内已有这个图标，引用了双重图标重叠导致的问题的可能性。</p>
+<h5 id="重启Valine评论">重启Valine评论</h5>
+<h6 id="正常操作">正常操作</h6>
+<p>在新版本，已经移除了Valine评论系统。但Next官方提供的评论系统感觉都不太好用，要不就是国内的畅言太多无关紧要的东西，要不就是国外的评论网站访问是个大问题，要不就是以github为基础的评论系统管理评论太不方便。我决定还是引用回valine。</p>
+<p>打开根目录下，打开git bash here，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install next-theme/hexo-next-valine</span><br></pre></td></tr></table></figure>
+<p>这时候valine会下载到node_modules\hexo-next-valine这个路径下，打开这个路径找到default.yaml，把配置文件复制加到主题配置文件的底下。</p>
+<p>调好valine的app key和app id，然后找到主题配置文件的comments:一栏。</p>
+<p>下面的active:一栏设置为valine，再一下面一点的lazyload:调成false，最后保存。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq23013617022915519020230625223640.webp" alt></p>
+<p>打开网页后发现valine评论已经被启用，但是却用不了，提示Code 401: 未经授权的操作,请检查你的AppId和AppKey</p>
+<p>解决办法是到自己的leancloud设置-应用凭证内找到rest api复制服务器地址，然后粘贴到刚刚valine在主题配置文件的serverURLs:一栏，即可解决。</p>
+<h5 id="更换成Waline评论系统">更换成Waline评论系统</h5>
+<p>因为valine已经好久不更新了，而且有着一些比较高危的系统漏洞存在。在综合考虑下，我还是决定更换成更强大的waline评论系统。</p>
+<p>检查一下自己的leancloud账户是否是国际区，如果是国内版本，请使用原来的账户重新注册一个国际版本的。（由于国内版比较麻烦）之后利用leancloud的导入导出数据功能，将数据转移至国际版本，最后把国内版的应用删除掉。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709211650951.png" alt="image-20230709211650951"></p>
+<p>(旁边就是删除应用的选项)</p>
+<p>如果先前没有使用过leancloud，请先创建账户，再创建一个应用。</p>
+<p>由于waline是一个需要后端支持的评论系统，需要创建一个后端。常见的方法是部署在vercel，raliway等云服务平台。</p>
+<p>waline官方这里给出了详细的部署到各个平台的办法。<a href="https://waline.js.org/guide/deploy/">https://waline.js.org/guide/deploy/</a></p>
+<p>在官方没有提到的其他平台上部署，也可以参照教程上部署的方法来进行，可以举一反三，参照着部署。</p>
+<p>这里我首推vercel部署，以下部署以vercel进行。</p>
+<p>按照官方给出的vercel教程部署即可。<a href="https://waline.js.org/guide/deploy/vercel.html">https://waline.js.org/guide/deploy/vercel.html</a></p>
+<p>在添加环境变量一页，key一列是变量名称，value是变量的值。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709214426350.png" alt="image-20230709214426350"></p>
+<p>添加一个变量后，点击add another在下方添加一行变量行，再填写变量。以此类推，最后填写完所有的变量后。点击save，一次性将所有的变量值添加进这个项目。</p>
+<p>在官方的这里给出的教程之上，添加完关于leancloud的三项变量后，我们最好再添加多两项环境变量。</p>
+<p>SITE_NAME和SITE_URL</p>
+<p>前者是网站的名字，后者是网站的网址。请自行根据自己情况进行添加。</p>
+<p><strong>要在这里补充的是，在每一次删减添加更改环境变量后都需要到Deployments一页找到最上面的一次部署（即距今最后的一次部署）点击右侧的点然后点击Reploy进行重新部署。</strong></p>
+<p>在重新部署成功后，回到创建的项目的首页。找到domains一项，这里是waline评论系统的后端的url。</p>
+<p>接着在本地hexo目录下安装和配置waline系统和上面添加valine的步骤基本一致。在hexo根目录打开git bash</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install @waline/hexo-next</span><br></pre></td></tr></table></figure>
+<p>在根目录下的node_modules文件夹内找到waline打开default.yaml，把里面所有的配置文件复制，加到主题配置文件的底下。</p>
+<p>enable一项改为true，serverURL一项填写你刚刚在vercel项目首页看到的waline评论系统的url。</p>
+<p>其他选项一般不用改动，可以自己研究研究。</p>
+<p>把主题配置文件的active 一项改为 waline，并确保其他评论系统的enable一项为false</p>
+<p>在hexo根目录打开git bash输入hexo s，在随意一个评论区下点击注册，第一个注册的人将成为这个网站评论系统的管理员，所以我们要开hexo s而不是d来确保自己是第一个注册账户的人。</p>
+<p>最后hexo cl hexo g hexo d上传github部署。</p>
+<p>这样，我们的waline评论系统就搭建好了。</p>
+<h6 id="解决无法访问">解决无法访问</h6>
+<p>国内的vercel.app域名已经被污染无法打开，除非打开梯子否则评论系统无法访问。</p>
+<p>解决方案都是通过添加自己的域名到vercel来绕过。</p>
+<p>如果是eu.org这类申请的免费域名，在申请的时候填写DNS服务时，写上<code>ns1.vercel-dns.com``ns2.vercel-dns.com</code>这两个DNS地址。Check for correctness of这里选择第一个就好，默认选择的第三个无法通过验证。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709220006750.png" alt="image-20230709220006750"></p>
+<p>在获得域名后，在vercel添加自己的新域名，然后删除原来vercel自动分配的长域名，最后到Deployment一页，选择最上面的一次部署点击重新部署。这样，新的部署就会默认以你自己添加的域名来运行。</p>
+<p>然而eu.org的审批我已经等了一个多星期了，一点音讯都没有，我决定还是自己买一个域名。</p>
+<p>首先购买一个域名（废话），来到vercel项目的设置一页的域名选项。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709220757909.png" alt="image-20230709220757909"></p>
+<p>添加自己的域名，点击add。之后会出现一个选框，我们选第一个，直接add即可。<img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709220907224.png" alt="image-20230709220907224"></p>
+<p>这个是问你是否添加www+域名和域名这两项。</p>
+<p>打开自己购买域名的dns选项</p>
+<p>按照vercel的提示来添加dns选项</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709221409297.png" alt="image-20230709221409297"></p>
+<p>添加dns选项，网站可用后，再到deployment一项重新部署</p>
+<p>再到本地hexo目录下找到主题配置文件，把waline的serverURL这一项的网站改为自己的域名（我就是忘了这步）</p>
+<p>最后hexo d重新上传即可使用。</p>
+<h6 id="邮箱提醒">邮箱提醒</h6>
+<p>为了添加邮箱提醒，要多在vercel中添加几项环境变量。</p>
+<p>一定要填写的：</p>
+<table>
+<thead>
+<tr>
+<th>SMTP_USER</th>
+<th>这项是用户名，填写自己的邮箱地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SMTP_SECURE</td>
+<td>看自己选择的发送邮箱平台是否支持SSL，是的话选择ture,否则false</td>
+</tr>
+<tr>
+<td>SENDER_NAME</td>
+<td>发件人，填写自己的名字即可</td>
+</tr>
+<tr>
+<td>SENDER_EMAIL</td>
+<td>填写自己的发件邮箱</td>
+</tr>
+<tr>
+<td>SMTP_PASS</td>
+<td>一般为自己邮箱密码（部分如163、qq这类邮箱有另设的密码，上网查查如何开启即可）</td>
+</tr>
+</tbody>
+</table>
+<p>分选择填写的：</p>
+<table>
+<thead>
+<tr>
+<th>SMTP_SERVICE</th>
+<th>邮箱平台，我这里选择QQ。</th>
+</tr>
+</thead>
+</table>
+<p>点<a href="https://github.com/nodemailer/nodemailer/blob/master/lib/well-known/services.json">这里</a> 查看支持的邮箱平台和端口、地址。</p>
+<p><strong>选择填写了SMTP_SERVICE的话，就不需要再填写SMTP_HOST和SMTP_PORT这两项，两者任选其一</strong></p>
+<p>填写好后，到deployment页面重新部署使环境变量生效。邮箱提醒功能就成功生效了。</p>
+<p>如果和更换域名一起进行，一定要先完成更换域名这一步再进行这一步，否则邮箱提醒不生效。</p>
+<p>还可以更换自己的邮箱通知样式，不过找不到储存邮箱样式的文件，暂时不改了。</p>
+<h6 id="其他一些自定义变量">其他一些自定义变量</h6>
+<p>评论系统的自定义很大程度上可以通过删减添加环境变量来实现，比如隐藏评论者的浏览器UA，IP属地等等</p>
+<p><a href="https://waline.js.org/reference/server/env.html">https://waline.js.org/reference/server/env.html</a></p>
+<p>在这里查看所有的环境变量</p>
+<h6 id="官方文档">官方文档</h6>
+<p><a href="https://waline.js.org/guide/">https://waline.js.org/guide/</a></p>
+<p>这里有waline的一些自定义教程，官方文档很重要。</p>
+<h6 id="其他的评论系统">其他的评论系统</h6>
+<p>Artalk貌似不错 <a href="https://artalk.js.org/">https://artalk.js.org/</a></p>
+<h5 id="网站背景和左上角卡片背景修改">网站背景和左上角卡片背景修改</h5>
+<p>依旧是在style.styl文件内，另起一行，加入以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">  background-image: url();</span><br><span class="line">    background-repeat: no-repeat;</span><br><span class="line">    background-attachment:fixed; //不重复</span><br><span class="line">    background-size: cover     //填充</span><br><span class="line">    background-position:50% 50%;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>一般来说直接复制粘贴默认就行。</p>
+<p>而如果要调整页面的透明度，再按照老方法来是不行了。新的做法是</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//###### 博客内容透明化 ######</span><br><span class="line"></span><br><span class="line">:root &#123;</span><br><span class="line">  --content-bg-color:#ffffffe6;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>#ffffffe6应该是透明色的代码，可以根据自己想要的透明度的大小来选择。</p>
+<p>这样就OK了</p>
+<p>参考的文章<a href="https://hui-shao.cn/next-transparent-background/">https://hui-shao.cn/next-transparent-background/</a></p>
+<p>而如果要调左上角这个卡片，方法应该大同小异，更新后我已经懒得改了，自行探索吧。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq23013617022915519020230625225005.webp" alt></p>
+<h5 id="增加暗-亮切换模式按钮">增加暗/亮切换模式按钮</h5>
+<p>新版本新增了深色模式模式，但是发现深色模式下在当前背景下的字体的可见度降低很多。如果要新增这个按钮，应该需要较为突出博文文字的背景，深色模式才算可用。否则深色模式下字体亮度降低，文字变得不可视。因此这个计划暂时搁浅。增加的方法应该在网上可以搜得到。</p>
+<h5 id="Sitemap站点地图添加">Sitemap站点地图添加</h5>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
+<p>第一个是通用的，第二个是百度的，百度搞特殊。自己按需选择安装。</p>
+<p>然后打开根目录下的config.yml，更改config.yml，把URL改成自己的域名。这个URL要全称。</p>
+<p>生成的站点文件在根目录下的public文件夹内。</p>
+<p>想更改域名其实还有另外一种办法，就是直接更改插件的Default模板文件。具体看这篇文章。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/31411755">修改hexo sitemap 生成插件中的链接模板</a></p>
+<p>最后再在各个搜索引擎的站长工具里提交自己的站点地图。</p>
+<h3 id="参考资料：">参考资料：</h3>
+<p><a href="https://blog.csdn.net/qq_41603102/article/details/117203360">Hexo+Next8的升级踩坑之旅_小牛呼噜噜的博客-CSDN博客</a></p>
+<p><a href="https://blog.csdn.net/Bennnnnnn/article/details/128000842">Hexo-Next主题搭建个人博客最新配置教程！_hexo next主题配置_Bennnnnnn的博客-CSDN博客</a></p>
+<p><a href="https://blog.51cto.com/u_11767891/5557620">Hexo + NexT 通过自定义样式添加 Bilibili 图标_11757891的技术博客_51CTO博客</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/424932976?utm_id=0">Next主题设置-安装Valine和Artitalk - 知乎</a></p>
+<p><a href="https://www.google.com/search?q=Code+401%3A+%E6%9C%AA%E7%BB%8F%E6%8E%88%E6%9D%83%E7%9A%84%E6%93%8D%E4%BD%9C%2C%E8%AF%B7%E6%A3%80%E6%9F%A5%E4%BD%A0%E7%9A%84AppId%E5%92%8CAppKey.&amp;newwindow=1&amp;source=hp&amp;ei=wamVZNvXKczk2roP2_aU8As&amp;iflsig=AOEireoAAAAAZJW30ZmwgiOgpwZQuEB_FTI3Pu9de0WY&amp;ved=0ahUKEwibvJ7sytn_AhVMslYBHVs7Bb4Q4dUDCAk&amp;uact=5&amp;oq=Code+401%3A+%E6%9C%AA%E7%BB%8F%E6%8E%88%E6%9D%83%E7%9A%84%E6%93%8D%E4%BD%9C%2C%E8%AF%B7%E6%A3%80%E6%9F%A5%E4%BD%A0%E7%9A%84AppId%E5%92%8CAppKey.&amp;gs_lcp=Cgdnd3Mtd2l6EANQAFgAYJYDaABwAHgAgAHaAogB2gKSAQMzLTGYAQCgAQKgAQE&amp;sclient=gws-wiz">Code 401: 未经授权的操作,请检查你的AppId和AppKey. - Google 搜索</a></p>
+<p><a href="https://blog.csdn.net/qq_34361289/article/details/122424678">(18条消息) Hexo 设置博客背景图片 （NexT 主题 ）_hexo 为文章添加背景_qq_34361289的博客-CSDN博客</a></p>
+<p><a href="https://hui-shao.cn/next-transparent-background/">Hexo + NexT8主题配置透明背景过程踩坑小记 | Hui-Shao’s Blog</a></p>
+<p><a href="https://waline.js.org/guide/">https://waline.js.org/guide/</a></p>
+<h3 id="遗留">遗留</h3>
+<p>Next新版本的主题配置文件有一些选项功能我没有变动，总共以下：</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq22915519023113713520230723170247.webp" alt></p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq22915519023113713520230723170240.webp" alt></p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq22915519023113713520230723170232.webp" alt></p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq22915519023113713520230723170223.webp" alt></p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/b.webp" alt></p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/a.webp" alt></p>
+]]></content>
+      <tags>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何备份hexo源文件到github上</title>
+    <url>/3f16b169/</url>
+    <content><![CDATA[<h2 id="本地文件备份过程">本地文件备份过程</h2>
+<p>在写文章的过程中，当然希望把源文件也保存下来，于是就着手研究了一下<Br></Br></p>
+<span id="more"></span>
+<p><s>有直接的备份插件，早知道就不搞那么麻烦了QAQ</s></p>
+<p>首先.gitignore这个文件，直接通过新建txt更改名字是不识别的，说多了都是泪。应该在git下输入命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">touch .gitignore</span><br></pre></td></tr></table></figure>
+<p>hexo的根目录下也有一个.gitignore文件，是为了hexo d部署时忽略掉不需要的文件。为了我的.gitignore不被hexo的.gitignore影响，我在hexo根目录的上一级文件夹git init。</p>
+<p>因为node_modules文件夹内太多模块，git add .会很久。我选择只add文件夹node_modules下的.package-lock.json文件，根据这个json文件，npm就可以把全部模组再次下载下来。</p>
+<p>于是在.gitignore内添加两行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">myblog/node_modules/*</span><br><span class="line">!myblog/node_modules/.package-lock.json</span><br></pre></td></tr></table></figure>
+<p>前面的myblog是我hexo根目录文件夹的名字，自己使用需要改成自己文件夹的名字。</p>
+<p>git add .的时候遇到了问题，git提示我主题next下有.git，无法提交。</p>
+<p>实际上这个.git是主题开发者开发主题时遗留下来的，直接删除这个文件夹就行。</p>
+<p>再次add .会提示.deploy_git文件夹内有.git，于是再在.gitignore添加一行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.deploy*/</span><br></pre></td></tr></table></figure>
+<p>这时候可以正常的git add commit 和push了，可是上传上去发现少了一些文件？</p>
+<p>这是因为hexo根目录下的.gitignore在作怪，两个.gitignore一起生效，把一些提交文件给忽略了。</p>
+<p>我没有办法找到忽略hexo根目录下的.gitignore的办法，但是我想起来之前折腾很久的.gitignore不生效问题，也许我把hexo根目录下的.gitignore加个后缀txt，git就不识别了呢？</p>
+<p>测试了一下真的可行，而且hexo d的时候hexo还是识别到了自己根目录下的.gitignore，部署时还是忽略掉了不需要的文件，没有问题。</p>
+<hr>
+<h2 id="更换设备后的操作">更换设备后的操作</h2>
+<h3 id="另一设备上部署网站到github">另一设备上部署网站到github</h3>
+<p>先git clone 把远程仓库文件下载下来，然后在里面输入命令npm install</p>
+<p>理论上来说hexo也会被下载，如果不能使用，那再手动安装hexo</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p>.deploy_git文件夹会在hexo d时生成，所以没有问题</p>
+<p>然后执行命令获取SSH秘钥</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">git config <span class="attr">--global</span> user<span class="selector-class">.name</span> &quot;&quot;</span><br><span class="line">git config <span class="attr">--global</span> user<span class="selector-class">.email</span>&quot;&quot;</span><br><span class="line">ssh-keygen -t rsa</span><br><span class="line">cat /<span class="selector-class">.ssh</span>/id_rsa<span class="selector-class">.pub</span></span><br></pre></td></tr></table></figure>
+<p>不同设备hexo d上去可能会发现commit次数怎么变成一次了？这是因为设备不同commit的ID也不一样，github pages只会挑最后一次commit来形成，无论你是哪个commit id。</p>
+<hr>
+<h3 id="另一设备上备份hexo源文件到另一个github仓库">另一设备上备份hexo源文件到另一个github仓库</h3>
+<p>还是来到hexo根目录下的上一级，直接还是git add commit push走一套流程就行</p>
+<p>因为.git文件夹内的文件没有被修改，那么设置依旧是有效的。</p>
+]]></content>
+      <tags>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于域名白嫖</title>
+    <url>/f9f5d3c6/</url>
+    <content><![CDATA[<p>免费域名的来源</p>
+<p>freenom</p>
+<p><a href="http://eu.org">eu.org</a></p>
+<p>单独只是弄域名不需要备案</p>
+]]></content>
+      <tags>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Xbox Cloud Gaming的技巧</title>
+    <url>/5004c50b/</url>
+    <content><![CDATA[<h2 id="1-Header-Editor规则绕过检测">1.Header Editor规则绕过检测</h2>
+<p><strong>该方法在BING AI中已经失效，目前不清楚重定向在xbox cloud gaming是否被ban，推荐使用第二种方法</strong></p>
+<p>第一种办法需要去浏览器中的扩展商店中下载Header Editor，选择添加一个规则。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E6%88%AA%E5%9B%BE20230107151408.jpg" alt>名称随便填，规则类型选择修改请求头，其余两项不用动。下面的头名称填x-forwarded-for（横杆不可少）。头内容选择有Cloud Gaming beta服务的地区或者国家，比如美国或者日本韩国这些。在网上随便搜一些美国IP（比如亚马逊服务器等各大公司的ip)填入。然后保存。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E6%88%AA%E5%9B%BE20230107151503.jpg" alt></p>
+<p>如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。</p>
+<p>游戏到这个时候已经能玩了，但是Header Editor默认全部网站都开启这个规则，我们如果需要更智能化，就要去扩展程序管理点击Header Editor的详情修改成特定网站上使用</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107151804.png" alt></p>
+<hr>
+<h2 id="2-油桃工具绕过检测">2.油桃工具绕过检测</h2>
+<p>或者比较方便的方法是使用油桃的脚本Xbox CLoud Gaming优化整合</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107152049.png" alt></p>
+<p><a href="https://greasyfork.org/zh-CN/scripts/455741-xbox-cloud-gaming%E4%BC%98%E5%8C%96%E6%95%B4%E5%90%88">点此打开脚本网站</a></p>
+<hr>
+<h2 id="XGPU键盘映射手柄">XGPU键盘映射手柄</h2>
+<p>如果在电脑上没有手柄可以试着用XOutput把键盘按键映射成手柄来玩一些只能手柄玩的游戏。</p>
+<p>更多内容，教程在b站的大佬就默默在的视频可以看到 <a href="https://space.bilibili.com/242130146">链接在此</a></p>
+<hr>
+<h2 id="手机上游玩">手机上游玩</h2>
+<p>使用手机XGP的时候，在game pass上有可能会闪退，这个时候我们要开飞行模式，还不行就要开系统英文。<br>
+手机上UU加速game pass是免费的所以不用担心。但是有时候跑不满速度。需要加一个代理。进入WIFI设置内设置高级，选择手动代理，ip选择192.168.7.2,  端口选择1082，然后保存。</p>
+]]></content>
+      <tags>
+        <tag>Games</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Next主题加载速度优化</title>
+    <url>/70e85511/</url>
+    <content><![CDATA[<p>只有打开的快，才能留得住用户。在使用next主题的过程中我发现有时候手机端刚加载网页出来时候是只有背景的没有文字，文字的加载速度非常之慢。针对这种情况，我开始了对next主题速度的优化。</p>
+<span id="more"></span>
+<hr>
+<h2 id="从哪里找优化点">从哪里找优化点</h2>
+<p>1.<a href="https://pagespeed.web.dev/">PageSpeed Insights</a>可以给自己的网站一个优化全面建议</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq23013617022915519020230125205106.webp" alt></p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq23013617022915519020230125205126.webp" alt="qq23013617022915519020230125205126"></p>
+<p>2.chrome自带的Lighthouse工具</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230125210253613.png" alt="image-20230125210253613"></p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230125210351668.png" alt="image-20230125210351668"></p>
+<p><s>实际上就是chrome内置版的PageSpeed Insights</s></p>
+<p>3.同样是Chrome的F12，打开网络一栏，将会在网页加载东西时记录下详细的加载数据，以便查看。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230125210538404.png" alt="image-20230125210538404"></p>
+<hr>
+<h2 id="开始解决">开始解决</h2>
+<h3 id="av-min-js">av-min.js</h3>
+<p>在F12的时候看到av-min.js加载失败，使用了几百毫秒的时间，<a href="http://xn--cdn1-4k0i458g.lncld.net/static/js/3.0.4/av-min.js%E8%BF%99%E4%B8%AA%E7%BD%91%E5%9D%80%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E3%80%82%E8%BF%99%E4%B8%AAjs%E6%9D%A5%E8%87%AAvaline%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD%E6%8F%92%E4%BB%B6%E3%80%82%E4%BA%8E%E6%98%AF%E5%9C%A8%E6%9C%AC%E5%9C%B0%E6%89%93%E5%BC%80valine.swig%E3%80%82">显示cdn1.lncld.net/static/js/3.0.4/av-min.js这个网址无法加载。这个js来自valine评论功能插件。于是在本地打开valine.swig。</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">themes\next\layout\_third-party\comments\valine.swig</span><br></pre></td></tr></table></figure>
+<p>打开文件，把失效的这行地址</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;//cdn1.lncld.net/static/js/3.0.4/av-min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>改为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>当然如果动手能力强的可以把js文件下载到本地，然后引用本地的js文件。</p>
+<h3 id="更换字体库">更换字体库</h3>
+<p>默认加载的是谷歌字体库，国内访问可能容易出问题，于是换个中科大的源。</p>
+<p>打开next主题底下的_config，找到</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Uri of fonts host. E.g. //fonts.googleapis.com (Default).</span><br><span class="line">host:</span><br></pre></td></tr></table></figure>
+<p>改为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Uri of fonts host. E.g. //fonts.googleapis.com (Default).</span><br><span class="line">host: //fonts.lug.ustc.edu.cn</span><br></pre></td></tr></table></figure>
+<p>记得host前是有一个空格的，这里已经加上了。这是中科大的镜像地址。</p>
+<p>然后打开external-fonts.swig。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">themes\next\layout\_partials\head\external-fonts.swig</span><br></pre></td></tr></table></figure>
+<p>把这段</p>
+<figure class="highlight sas"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">set</span> font_host = font_config.host | default(<span class="string">&#x27;//fonts.googleapis.com&#x27;</span>) %&#125;</span><br></pre></td></tr></table></figure>
+<p>改为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% set font_host = font_config.host | default(&#x27;//fonts.lug.ustc.edu.cn&#x27;) %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="开启博文压缩">开启博文压缩</h3>
+<p>我们本地编写是md文件，md文件在部署会转变成html，留下大量的空白和无效空间。利用这个插件可以去掉这些无用的部分。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-neat --save</span><br></pre></td></tr></table></figure>
+<p>在博客根目录的_config底下加上</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 博文压缩</span><br><span class="line">neat_enable: true</span><br><span class="line"># 压缩html</span><br><span class="line">neat_html:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line"># 压缩css  </span><br><span class="line">neat_css:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">    - &#x27;**/*.min.css&#x27;</span><br><span class="line"># 压缩js</span><br><span class="line">neat_js:</span><br><span class="line">  enable: true</span><br><span class="line">  mangle: true</span><br><span class="line">  output:</span><br><span class="line">  compress:</span><br><span class="line">  exclude:</span><br><span class="line">    - &#x27;**/*.min.js&#x27;</span><br><span class="line">    - &#x27;**/jquery.fancybox.pack.js&#x27;</span><br><span class="line">    - &#x27;**/index.js&#x27;</span><br><span class="line">    - &#x27;**/fireworks.js&#x27;</span><br></pre></td></tr></table></figure>
+<p>这里已经设置成开启博文压缩，复制后不需再调整</p>
+<h3 id="开启懒加载">开启懒加载</h3>
+<p><strong>在Next新版本中已内置通过js脚本实现懒加载的功能，可卸载原来的插件</strong></p>
+<p>安装</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-lazyload-image --save</span><br></pre></td></tr></table></figure>
+<p>在博客根目录底下的_config最后加上</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">lazyload:</span><br><span class="line">  enable: true</span><br><span class="line">  onlypost: false # optional</span><br><span class="line">  loadingImg: # optional eg ./images/loading.gif</span><br><span class="line">  isSPA: false # optional</span><br><span class="line">  preloadRatio: 3 # optional, default is 1</span><br></pre></td></tr></table></figure>
+<p>这里设置已开启。详细的自定义设置可以自己调节</p>
+<p>onlypost:只对文章内的图片执行懒加载</p>
+<p>loadingImg:图片未加载时的代替图<br>
+但在我hexo d时候发现出现了一大串来自懒加载的warn信息，但是懒加载有正常运行，暂时不理了。</p>
+<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/1222.jpg" alt></p>
+<h3 id="开启CDN加速">开启CDN加速</h3>
+<p>可以是全局cdn加速，或者单独的图片CDN加速（毕竟博客加载最慢的一定是图片）</p>
+<h3 id="降低文件大小">降低文件大小</h3>
+<p>可以从png和png换成webp，减少网站加载时使用的流量。各个格式的文件大小   png＞jpg＞webp</p>
+<p>webp相较于前面两个格式大大降低图片大小，能用webp尽量用。</p>
+<p>（picgo已经有插件可以自动转图片格式为webp，具体看:<a href="https://www.fillpit.cn/picgo-shang-chuan-tu-pian-qian-zi-dong-ya-suo/%EF%BC%89">https://www.fillpit.cn/picgo-shang-chuan-tu-pian-qian-zi-dong-ya-suo/）</a></p>
+<hr>
+<h2 id="总结">总结</h2>
+<p>在最后把av-min.js调至可用后，手机端的加载速度总算正常。</p>
+<p>除此之外，懒加载，CDN加速和博文压缩这些对于加快加载也有很大的帮助。</p>
+]]></content>
+      <tags>
+        <tag>建站</tag>
       </tags>
   </entry>
   <entry>
@@ -2516,375 +2886,5 @@ I ain’t know that it would be like this<br><br>
 <li><a href="https://forum.xda-developers.com/t/changing-the-region-on-the-galaxy-active-2-including-r830xxu1bsi9-update.3983895/">更改 galaxy active 2 上的区域，包括 R830XXU1BSI9 更新 | XDA论坛</a></li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>关于域名白嫖</title>
-    <url>/f9f5d3c6/</url>
-    <content><![CDATA[<p>免费域名的来源</p>
-<p>freenom</p>
-<p><a href="http://eu.org">eu.org</a></p>
-<p>单独只是弄域名不需要备案</p>
-]]></content>
-      <tags>
-        <tag>建站</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Next5.1.4更新至8.2记</title>
-    <url>/4a339ed/</url>
-    <content><![CDATA[<p>从下午三点弄到晚上的12点，总算把Next的版本更新到了最新。总体的感受是，总算不用理会那么多bug了，hexo g也更加快了，Next内部集成的功能也更多了。</p>
-<span id="more"></span>
-<h3 id="原因">原因</h3>
-<p>一开始建站的时候使用的还是他人的旧教程，所以安装的Next版本也是旧的。在使用过程中发现有很多的bug，但迫于没有时间和精力的无奈只能是忍着用下去。最近找了个空闲的时间，提起干劲总算一口气把next版本一口气提了上来。</p>
-<h3 id="过程">过程</h3>
-<h4 id="下载新版本">下载新版本</h4>
-<p>1.把新的主题直接git clone到hexo的主题文件夹内</p>
-<p>2.把旧版本的Next文件夹改成其他名字，比如next-old。把新版本的文件夹名字改为next。</p>
-<h4 id="更改相关config配置文件">更改相关config配置文件</h4>
-<p>3.打开根目录下的_config.yml，把language从zh-Hans改为zh-CN，把theme改成新主题的名字。</p>
-<p>4.原来修改配置文件是到theme文件夹下的对应主题文件夹下修改config文件，但为了更新主题，不建议这样做，因为更新时会把原来的配置文件覆盖。Hexo提供了一种办法，在根目录（注意是根目录）下找到_config.xxxx.yml，这个是Hexo提供的方案，hexo不从主题文件夹内读取配置而是从这里读取。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq22915519023113713520230625190139.webp" alt></p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq23013617022915519020230625190210.webp" alt></p>
-<p>找到这个文件，把xxx改成自己主题文件夹下的名字，比如我的新版本名字改成了next，那这个文件名字应该为_config.next.yml（下文以此为例）</p>
-<p>4.打开主题文件夹内的_config.yml，把所有内容复制到 _config.next.yml内，然后打开对内容逐个修改。</p>
-<h4 id="除了配置文件其他一些问题…">除了配置文件其他一些问题…</h4>
-<h5 id="SideBar社交链接的图标问题">SideBar社交链接的图标问题</h5>
-<p>5.有些图标在Font Awesome内没有，需要我们自己下载添加。</p>
-<p>SVG图标可以在这里下载:<a href="https://www.iconfont.cn/">https://www.iconfont.cn/</a></p>
-<p>在source文件夹下打开images文件夹（没有的自己建一个），把自己下载的图标SVG文件放进去。</p>
-<p>在根目录的source文件夹下打开_data文件夹（没有的自己建一个），然后新建一个styles.styl文件。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">.fa-bangumi &#123;</span><br><span class="line">  background-image: url(<span class="string">&#x27;/images/bangumi.svg&#x27;</span>);</span><br><span class="line">  background-size: <span class="number">1</span>em <span class="number">1</span>em;</span><br><span class="line">  opacity: <span class="number">0.55</span>;</span><br><span class="line">  background-position: <span class="number">0.05</span>rem <span class="number">0.2</span>rem;</span><br><span class="line">  background-repeat: no-repeat;</span><br><span class="line">  height: <span class="number">1</span>rem;</span><br><span class="line">  width: <span class="number">1</span>rem; </span><br><span class="line">  border-radius: <span class="number">0</span>rem;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>标红的一串路径是图标的位置，我们要把这个路径中图标的名字改成和images文件夹中图标的名字一样。</p>
-<p>比如我往images文件夹内放入了b.svg，那么上面那串红色路径，就应该是’/images/b.svg’。修改好后保存文件。</p>
-<p>打开主题的配置文件，找到自己要加图标的那行链接。</p>
-<p>上文的fa-bangumi就是在图标引用时候的名称，可以自定义。引用时和引用Font Awesome图标一样。</p>
-<p>格式按照fab+图标名即可</p>
-<p>哦对了，所有图标都是这样，要在前面加一个fab，引用Font Awesome图标也是。</p>
-<p>要引入多个图标，复制上方代码再另起一行粘贴到代码底下，改一下fa-bangumi和路径名字即可。</p>
-<p>最后到主题的配置文件的custom_file_path这行，找到style一行，把style前面的注释去掉即可。</p>
-<p>如果发现图标显示不正常，先检查下载的SVG图标文件是否正常，再排查Font Awesome图标库内已有这个图标，引用了双重图标重叠导致的问题的可能性。</p>
-<h5 id="重启Valine评论">重启Valine评论</h5>
-<h6 id="正常操作">正常操作</h6>
-<p>在新版本，已经移除了Valine评论系统。但Next官方提供的评论系统感觉都不太好用，要不就是国内的畅言太多无关紧要的东西，要不就是国外的评论网站访问是个大问题，要不就是以github为基础的评论系统管理评论太不方便。我决定还是引用回valine。</p>
-<p>打开根目录下，打开git bash here，输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install next-theme/hexo-next-valine</span><br></pre></td></tr></table></figure>
-<p>这时候valine会下载到node_modules\hexo-next-valine这个路径下，打开这个路径找到default.yaml，把配置文件复制加到主题配置文件的底下。</p>
-<p>调好valine的app key和app id，然后找到主题配置文件的comments:一栏。</p>
-<p>下面的active:一栏设置为valine，再一下面一点的lazyload:调成false，最后保存。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq23013617022915519020230625223640.webp" alt></p>
-<p>打开网页后发现valine评论已经被启用，但是却用不了，提示Code 401: 未经授权的操作,请检查你的AppId和AppKey</p>
-<p>解决办法是到自己的leancloud设置-应用凭证内找到rest api复制服务器地址，然后粘贴到刚刚valine在主题配置文件的serverURLs:一栏，即可解决。</p>
-<h5 id="更换成Waline评论系统">更换成Waline评论系统</h5>
-<p>因为valine已经好久不更新了，而且有着一些比较高危的系统漏洞存在。在综合考虑下，我还是决定更换成更强大的waline评论系统。</p>
-<p>检查一下自己的leancloud账户是否是国际区，如果是国内版本，请使用原来的账户重新注册一个国际版本的。（由于国内版比较麻烦）之后利用leancloud的导入导出数据功能，将数据转移至国际版本，最后把国内版的应用删除掉。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709211650951.png" alt="image-20230709211650951"></p>
-<p>(旁边就是删除应用的选项)</p>
-<p>如果先前没有使用过leancloud，请先创建账户，再创建一个应用。</p>
-<p>由于waline是一个需要后端支持的评论系统，需要创建一个后端。常见的方法是部署在vercel，raliway等云服务平台。</p>
-<p>waline官方这里给出了详细的部署到各个平台的办法。<a href="https://waline.js.org/guide/deploy/">https://waline.js.org/guide/deploy/</a></p>
-<p>在官方没有提到的其他平台上部署，也可以参照教程上部署的方法来进行，可以举一反三，参照着部署。</p>
-<p>这里我首推vercel部署，以下部署以vercel进行。</p>
-<p>按照官方给出的vercel教程部署即可。<a href="https://waline.js.org/guide/deploy/vercel.html">https://waline.js.org/guide/deploy/vercel.html</a></p>
-<p>在添加环境变量一页，key一列是变量名称，value是变量的值。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709214426350.png" alt="image-20230709214426350"></p>
-<p>添加一个变量后，点击add another在下方添加一行变量行，再填写变量。以此类推，最后填写完所有的变量后。点击save，一次性将所有的变量值添加进这个项目。</p>
-<p>在官方的这里给出的教程之上，添加完关于leancloud的三项变量后，我们最好再添加多两项环境变量。</p>
-<p>SITE_NAME和SITE_URL</p>
-<p>前者是网站的名字，后者是网站的网址。请自行根据自己情况进行添加。</p>
-<p><strong>要在这里补充的是，在每一次删减添加更改环境变量后都需要到Deployments一页找到最上面的一次部署（即距今最后的一次部署）点击右侧的点然后点击Reploy进行重新部署。</strong></p>
-<p>在重新部署成功后，回到创建的项目的首页。找到domains一项，这里是waline评论系统的后端的url。</p>
-<p>接着在本地hexo目录下安装和配置waline系统和上面添加valine的步骤基本一致。在hexo根目录打开git bash</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install @waline/hexo-next</span><br></pre></td></tr></table></figure>
-<p>在根目录下的node_modules文件夹内找到waline打开default.yaml，把里面所有的配置文件复制，加到主题配置文件的底下。</p>
-<p>enable一项改为true，serverURL一项填写你刚刚在vercel项目首页看到的waline评论系统的url。</p>
-<p>其他选项一般不用改动，可以自己研究研究。</p>
-<p>把主题配置文件的active 一项改为 waline，并确保其他评论系统的enable一项为false</p>
-<p>在hexo根目录打开git bash输入hexo s，在随意一个评论区下点击注册，第一个注册的人将成为这个网站评论系统的管理员，所以我们要开hexo s而不是d来确保自己是第一个注册账户的人。</p>
-<p>最后hexo cl hexo g hexo d上传github部署。</p>
-<p>这样，我们的waline评论系统就搭建好了。</p>
-<h6 id="解决无法访问">解决无法访问</h6>
-<p>国内的vercel.app域名已经被污染无法打开，除非打开梯子否则评论系统无法访问。</p>
-<p>解决方案都是通过添加自己的域名到vercel来绕过。</p>
-<p>如果是eu.org这类申请的免费域名，在申请的时候填写DNS服务时，写上<code>ns1.vercel-dns.com``ns2.vercel-dns.com</code>这两个DNS地址。Check for correctness of这里选择第一个就好，默认选择的第三个无法通过验证。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709220006750.png" alt="image-20230709220006750"></p>
-<p>在获得域名后，在vercel添加自己的新域名，然后删除原来vercel自动分配的长域名，最后到Deployment一页，选择最上面的一次部署点击重新部署。这样，新的部署就会默认以你自己添加的域名来运行。</p>
-<p>然而eu.org的审批我已经等了一个多星期了，一点音讯都没有，我决定还是自己买一个域名。</p>
-<p>首先购买一个域名（废话），来到vercel项目的设置一页的域名选项。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709220757909.png" alt="image-20230709220757909"></p>
-<p>添加自己的域名，点击add。之后会出现一个选框，我们选第一个，直接add即可。<img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709220907224.png" alt="image-20230709220907224"></p>
-<p>这个是问你是否添加www+域名和域名这两项。</p>
-<p>打开自己购买域名的dns选项</p>
-<p>按照vercel的提示来添加dns选项</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230709221409297.png" alt="image-20230709221409297"></p>
-<p>添加dns选项，网站可用后，再到deployment一项重新部署</p>
-<p>再到本地hexo目录下找到主题配置文件，把waline的serverURL这一项的网站改为自己的域名（我就是忘了这步）</p>
-<p>最后hexo d重新上传即可使用。</p>
-<h6 id="邮箱提醒">邮箱提醒</h6>
-<p>为了添加邮箱提醒，要多在vercel中添加几项环境变量。</p>
-<p>一定要填写的：</p>
-<table>
-<thead>
-<tr>
-<th>SMTP_USER</th>
-<th>这项是用户名，填写自己的邮箱地址</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>SMTP_SECURE</td>
-<td>看自己选择的发送邮箱平台是否支持SSL，是的话选择ture,否则false</td>
-</tr>
-<tr>
-<td>SENDER_NAME</td>
-<td>发件人，填写自己的名字即可</td>
-</tr>
-<tr>
-<td>SENDER_EMAIL</td>
-<td>填写自己的发件邮箱</td>
-</tr>
-<tr>
-<td>SMTP_PASS</td>
-<td>一般为自己邮箱密码（部分如163、qq这类邮箱有另设的密码，上网查查如何开启即可）</td>
-</tr>
-</tbody>
-</table>
-<p>分选择填写的：</p>
-<table>
-<thead>
-<tr>
-<th>SMTP_SERVICE</th>
-<th>邮箱平台，我这里选择QQ。</th>
-</tr>
-</thead>
-</table>
-<p>点<a href="https://github.com/nodemailer/nodemailer/blob/master/lib/well-known/services.json">这里</a> 查看支持的邮箱平台和端口、地址。</p>
-<p><strong>选择填写了SMTP_SERVICE的话，就不需要再填写SMTP_HOST和SMTP_PORT这两项，两者任选其一</strong></p>
-<p>填写好后，到deployment页面重新部署使环境变量生效。邮箱提醒功能就成功生效了。</p>
-<p>如果和更换域名一起进行，一定要先完成更换域名这一步再进行这一步，否则邮箱提醒不生效。</p>
-<p>还可以更换自己的邮箱通知样式，不过找不到储存邮箱样式的文件，暂时不改了。</p>
-<h6 id="其他一些自定义变量">其他一些自定义变量</h6>
-<p>评论系统的自定义很大程度上可以通过删减添加环境变量来实现，比如隐藏评论者的浏览器UA，IP属地等等</p>
-<p><a href="https://waline.js.org/reference/server/env.html">https://waline.js.org/reference/server/env.html</a></p>
-<p>在这里查看所有的环境变量</p>
-<h6 id="官方文档">官方文档</h6>
-<p><a href="https://waline.js.org/guide/">https://waline.js.org/guide/</a></p>
-<p>这里有waline的一些自定义教程，官方文档很重要。</p>
-<h6 id="其他的评论系统">其他的评论系统</h6>
-<p>Artalk貌似不错 <a href="https://artalk.js.org/">https://artalk.js.org/</a></p>
-<h5 id="网站背景和左上角卡片背景修改">网站背景和左上角卡片背景修改</h5>
-<p>依旧是在style.styl文件内，另起一行，加入以下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">  background-image: url();</span><br><span class="line">    background-repeat: no-repeat;</span><br><span class="line">    background-attachment:fixed; //不重复</span><br><span class="line">    background-size: cover     //填充</span><br><span class="line">    background-position:50% 50%;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>一般来说直接复制粘贴默认就行。</p>
-<p>而如果要调整页面的透明度，再按照老方法来是不行了。新的做法是</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//###### 博客内容透明化 ######</span><br><span class="line"></span><br><span class="line">:root &#123;</span><br><span class="line">  --content-bg-color:#ffffffe6;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>#ffffffe6应该是透明色的代码，可以根据自己想要的透明度的大小来选择。</p>
-<p>这样就OK了</p>
-<p>参考的文章<a href="https://hui-shao.cn/next-transparent-background/">https://hui-shao.cn/next-transparent-background/</a></p>
-<p>而如果要调左上角这个卡片，方法应该大同小异，更新后我已经懒得改了，自行探索吧。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq23013617022915519020230625225005.webp" alt></p>
-<h5 id="增加暗-亮切换模式按钮">增加暗/亮切换模式按钮</h5>
-<p>新版本新增了深色模式模式，但是发现深色模式下在当前背景下的字体的可见度降低很多。如果要新增这个按钮，应该需要较为突出博文文字的背景，深色模式才算可用。否则深色模式下字体亮度降低，文字变得不可视。因此这个计划暂时搁浅。增加的方法应该在网上可以搜得到。</p>
-<h5 id="Sitemap站点地图添加">Sitemap站点地图添加</h5>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
-<p>第一个是通用的，第二个是百度的，百度搞特殊。自己按需选择安装。</p>
-<p>然后打开根目录下的config.yml，更改config.yml，把URL改成自己的域名。这个URL要全称。</p>
-<p>生成的站点文件在根目录下的public文件夹内。</p>
-<p>想更改域名其实还有另外一种办法，就是直接更改插件的Default模板文件。具体看这篇文章。</p>
-<p><a href="https://zhuanlan.zhihu.com/p/31411755">修改hexo sitemap 生成插件中的链接模板</a></p>
-<p>最后再在各个搜索引擎的站长工具里提交自己的站点地图。</p>
-<h3 id="参考资料：">参考资料：</h3>
-<p><a href="https://blog.csdn.net/qq_41603102/article/details/117203360">Hexo+Next8的升级踩坑之旅_小牛呼噜噜的博客-CSDN博客</a></p>
-<p><a href="https://blog.csdn.net/Bennnnnnn/article/details/128000842">Hexo-Next主题搭建个人博客最新配置教程！_hexo next主题配置_Bennnnnnn的博客-CSDN博客</a></p>
-<p><a href="https://blog.51cto.com/u_11767891/5557620">Hexo + NexT 通过自定义样式添加 Bilibili 图标_11757891的技术博客_51CTO博客</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/424932976?utm_id=0">Next主题设置-安装Valine和Artitalk - 知乎</a></p>
-<p><a href="https://www.google.com/search?q=Code+401%3A+%E6%9C%AA%E7%BB%8F%E6%8E%88%E6%9D%83%E7%9A%84%E6%93%8D%E4%BD%9C%2C%E8%AF%B7%E6%A3%80%E6%9F%A5%E4%BD%A0%E7%9A%84AppId%E5%92%8CAppKey.&amp;newwindow=1&amp;source=hp&amp;ei=wamVZNvXKczk2roP2_aU8As&amp;iflsig=AOEireoAAAAAZJW30ZmwgiOgpwZQuEB_FTI3Pu9de0WY&amp;ved=0ahUKEwibvJ7sytn_AhVMslYBHVs7Bb4Q4dUDCAk&amp;uact=5&amp;oq=Code+401%3A+%E6%9C%AA%E7%BB%8F%E6%8E%88%E6%9D%83%E7%9A%84%E6%93%8D%E4%BD%9C%2C%E8%AF%B7%E6%A3%80%E6%9F%A5%E4%BD%A0%E7%9A%84AppId%E5%92%8CAppKey.&amp;gs_lcp=Cgdnd3Mtd2l6EANQAFgAYJYDaABwAHgAgAHaAogB2gKSAQMzLTGYAQCgAQKgAQE&amp;sclient=gws-wiz">Code 401: 未经授权的操作,请检查你的AppId和AppKey. - Google 搜索</a></p>
-<p><a href="https://blog.csdn.net/qq_34361289/article/details/122424678">(18条消息) Hexo 设置博客背景图片 （NexT 主题 ）_hexo 为文章添加背景_qq_34361289的博客-CSDN博客</a></p>
-<p><a href="https://hui-shao.cn/next-transparent-background/">Hexo + NexT8主题配置透明背景过程踩坑小记 | Hui-Shao’s Blog</a></p>
-<p><a href="https://waline.js.org/guide/">https://waline.js.org/guide/</a></p>
-<h3 id="遗留">遗留</h3>
-<p>Next新版本的主题配置文件有一些选项功能我没有变动，总共以下：</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq22915519023113713520230723170247.webp" alt></p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq22915519023113713520230723170240.webp" alt></p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq22915519023113713520230723170232.webp" alt></p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq22915519023113713520230723170223.webp" alt></p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/b.webp" alt></p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/a.webp" alt></p>
-]]></content>
-      <tags>
-        <tag>建站</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Xbox Cloud Gaming的技巧</title>
-    <url>/5004c50b/</url>
-    <content><![CDATA[<h2 id="1-Header-Editor规则绕过检测">1.Header Editor规则绕过检测</h2>
-<p><strong>该方法在BING AI中已经失效，目前不清楚重定向在xbox cloud gaming是否被ban，推荐使用第二种方法</strong></p>
-<p>第一种办法需要去浏览器中的扩展商店中下载Header Editor，选择添加一个规则。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E6%88%AA%E5%9B%BE20230107151408.jpg" alt>名称随便填，规则类型选择修改请求头，其余两项不用动。下面的头名称填x-forwarded-for（横杆不可少）。头内容选择有Cloud Gaming beta服务的地区或者国家，比如美国或者日本韩国这些。在网上随便搜一些美国IP（比如亚马逊服务器等各大公司的ip)填入。然后保存。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/QQ%E6%88%AA%E5%9B%BE20230107151503.jpg" alt></p>
-<p>如果不能够游玩尝试着把ip最后一个小数点后面调整一下（随便调整，在1-255范围内就行），或者多按几次刷新，两个方法都弄一下基本都能解决，我最多只试过换两次ip。</p>
-<p>游戏到这个时候已经能玩了，但是Header Editor默认全部网站都开启这个规则，我们如果需要更智能化，就要去扩展程序管理点击Header Editor的详情修改成特定网站上使用</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107151804.png" alt></p>
-<hr>
-<h2 id="2-油桃工具绕过检测">2.油桃工具绕过检测</h2>
-<p>或者比较方便的方法是使用油桃的脚本Xbox CLoud Gaming优化整合</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20230107152049.png" alt></p>
-<p><a href="https://greasyfork.org/zh-CN/scripts/455741-xbox-cloud-gaming%E4%BC%98%E5%8C%96%E6%95%B4%E5%90%88">点此打开脚本网站</a></p>
-<hr>
-<h2 id="XGPU键盘映射手柄">XGPU键盘映射手柄</h2>
-<p>如果在电脑上没有手柄可以试着用XOutput把键盘按键映射成手柄来玩一些只能手柄玩的游戏。</p>
-<p>更多内容，教程在b站的大佬就默默在的视频可以看到 <a href="https://space.bilibili.com/242130146">链接在此</a></p>
-<hr>
-<h2 id="手机上游玩">手机上游玩</h2>
-<p>使用手机XGP的时候，在game pass上有可能会闪退，这个时候我们要开飞行模式，还不行就要开系统英文。<br>
-手机上UU加速game pass是免费的所以不用担心。但是有时候跑不满速度。需要加一个代理。进入WIFI设置内设置高级，选择手动代理，ip选择192.168.7.2,  端口选择1082，然后保存。</p>
-]]></content>
-      <tags>
-        <tag>Games</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何备份hexo源文件到github上</title>
-    <url>/3f16b169/</url>
-    <content><![CDATA[<h2 id="本地文件备份过程">本地文件备份过程</h2>
-<p>在写文章的过程中，当然希望把源文件也保存下来，于是就着手研究了一下<Br></Br></p>
-<span id="more"></span>
-<p><s>有直接的备份插件，早知道就不搞那么麻烦了QAQ</s></p>
-<p>首先.gitignore这个文件，直接通过新建txt更改名字是不识别的，说多了都是泪。应该在git下输入命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">touch .gitignore</span><br></pre></td></tr></table></figure>
-<p>hexo的根目录下也有一个.gitignore文件，是为了hexo d部署时忽略掉不需要的文件。为了我的.gitignore不被hexo的.gitignore影响，我在hexo根目录的上一级文件夹git init。</p>
-<p>因为node_modules文件夹内太多模块，git add .会很久。我选择只add文件夹node_modules下的.package-lock.json文件，根据这个json文件，npm就可以把全部模组再次下载下来。</p>
-<p>于是在.gitignore内添加两行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">myblog/node_modules/*</span><br><span class="line">!myblog/node_modules/.package-lock.json</span><br></pre></td></tr></table></figure>
-<p>前面的myblog是我hexo根目录文件夹的名字，自己使用需要改成自己文件夹的名字。</p>
-<p>git add .的时候遇到了问题，git提示我主题next下有.git，无法提交。</p>
-<p>实际上这个.git是主题开发者开发主题时遗留下来的，直接删除这个文件夹就行。</p>
-<p>再次add .会提示.deploy_git文件夹内有.git，于是再在.gitignore添加一行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.deploy*/</span><br></pre></td></tr></table></figure>
-<p>这时候可以正常的git add commit 和push了，可是上传上去发现少了一些文件？</p>
-<p>这是因为hexo根目录下的.gitignore在作怪，两个.gitignore一起生效，把一些提交文件给忽略了。</p>
-<p>我没有办法找到忽略hexo根目录下的.gitignore的办法，但是我想起来之前折腾很久的.gitignore不生效问题，也许我把hexo根目录下的.gitignore加个后缀txt，git就不识别了呢？</p>
-<p>测试了一下真的可行，而且hexo d的时候hexo还是识别到了自己根目录下的.gitignore，部署时还是忽略掉了不需要的文件，没有问题。</p>
-<hr>
-<h2 id="更换设备后的操作">更换设备后的操作</h2>
-<h3 id="另一设备上部署网站到github">另一设备上部署网站到github</h3>
-<p>先git clone 把远程仓库文件下载下来，然后在里面输入命令npm install</p>
-<p>理论上来说hexo也会被下载，如果不能使用，那再手动安装hexo</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-<p>.deploy_git文件夹会在hexo d时生成，所以没有问题</p>
-<p>然后执行命令获取SSH秘钥</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">git config <span class="attr">--global</span> user<span class="selector-class">.name</span> &quot;&quot;</span><br><span class="line">git config <span class="attr">--global</span> user<span class="selector-class">.email</span>&quot;&quot;</span><br><span class="line">ssh-keygen -t rsa</span><br><span class="line">cat /<span class="selector-class">.ssh</span>/id_rsa<span class="selector-class">.pub</span></span><br></pre></td></tr></table></figure>
-<p>不同设备hexo d上去可能会发现commit次数怎么变成一次了？这是因为设备不同commit的ID也不一样，github pages只会挑最后一次commit来形成，无论你是哪个commit id。</p>
-<hr>
-<h3 id="另一设备上备份hexo源文件到另一个github仓库">另一设备上备份hexo源文件到另一个github仓库</h3>
-<p>还是来到hexo根目录下的上一级，直接还是git add commit push走一套流程就行</p>
-<p>因为.git文件夹内的文件没有被修改，那么设置依旧是有效的。</p>
-]]></content>
-      <tags>
-        <tag>建站</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Next主题加载速度优化</title>
-    <url>/70e85511/</url>
-    <content><![CDATA[<p>只有打开的快，才能留得住用户。在使用next主题的过程中我发现有时候手机端刚加载网页出来时候是只有背景的没有文字，文字的加载速度非常之慢。针对这种情况，我开始了对next主题速度的优化。</p>
-<span id="more"></span>
-<hr>
-<h2 id="从哪里找优化点">从哪里找优化点</h2>
-<p>1.<a href="https://pagespeed.web.dev/">PageSpeed Insights</a>可以给自己的网站一个优化全面建议</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq23013617022915519020230125205106.webp" alt></p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/qq23013617022915519020230125205126.webp" alt="qq23013617022915519020230125205126"></p>
-<p>2.chrome自带的Lighthouse工具</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230125210253613.png" alt="image-20230125210253613"></p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230125210351668.png" alt="image-20230125210351668"></p>
-<p><s>实际上就是chrome内置版的PageSpeed Insights</s></p>
-<p>3.同样是Chrome的F12，打开网络一栏，将会在网页加载东西时记录下详细的加载数据，以便查看。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230125210538404.png" alt="image-20230125210538404"></p>
-<hr>
-<h2 id="开始解决">开始解决</h2>
-<h3 id="av-min-js">av-min.js</h3>
-<p>在F12的时候看到av-min.js加载失败，使用了几百毫秒的时间，<a href="http://xn--cdn1-4k0i458g.lncld.net/static/js/3.0.4/av-min.js%E8%BF%99%E4%B8%AA%E7%BD%91%E5%9D%80%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E3%80%82%E8%BF%99%E4%B8%AAjs%E6%9D%A5%E8%87%AAvaline%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD%E6%8F%92%E4%BB%B6%E3%80%82%E4%BA%8E%E6%98%AF%E5%9C%A8%E6%9C%AC%E5%9C%B0%E6%89%93%E5%BC%80valine.swig%E3%80%82">显示cdn1.lncld.net/static/js/3.0.4/av-min.js这个网址无法加载。这个js来自valine评论功能插件。于是在本地打开valine.swig。</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">themes\next\layout\_third-party\comments\valine.swig</span><br></pre></td></tr></table></figure>
-<p>打开文件，把失效的这行地址</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;//cdn1.lncld.net/static/js/3.0.4/av-min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>改为</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>当然如果动手能力强的可以把js文件下载到本地，然后引用本地的js文件。</p>
-<h3 id="更换字体库">更换字体库</h3>
-<p>默认加载的是谷歌字体库，国内访问可能容易出问题，于是换个中科大的源。</p>
-<p>打开next主题底下的_config，找到</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Uri of fonts host. E.g. //fonts.googleapis.com (Default).</span><br><span class="line">host:</span><br></pre></td></tr></table></figure>
-<p>改为</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Uri of fonts host. E.g. //fonts.googleapis.com (Default).</span><br><span class="line">host: //fonts.lug.ustc.edu.cn</span><br></pre></td></tr></table></figure>
-<p>记得host前是有一个空格的，这里已经加上了。这是中科大的镜像地址。</p>
-<p>然后打开external-fonts.swig。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">themes\next\layout\_partials\head\external-fonts.swig</span><br></pre></td></tr></table></figure>
-<p>把这段</p>
-<figure class="highlight sas"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">set</span> font_host = font_config.host | default(<span class="string">&#x27;//fonts.googleapis.com&#x27;</span>) %&#125;</span><br></pre></td></tr></table></figure>
-<p>改为</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% set font_host = font_config.host | default(&#x27;//fonts.lug.ustc.edu.cn&#x27;) %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="开启博文压缩">开启博文压缩</h3>
-<p>我们本地编写是md文件，md文件在部署会转变成html，留下大量的空白和无效空间。利用这个插件可以去掉这些无用的部分。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-neat --save</span><br></pre></td></tr></table></figure>
-<p>在博客根目录的_config底下加上</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 博文压缩</span><br><span class="line">neat_enable: true</span><br><span class="line"># 压缩html</span><br><span class="line">neat_html:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line"># 压缩css  </span><br><span class="line">neat_css:</span><br><span class="line">  enable: true</span><br><span class="line">  exclude:</span><br><span class="line">    - &#x27;**/*.min.css&#x27;</span><br><span class="line"># 压缩js</span><br><span class="line">neat_js:</span><br><span class="line">  enable: true</span><br><span class="line">  mangle: true</span><br><span class="line">  output:</span><br><span class="line">  compress:</span><br><span class="line">  exclude:</span><br><span class="line">    - &#x27;**/*.min.js&#x27;</span><br><span class="line">    - &#x27;**/jquery.fancybox.pack.js&#x27;</span><br><span class="line">    - &#x27;**/index.js&#x27;</span><br><span class="line">    - &#x27;**/fireworks.js&#x27;</span><br></pre></td></tr></table></figure>
-<p>这里已经设置成开启博文压缩，复制后不需再调整</p>
-<h3 id="开启懒加载">开启懒加载</h3>
-<p><strong>在Next新版本中已内置通过js脚本实现懒加载的功能，可卸载原来的插件</strong></p>
-<p>安装</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-lazyload-image --save</span><br></pre></td></tr></table></figure>
-<p>在博客根目录底下的_config最后加上</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">lazyload:</span><br><span class="line">  enable: true</span><br><span class="line">  onlypost: false # optional</span><br><span class="line">  loadingImg: # optional eg ./images/loading.gif</span><br><span class="line">  isSPA: false # optional</span><br><span class="line">  preloadRatio: 3 # optional, default is 1</span><br></pre></td></tr></table></figure>
-<p>这里设置已开启。详细的自定义设置可以自己调节</p>
-<p>onlypost:只对文章内的图片执行懒加载</p>
-<p>loadingImg:图片未加载时的代替图<br>
-但在我hexo d时候发现出现了一大串来自懒加载的warn信息，但是懒加载有正常运行，暂时不理了。</p>
-<p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/1222.jpg" alt></p>
-<h3 id="开启CDN加速">开启CDN加速</h3>
-<p>可以是全局cdn加速，或者单独的图片CDN加速（毕竟博客加载最慢的一定是图片）</p>
-<h3 id="降低文件大小">降低文件大小</h3>
-<p>可以从png和png换成webp，减少网站加载时使用的流量。各个格式的文件大小   png＞jpg＞webp</p>
-<p>webp相较于前面两个格式大大降低图片大小，能用webp尽量用。</p>
-<p>（picgo已经有插件可以自动转图片格式为webp，具体看:<a href="https://www.fillpit.cn/picgo-shang-chuan-tu-pian-qian-zi-dong-ya-suo/%EF%BC%89">https://www.fillpit.cn/picgo-shang-chuan-tu-pian-qian-zi-dong-ya-suo/）</a></p>
-<hr>
-<h2 id="总结">总结</h2>
-<p>在最后把av-min.js调至可用后，手机端的加载速度总算正常。</p>
-<p>除此之外，懒加载，CDN加速和博文压缩这些对于加快加载也有很大的帮助。</p>
-]]></content>
-      <tags>
-        <tag>建站</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>总结了一下还能用的国内镜像ChatGpt</title>
-    <url>/6c71df46/</url>
-    <content><![CDATA[<p>质量可能参差不齐，请自行判断。</p>
-<span id="more"></span>
-<h3 id="咒语和绕过限制">咒语和绕过限制</h3>
-<ul>
-<li><a href="https://qddmercny4.feishu.cn/sheets/shtcnMklYu0WsXEDUXXanrSEB2m">ChatGPT中文提示词秘籍（Prompt圣经）K-Render整理 - 飞书云文档</a></li>
-<li><a href="https://github.com/PlexPt/awesome-chatgpt-prompts-zh/find/main">chatgpt咒语-github</a></li>
-<li><a href="https://www.zhihu.com/question/584786896">new Bing 新增的限制措施破解</a></li>
-<li><a href="https://www.make-safe-ai.com/is-bing-chat-safe/">跳过new bing限制</a></li>
-</ul>
-<h3 id="CHAT-AI">CHAT AI</h3>
-<ul>
-<li><a href="https://chat.extkj.cn/#/chat/1002">Chat机器人</a></li>
-<li><a href="https://wen.geekr.dev/">GeekChat</a></li>
-<li><a href="https://aka.mydog.buzz/">QAChat</a></li>
-<li><a href="https://dev.yqcloud.top/#/chat/1680750727982">仅用于开发学习交流</a></li>
-<li><a href="https://ai.usesless.com/scene">ChatGPT</a></li>
-<li><a href="https://chat.moyunav.com/">ChatGPT</a></li>
-<li><a href="http://omg.j5r4.us/">TDChat</a></li>
-<li><a href="https://chat.aidutu.cn/#/chat/1002">AiDuTu</a></li>
-<li><a href="http://www.chatcleand.xyz/#/home/chat">AI对话</a></li>
-</ul>
-<p>自己做了一个bing ai部署网站。</p>
-<p><a href="https://alphax.up.railway.app/web/#/">https://alphax.up.railway.app/web/#/</a></p>
-]]></content>
-      <tags>
-        <tag>PC</tag>
-      </tags>
   </entry>
 </search>
