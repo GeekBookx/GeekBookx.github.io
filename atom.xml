@@ -6,7 +6,7 @@
   <link href="https://alphax.top/atom.xml" rel="self"/>
   
   <link href="https://alphax.top/"/>
-  <updated>2023-10-22T06:47:52.165Z</updated>
+  <updated>2023-10-29T07:14:11.358Z</updated>
   <id>https://alphax.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>windows11 22H2+Chrome 个人遇到的bug总结</title>
+    <link href="https://alphax.top/3283f024/"/>
+    <id>https://alphax.top/3283f024/</id>
+    <published>2023-10-29T07:05:00.000Z</published>
+    <updated>2023-10-29T07:14:11.358Z</updated>
+    
+    <content type="html"><![CDATA[<p>.</p><span id="more"></span><p>目前情况：</p><p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20231029150716.png" alt></p><p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/20231029150750.png" alt></p><p>1.开游戏窗口化未禁用全屏优化的情况下游戏卡</p><p>解决 alt+enter两次，先切到全屏再切回来，或者直接全屏玩。或者关闭全屏优化。</p><hr><p>2.任务栏闪烁</p><p>触发条件：左或右击任务栏再点击其他地方</p><p>无解。</p><hr><p>3.按alt+tab后松开按键，但无法切换到对应窗口而是卡在选择界面</p><p>无解</p><hr><p>4.Chrome或者使用chrome内核的浏览器在下滑浏览视频评论区，或者打开新视频页面时闪屏。</p><p>网上解决办法众说纷纭，有说要开独显直连的，有说浏览器进程开高性能模式让独立显卡调用的，有说关闭平滑浏览的，有说关闭硬件加速功能的。</p><p>个人猜想是windows调用显卡加速又出问题了。有人说是一年前nvidia就没修复的问题。</p><p>亲测关闭平滑滚动无效，也许浏览器进程开高性能模式会有效果</p><p>关闭硬件加速功能能不关就不关，毕竟影响性能。</p><p>和我相同的情况的例子：<a href="https://www.bilibili.com/video/BV1qj411C7nD">https://www.bilibili.com/video/BV1qj411C7nD</a></p><p>问题集合地：<a href="https://search.bilibili.com/all?keyword=%E6%B5%8F%E8%A7%88%E5%99%A8%E9%97%AA%E5%B1%8F&amp;from_source=webtop_search&amp;spm_id_from=333.1007&amp;search_source=5">https://search.bilibili.com/all?keyword=浏览器闪屏&amp;from_source=webtop_search&amp;spm_id_from=333.1007&amp;search_source=5</a></p><p>总结的最清楚的一集：<a href="https://www.bilibili.com/video/BV12H4y1Z7mD">https://www.bilibili.com/video/BV12H4y1Z7mD</a></p><hr><p>5.电脑空载或者低负载日常使用情况下低概率 屏幕顶上一部分闪黑屏。</p><p>我也不知道怎么找原因。无解。</p><hr><p>6.office屏幕顶上一部分闪黑屏</p><p>有人反馈office闪屏的问题通过关闭office内硬件加速功能解决了。具体方法为打开office设置中的高级一栏，勾上“禁用硬件加速”</p><p>office闪黑屏的情况和桌面空载完全相同，如果我个人真的通过禁用硬件加速的方式解决了office闪屏的问题，那可能windows桌面的问题也是一样，那么说明22H2整个系统或者资源管理器进程调用显卡的功能都出了问题。。。。。。。</p><hr><p>7.windows动画掉帧</p><p>不清楚是从盘读写占用太大的时候出现的问题，还是windows更新文件把动画更新卡了。</p><p>但把windows更新文件卸载到如文章开头图片所示的情况后，该问题暂时没有再出现过。</p><hr><p>文章内写的问题都只是总结，不代表都能解决，有些问题放到现在也还没能解决。如果有解决办法和原因，我会把文章更新。</p><p>总结，能别更新别更新，更新了有问题的就去删更新文件，win11依托史。</p><p>要不是大小核我也不想用11。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="PC" scheme="https://alphax.top/tags/PC/"/>
+    
+  </entry>
   
   <entry>
     <title>百度网盘CE变速齿轮解锁</title>
@@ -396,25 +415,6 @@
     
     
     <category term="随笔" scheme="https://alphax.top/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何给自己的博客添加404页面</title>
-    <link href="https://alphax.top/fedbcad4/"/>
-    <id>https://alphax.top/fedbcad4/</id>
-    <published>2023-02-18T10:56:28.000Z</published>
-    <updated>2023-07-30T15:49:30.363Z</updated>
-    
-    <content type="html"><![CDATA[<p>​</p><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page 404</span><br></pre></td></tr></table></figure><p>在index.md内写以下内容</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404</span><br><span class="line">date: 2023-02-18 17:15:39</span><br><span class="line">comments: false</span><br><span class="line">permalink: /404.html</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&lt;!-- markdownlint-disable MD039 MD033 --&gt;</span><br><span class="line"></span><br><span class="line">## 这是一个不存在的页面</span><br><span class="line"></span><br><span class="line">对不起，您所访问的页面不存在或者已删除。</span><br><span class="line"></span><br><span class="line">预计将在约 &lt;span id=&quot;timeout&quot;&gt;5&lt;/span&gt; 秒后返回首页。</span><br><span class="line"></span><br><span class="line">当然，你可以 **[点这里](https://Alphax.top)** 直接返回首页。</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">let countTime = 5;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">function count() &#123;</span><br><span class="line"></span><br><span class="line">  document.getElementById(&#x27;timeout&#x27;).textContent = countTime;</span><br><span class="line">  countTime -= 1;</span><br><span class="line">  if(countTime === 0)&#123;</span><br><span class="line">    location.href = &#x27;https://alphax.top&#x27;;</span><br><span class="line">  &#125;</span><br><span class="line">  setTimeout(() =&gt; &#123;</span><br><span class="line">    count();</span><br><span class="line">  &#125;, 1000);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">count();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure><p>记得把alphax.top改成自己的域名，才能正常回到首页。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;​&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="建站" scheme="https://alphax.top/tags/%E5%BB%BA%E7%AB%99/"/>
     
   </entry>
   
