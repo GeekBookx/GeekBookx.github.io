@@ -6,7 +6,7 @@
   <link href="https://alphax.top/atom.xml" rel="self"/>
   
   <link href="https://alphax.top/"/>
-  <updated>2024-03-28T00:53:37.894Z</updated>
+  <updated>2024-04-21T09:08:26.528Z</updated>
   <id>https://alphax.top/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tel联系</title>
+    <link href="https://alphax.top/66efabfe/"/>
+    <id>https://alphax.top/66efabfe/</id>
+    <published>2024-04-21T09:06:37.000Z</published>
+    <updated>2024-04-21T09:08:26.528Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="2e9e6b59447f7c53c00119d17e2eb319df08fb3cd1a5c008e2c773a2e6e12eeb">25193ae2d4aad5d9de1840ffda4667743a6ad8f8846964002c942b56455b237275b45a59068931bdb8c506583a47198e61a96d1fb3334dc5946e92a8dd6ae7e667e433f7dd1b42aaeef459172113c5161ced68b7c5b81aae36d2983004915bb96e57aa2eb01ab3a73d7847ed4b68b99668b353a141f65425b5738f2dcbd1192f8a3e1ed9f146c3614412474eb482950cd20502dd615a56448b92e848fe73abfb35e3f2ce70af4e50cfd35756832ec9b8478dbf7cd50a4f46d4a62d455e61364acfa65f93ceaef71cb5f1941f0e744365b93eb16bef705dc949853707a4551571946349b9077a0d43d8168d73ee11720a6cbf435f22101c011f0f6515f6f76a69f69da88d86539168caa936f6e88039ee13fe7f125b285f93bcd8eba665b7956cd35e66fcc63974742421dc93717000f56521717997dc95c57c1b33f503bdc98c7189dd1f3ff4442da358ff16b8ee51365be33e799167941521ed39d2a3f2cbbf93a5e3477bd022aaed07d56940040585f1fbbc036655e190484d1be5960e0628671d573f318626f773aa7eca86e8a770f713b7f8bd86ac0c7928f4eecf34a32de97e9626a552a58830b7181eccbe760089af270da83bcae171d19c3d54c7ec36dae3de57c50fadfe4ab04d784f2a174073b67518cbf01b16bcd21cff13ffe1ee7aab14534221863d8787a4418c87f9b4b949a429b06ca1de12b5793321f091fe</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这里需要密码才能访问。</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">这是一篇加密博文，请输入密码后查看</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>vn007</title>
@@ -382,25 +399,6 @@
     
     
     <summary type="html">&lt;p&gt;项目地址：&lt;a href=&quot;https://github.com/adams549659584/go-proxy-bingai#Docker&quot;&gt;https://github.com/adams549659584/go-proxy-bingai#Docker&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="PC" scheme="https://alphax.top/tags/PC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>cmd如何快速打开指定路径</title>
-    <link href="https://alphax.top/e0b2f28c/"/>
-    <id>https://alphax.top/e0b2f28c/</id>
-    <published>2023-06-13T12:08:48.000Z</published>
-    <updated>2023-07-30T15:49:30.365Z</updated>
-    
-    <content type="html"><![CDATA[<p>.</p><span id="more"></span><p>电脑cmd转为指定的路径用cd命令非常麻烦</p><p>最近找到一个比较方便的办法</p><p>直接在资源管理器对应的路径下把路径删除，输入cmd</p><p>打开的cmd窗口直接已经在这个路径下了</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;.&lt;/p&gt;</summary>
     
     
     
