@@ -269,11 +269,14 @@
     <div class="post-body" itemprop="articleBody"><div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <script id="hbeData" type="hbeData" data-hmacdigest="2e9e6b59447f7c53c00119d17e2eb319df08fb3cd1a5c008e2c773a2e6e12eeb">25193ae2d4aad5d9de1840ffda4667743a6ad8f8846964002c942b56455b237275b45a59068931bdb8c506583a47198e61a96d1fb3334dc5946e92a8dd6ae7e667e433f7dd1b42aaeef459172113c5161ced68b7c5b81aae36d2983004915bb96e57aa2eb01ab3a73d7847ed4b68b99668b353a141f65425b5738f2dcbd1192f8a3e1ed9f146c3614412474eb482950cd20502dd615a56448b92e848fe73abfb35e3f2ce70af4e50cfd35756832ec9b8478dbf7cd50a4f46d4a62d455e61364acfa65f93ceaef71cb5f1941f0e744365b93eb16bef705dc949853707a4551571946349b9077a0d43d8168d73ee11720a6cbf435f22101c011f0f6515f6f76a69f69da88d86539168caa936f6e88039ee13fe7f125b285f93bcd8eba665b7956cd35e66fcc63974742421dc93717000f56521717997dc95c57c1b33f503bdc98c7189dd1f3ff4442da358ff16b8ee51365be33e799167941521ed39d2a3f2cbbf93a5e3477bd022aaed07d56940040585f1fbbc036655e190484d1be5960e0628671d573f318626f773aa7eca86e8a770f713b7f8bd86ac0c7928f4eecf34a32de97e9626a552a58830b7181eccbe760089af270da83bcae171d19c3d54c7ec36dae3de57c50fadfe4ab04d784f2a174073b67518cbf01b16bcd21cff13ffe1ee7aab14534221863d8787a4418c87f9b4b949a429b06ca1de12b5793321f091fe</script>
   <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-up">
-      <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>
-      </label>
+    <div class="hbe hbe-input hbe-input-up" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+      <div style="position: relative; width: 100%;">
+        <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass" style="width: 100%;">
+        <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">
+          <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>
+        </label>
+      </div>
+      <button role="button" id="confirmButton" style="width: 100%;">Confirm</button>
     </div>
   </div>
 </div>

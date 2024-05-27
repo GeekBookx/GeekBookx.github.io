@@ -263,11 +263,14 @@
     <div class="post-body" itemprop="articleBody"><div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <script id="hbeData" type="hbeData" data-hmacdigest="4e712be104012305b18b0b797bc1dbb67ebe9d6cb3560f04595b64fb5fdf9bc3">25193ae2d4aad5d9de1840ffda466774246530fd76256a84fc11a87dc095ac2d</script>
   <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-up">
-      <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>
-      </label>
+    <div class="hbe hbe-input hbe-input-up" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+      <div style="position: relative; width: 100%;">
+        <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass" style="width: 100%;">
+        <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">
+          <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>
+        </label>
+      </div>
+      <button role="button" id="confirmButton" style="width: 100%;">Confirm</button>
     </div>
   </div>
 </div>

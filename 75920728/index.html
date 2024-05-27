@@ -285,11 +285,14 @@
     <div class="post-body" itemprop="articleBody"><div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <script id="hbeData" type="hbeData" data-hmacdigest="3c9660dec1faeeb0f7b9bc15cd15f7735188b662e3f4f94c72558c5c4ce17c1a">25193ae2d4aad5d9de1840ffda46677440f2ecef49c290af5876782811f9712250965a581a397df3bf1316c836381047be04b962f442af29c81126ba7ccbd2fbad04e204c296bcfbc9a7de7bf9250e58051c71a4ddcf58f6446e187e82ed6bcefbfb5b127c76f91de76b93ce9f3fad009948edcd153bbcbf43472a3e111d0b12c2a6a818985d95310e41a09e48c20d6460ef49cd99717433690f8cd419a9fbd809bf6d8a8ffcef0fdbca7a62b253891f152b4365ee8511f6559fc5e33a461ec61df3a915720b07f97bd8389b3b240e33ff2726ed49a3b92b6d8705a226963abd77a6d482e01ad5311fbb78b08b27f2f583470ad83a8fa47a486494e9741dbf95c8dc2b17683cfd8a028a856d5ee81c84e4efd5ea5b70986dd079e74331f1045471e72fb5fade8122ab86e9988d1771e8fa9b95b1f828cda19a99c0e21c786c1e924032fd0a3b043d9fca263922292a7affd7cb876a167a6261f27ab9b7decc57d14ee6a3915ded72ef95d5f510c709bf863efeb34a1f2f03620c6aa4a205844326af7c572c2e466dea599b2fcaa61b5f6338f6cada91da7d7b83711a9db41f361799aff1956aa7c9e662a988145e3b3f66591a8b62e7096016c5c22ee015151940e6600a055f70bb6a697d510e62c7556e405120361809e48f2e6b657cfd6d3bb2790a41ee8da0729c01bee6be80faccf147700be567a5300a6a17261b028197cb97397f85155107404929894c1c1b00e7ece0c3ebde391c26645f9749efbf82d0f0be23ac4eda2a2e25f2afb4ab76898451d3bc04193a22af2c1f2d88dc366998a17750bf2c469a98f0579081edeebe7434e58d8c17c8dadd1dd37b78751d4749f8f2babbd6c1b8a27893798a9b02b45286a9cb5f9bafa4127909f4f96cbf28e0498fdb7c68d0efdb8b65cb56dbed56f43f0f423ccd5e5f6de9dc1cb817c7fff3bf42241f969ec3b691709c19cc740eeab4fef77285c5e9854c1577719fcc072535f9015d553547d6d0d81125cc540efe0d751e19c51256cc6119eb66a0fc82e6789645c7dbe5188ba3078b0380c8aa34dfe275c047c2f13b9a0bb029896b9053fac4aa4088472dbd0c2d4222225ec53e88c51b8da9f9ae3151c086ead3cb60cb226152a345c3e699d5179fa09e4f4d</script>
   <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-up">
-      <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>
-      </label>
+    <div class="hbe hbe-input hbe-input-up" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+      <div style="position: relative; width: 100%;">
+        <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass" style="width: 100%;">
+        <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">
+          <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>
+        </label>
+      </div>
+      <button role="button" id="confirmButton" style="width: 100%;">Confirm</button>
     </div>
   </div>
 </div>

@@ -285,11 +285,14 @@
     <div class="post-body" itemprop="articleBody"><div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <script id="hbeData" type="hbeData" data-hmacdigest="77b77de54785fd23c946ac21165c6b0fbbf9074a566c84ab67deeb28b03c4f02">25193ae2d4aad5d9de1840ffda4667742a3cd5268e07ca21a80b01cf6db7c1019150243e9052a561268ef764f1d28b59f64a20f90c1c38be4ac8484f31aa0ac39887f639d43bb38d9a410c355c62e1fa57f5ef5dd47eb9302655901d1390085fd586a15ecf8f66ee9889e61ae1e471a59b7c83eaa46d8b44e63e996ff8d8e970965f8d0a4bea9eb407e7131e65177d35027b1aec9c42f2e761b779e670bfdb6378cc3a08482b0619efd961527173313de22766a426ec47ba00f5b401bb97adc298cd5f64e77322cde9ba8b52e45a5abcb10834bf17ff12493ee2f82b52962adfc0c85ca5cf2f04e95bc713dec25aba202f6242054f35a786ceb837bbad18f1e683fb14b2da4ec19a47e3899165a8295a6b6324933deecd76acaa592393666fe1a65fa7a423593c85569919a9262624f7dabca30c76f0166230b25a808e97d7fcac06e66ffd0bff527bdb3d46fd6d2c5e9cea1e9697645343a9d02f8b32ca2e5812fb1178998475aba3baae4d22477136bb805652a04dfa00a346393b418eb519cd195e1f18191aa4dc913bf0a41369087b6614c3c940078b7e9bdd141865496f</script>
   <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-up">
-      <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>
-      </label>
+    <div class="hbe hbe-input hbe-input-up" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+      <div style="position: relative; width: 100%;">
+        <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass" style="width: 100%;">
+        <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">
+          <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>
+        </label>
+      </div>
+      <button role="button" id="confirmButton" style="width: 100%;">Confirm</button>
     </div>
   </div>
 </div>

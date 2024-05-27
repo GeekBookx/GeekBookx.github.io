@@ -285,11 +285,14 @@
     <div class="post-body" itemprop="articleBody"><div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <script id="hbeData" type="hbeData" data-hmacdigest="9f67095298f97ba307918874a76ee9739e0a9c61f592108aa086bec045bdfae6">25193ae2d4aad5d9de1840ffda466774fa66fba8521ae98dc1a10bc9fcab220cf1ee28026dfba04583c8eb3e17d7ff62b0ba299e67f8c8bce329078d3d087547d7448c6477a0ee1eeaa1b657b5d021a565ce0dc3e22f38aa4de3e2e4b3f1eefebae3f162863ea6938e78b27233a42d0bc5fe148468e833dbecb9d905f3b45395362c49ce96c721f1617b10073a84ac5ada24c1f9fc4bba216b9bb2c6a5f930c6c7d4e90fdd340151dfeffb1c7901bf6884238dad8e87c5b26fc8a31c59584b40a8469e0faeb2cd1f426be53eac225eaa27bb27bdf937c558cb31d5feae433fb3acdcb4de43c965598ae1aa71518fb1292e3e0c468d6f658c9f9ca6fd8e6156eca837fb6177a54e2b64992951c2e9c290aa914476cd79bde397f7e7aca7b3f5e5c22080fce0d4bbff56024e6302db8a4eba5dabd211539294ec0d31af9324bbb96b934e379c55752587b46079a3be81314730f6ee5436c8f47591ca670029780ab1b99906f8168c986e48dc23bf703d9ed4e4052c542c0dcedc99434c35f3cad5</script>
   <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-up">
-      <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>
-      </label>
+    <div class="hbe hbe-input hbe-input-up" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+      <div style="position: relative; width: 100%;">
+        <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass" style="width: 100%;">
+        <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">
+          <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>
+        </label>
+      </div>
+      <button role="button" id="confirmButton" style="width: 100%;">Confirm</button>
     </div>
   </div>
 </div>
