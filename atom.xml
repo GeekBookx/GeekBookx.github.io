@@ -6,7 +6,7 @@
   <link href="https://alphax.top/atom.xml" rel="self"/>
   
   <link href="https://alphax.top/"/>
-  <updated>2024-05-23T12:45:59.514Z</updated>
+  <updated>2024-06-16T05:31:28.702Z</updated>
   <id>https://alphax.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何清理屏幕</title>
+    <link href="https://alphax.top/2e5d2c07/"/>
+    <id>https://alphax.top/2e5d2c07/</id>
+    <published>2024-06-16T05:04:20.000Z</published>
+    <updated>2024-06-16T05:31:28.702Z</updated>
+    
+    <content type="html"><![CDATA[<p>​</p><span id="more"></span><p>如果有条件的话，建议先用够软的毛刷把灰尘从屏幕上刷一下，防止等一会擦拭的时候摩擦灰尘导致留下划痕在屏幕上。<br>任何时候用纸巾或者酒精棉片(毕竟其实棉片这玩意很粗糙)来擦屏都不是一个好选择，最好使用足够柔软的布。比如眼镜布或者镜头布。</p><p>确定用什么擦拭物品来擦屏幕不会伤害屏幕后，我们又来看看清洁剂对屏幕的影响。</p><p>具体用什么清洁剂擦屏幕和能不能用酒精擦屏幕，主要还是要看自己屏幕的材质对各种清洁剂的相和性。<br>电脑显示器上主要分ag雾面和ar镜面，雾面从理论上其使用的材质是不怕酒精的。ar要看厂家用在屏幕表面的镀膜是什么材质。对于酒精耐不耐，会不会被腐蚀。</p><p>可以在屏库网看到自己电脑屏幕的材质，然后再进一步，根据材质来决定如何清理</p><p>而对于触摸屏来说，在最主要表面上的镀膜一般都是疏油层或者防眩光，这些材质基本上很难被酒精溶解。因此被日积月累的磨损主要还是因为和手指等其他物体接触摩擦导致的磨损而不是酒精腐蚀。触摸屏如果确实害怕的话，贴多一个膜保护一下就好了。磨损了就再换一个膜贴上。</p><p>擦的时候有顺序的擦，比如依次从上到下擦<br>别直接把清洁剂喷到屏幕上，应该先喷到擦拭布上，否则有可能漏液到屏幕内部造成损坏。<br>如果要用水作为清洁剂必须使用蒸馏水，自来水有杂质会留水渍。</p><hr><p>参考：</p><p><a href="https://www.bilibili.com/video/BV1fS4y197V">酒精能不能擦屏幕，你想看的全在这里了</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;​&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="PC" scheme="https://alphax.top/tags/PC/"/>
+    
+  </entry>
   
   <entry>
     <title>Next8主题在博文页头添加文章标签归属显示</title>
@@ -383,25 +402,6 @@
     
     
     <category term="建站" scheme="https://alphax.top/tags/%E5%BB%BA%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于局域网内共享文件系统</title>
-    <link href="https://alphax.top/8e24558/"/>
-    <id>https://alphax.top/8e24558/</id>
-    <published>2023-06-18T14:03:20.000Z</published>
-    <updated>2023-07-30T15:49:30.366Z</updated>
-    
-    <content type="html"><![CDATA[<p>.</p><span id="more"></span><p>想在局域网内搭一个文件共享系统</p><p>最简单的方案是通过windows自带的SMB协议来进行。</p><p>首先打开控制中心，打开网络和共享中心，找到更改高级共享设置</p><p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230621233239961.png" alt="image-20230621233239961"></p><p>在专用一栏内启用网络发现，启用文件和打印机共享，具体参照图中设置</p><p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230621233358094.png" alt="image-20230621233358094"></p><p>来宾或公用和所有网络的两栏不用管，改完专用这栏的设置就可以保存更改了。</p><p>接着要给电脑设置一个密码，没有密码无法用其他设备在局域网内通过SMB访问文件。这步很重要，没设置密码是无法使用的。</p><p>接下来选择要分享的文件或者文件夹，右击属性点共享栏的共享</p><p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230621234236091.png" alt="image-20230621234236091"></p><p>点开下拉栏选择everyone，点击共享。</p><p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230621234319993.png" alt="image-20230621234319993"></p><p>或者添加一个用户，指定为他分享。选择everyone的话就是同一局域网下的所有设备都能够看到。</p><p>如果想关闭共享这个文件或者文件夹，右击该文件或该文件夹属性点击高级共享</p><p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230621234552360.png" alt="image-20230621234552360"></p><p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230621234605017.png" alt="image-20230621234605017"></p><p>去掉前面的勾然后点击确定。</p><hr><p>来到其他设备端前，在连接到同一网络的情况下在文件管理软件下找到网络驱动器（部分手机的文件管理软件功能比较强大的可以直接看到）</p><p>如果只是用来观赏影片的推荐下载手机端VLC来看，一样可以看网络驱动器的文件。</p><p>或者使用更好的文件管理软件吧。</p><hr><p>windows端的SMB确实方便直接，还算好用。但毕竟功能比较少。如果想要可玩性高一些的，我还是推荐Alist。其实这个名字，大家应该也比较熟悉了。</p><p>Alist支持docker部署，也可以在windows端上以命令行的方式挂在后台。文件查看和管理也都是和docker一样去浏览器内访问网址。当alist启动后，局域网内的设备可通过浏览器访问文件</p><p>网址是：访问服务器端的局域网IP+alist端口（默认是5244）</p><p>而且alist可以做到内网穿透，可以实现外网访问，但是由于端口转发的机制，安全性有待考虑。不熟悉的话不建议这样做。</p><p>Alist和之前我说的那个BING AI一样也可以部署到网页上，做成自己的一个私人小文件库。在官网的文档中给出了一键部署的几个网站。</p><p><img data-src="https://alpha-1253902598.cos.ap-guangzhou.myqcloud.com/image-20230622230711830.png" alt="image-20230622230711830"></p><p>这其中没有Replit的一键部署方案，这是因为Replit官方已经开始禁止Alist了。网络上有绕过Replit的方案，但有人被封号或者被限制速率之类。个人不建议部署在Replit上，还不如找台不用的旧安卓手机部署Alist。</p><p>想自己掏钱部署到网站的，Alist支持MySQL,SQLite3，PostgreSQL这三种数据库，在这三种数据库挑一种注册，然后到alist的github主页下载对应的Alist版本（通常为alist-linux-musl-amd64版本）</p><p>有些数据库不访问一段时间会休眠，那么还要一个定期访问一次数据库的网站。这个上网自搜即可。</p><hr><p>功能很多，等我用过一段时间再来说说看吧。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;.&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="PC" scheme="https://alphax.top/tags/PC/"/>
     
   </entry>
   
