@@ -6,7 +6,7 @@
   <link href="https://alphax.top/atom.xml" rel="self"/>
   
   <link href="https://alphax.top/"/>
-  <updated>2025-05-17T11:00:33.806Z</updated>
+  <updated>2025-06-11T11:04:56.489Z</updated>
   <id>https://alphax.top/</id>
   
   <author>
@@ -17,13 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>欧卡2对于模组匹配的一些记录</title>
+    <link href="https://alphax.top/8c53efe2/"/>
+    <id>https://alphax.top/8c53efe2/</id>
+    <published>2025-06-11T11:01:32.000Z</published>
+    <updated>2025-06-11T11:04:56.489Z</updated>
+    
+    <content type="html"><![CDATA[<p>​</p><span id="more"></span><p>架设了欧卡的steam联机服务器之后，其实可以发现他的逻辑和平时开房联运基本一样。依据是在架设服务器的时候，需要玩家开欧卡控制台导出三个文件。<br>这三个文件分别是server_config.sli，server_package.dat和.sli。其实就是把自己在欧卡游戏里面，原有的三个文件复制了一份另存为出来。</p><hr><p>server_config其实就是对联运的一些设置，比如名字，最大房间人数上限，是否开启碰撞等。</p><hr><p>这里要特地讲一下server_package.sli的内容，这里面的内容是自己在欧卡里启用的mod的信息。<br>平时由个人主持联运时，如果他自己需要打开一些mod，那么server_package_sli里就会有这些mod的信息。<br>在server_package文件内，每个启用的mod都有一个checksum以及workshop_mod的参数。<br>checksum就是校验码，原理类似于sha256等，更改了文件，值就会变。<br>这就可以解释为什么个人主持联运开了可选模组，两个人都在自己的mod文件里添加了mp_mod_optional:true的可选模组参数，依旧会显示版本错误。虽然修改的内容相同，但是checksum的值每个人都会变化得不同，都无法相互兼容。<br>把服务器里面server_package所有mod的checksum行删除后，加入联运会发现还是显示版本错误。<br>再把文件里面workshop_mod一行也同样删掉，就正常了，可能是不止checksum，和steam创意工坊可能也有验证环节。</p><hr><p>那么最后回过头来可以重新发现<br>个人开联运的时候，如果自己需要开启一些mod，server_package文件是必定有这些mod信息的，无法修改和删除文件内的信息。<br>要加入这个联运的成员们的对应mod文件，如果有修改过，（比如把原来不是可选模组的mod改为可选模组）那么checksum值就有变化，将无法和别人相互兼容。<br>那么这样的鲁棒性就太差了。<br>但服务器可以删除和修改server_package文件，更改mod信息的情况下，同时开服。不会有个人组织联运的那些限制。<br>在服务器启用了可选模组的前提下，可以把server_package文件清空。<br>这样每个人进来都不需要经过mod的验证，哪怕自己把mod改成什么样，checksum如何不同都可以，因为服务器上压根就没有mod的白名单。想自己加什么想玩的mod都行，前提是要把自己所有mod开启可选模组。</p><hr><p>加入联运的判断（服务器和个人开联运都是相同的）<br>主持联运方 未开启可选模组<br>加入方的server_package文件必须和主持方的server_package内容信息一模一样。</p><hr><p>主持联运方 开启可选模组<br>需要对比。<br>首先将主持联运方的server_package内的mod分为两部分:没有开启可选模组的mod，和开启可选模组的mod.<br>没有开启可选模组的mod部分，要求加入方的server_package内也必须有这些mod，且信息必须完全相同。<br>开启了可选模组的mod部分，如果加入方的server_package内没有这部分mod则忽略不管，但如果加入方的server_package内有这部分对应的mod，则需要信息相同。<br>主持方内server_package没有的mod，而加入方有的，需要加入方全设置为可选模组才可进入。除此之外无其他限制。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;​&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Games" scheme="https://alphax.top/tags/Games/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Server搭建过程</title>
     <link href="https://alphax.top/c578df38/"/>
     <id>https://alphax.top/c578df38/</id>
     <published>2025-05-10T06:16:08.000Z</published>
-    <updated>2025-05-17T11:00:33.806Z</updated>
+    <updated>2025-05-26T08:01:32.114Z</updated>
     
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="4df2e71b109ea3b73f484365403561234feb2dac8482bb284581d815c2686ff0">25193ae2d4aad5d9de1840ffda46677414a23406d0aacd6912df3a2794b73cc45628eb46ecb267d16ec330b99378a5e85ee5a8c586b625e788eb0ba1d4c24bd9da2c7210692c67e62dd71b64402e2b00ce77faf5cf4ad85f263fd0f380ecc60ed149426defecb4b346d3478f5d3fa503cc9477abe8bcf258d566b04f3d9a9d0a878e2706b9f58afa9711e37c3b9af0acf5a2b642b2dcfd0d34a6cb0482c745a12b95442fe8a4dbc4a31c10c951755882c91721b54a13182c2f35fd31f22a8d30dc3092579730356a6427f45704b332e5b21da8d7188f5d6c30d3a2db5ed5efb7f9e443199b6cc6f26dc4fcd57cd08e09c848dab901afa088f1604e501f3c16da648e399020b2a0351dddb1b0d03e49d7c285a38c4824998e74acd3d9dec9679e71aa055b346d853d767a743dac96db1e518c03e7a2f232a3ac49064d1cd1e9f4de04e7031aed07aa254be4caab1ce9017ceebc81a8edfde06781dc3fdaf964ff8dc3f528aecedb55b092ad79803234216bed30896f4679db638a877aecd375e244bae5e1df9734faa6021504930c8594f6d74bf7d157e74da930ad1b6f40271ffb40d6edc4785c2008441cc42421baad53890bb7f27dfd1a10d1e0b71fd15406753f3554c25cae15a15cedd8c000f9967ae13e3687eaef99e09418980663100e046781174f14f9e74169702b0bdaaf117bab6b83c3814acb061a6e0b7eee7c554fbc39fa0c6cdbff284ab885e4ec9fba2be565413f17acfc62c092ba78c8d473213753259287d4149f337e826b69770cb7551bfa4982c4b74f67e4fa534d8e804aa10a7def5bbe08a6b5d97f3123de2c049798d0f82fb7d8c18a9856dd9c399287c193cb1ab1c9cc5c362d5ef593cb8eb1bea47768c688159ad0bf840f680caf1d799b064614d34d553cca82fd90c81ad16d95b0936304c02fbde985ef47957936627b10594950cc13a31877325f3650a32d700972053e1a5cbc367cccea854e982b01c1386cbc4f6f3540805697c6b4ff350f93ce252856d828f5bc2b8fb39954558bf6a12d118a3a57e3f65d6aa2756463544f740e374e2a1b67fd397ea7b74fffb3bb833b8effdab2d396114af1d40b8560ca949aa1d8fc7d6a8623a7bdd67a997a1e4bc0a48be4987a3bc103115979bd1c6743d00ec72cc8ebd2a1db2a782c6c4583d872620f61576a13b59251188af138f9992b818d271accc34b3331e8382889e481aba82381b8d9d4af96da322d2e9da9339bff53844c5ab47bceeffc793658bd27b1c0b21703c49037851c4d6ede0762af6efc6f171dbd865a933584576ad4b2ec703ad6f441a3f78323465d7136ff978a841dd1b1e81434fe848e07a8b89b0e407c05f352b92a6d7e03e751</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-up" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">      <div style="position: relative; width: 100%;">        <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass" style="width: 100%;">        <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">          <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>        </label>      </div>      <button type="button" id="confirmButton" style="width: 100%;">Confirm</button>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="62757a97ea100274a47e6716a7e5c2119f30f290c96bda20106fc13305c41503">25193ae2d4aad5d9de1840ffda46677414a23406d0aacd6912df3a2794b73cc45628eb46ecb267d16ec330b99378a5e85ee5a8c586b625e788eb0ba1d4c24bd9da2c7210692c67e62dd71b64402e2b00ce77faf5cf4ad85f263fd0f380ecc60ed149426defecb4b346d3478f5d3fa503cc9477abe8bcf258d566b04f3d9a9d0a878e2706b9f58afa9711e37c3b9af0acf5a2b642b2dcfd0d34a6cb0482c745a12b95442fe8a4dbc4a31c10c951755882c91721b54a13182c2f35fd31f22a8d30dc3092579730356a6427f45704b332e5b21da8d7188f5d6c30d3a2db5ed5efb7f9e443199b6cc6f26dc4fcd57cd08e09c848dab901afa088f1604e501f3c16da648e399020b2a0351dddb1b0d03e49d7c285a38c4824998e74acd3d9dec9679e71aa055b346d853d767a743dac96db1e518c03e7a2f232a3ac49064d1cd1e9f4de04e7031aed07aa254be4caab1ce9017ceebc81a8edfde06781dc3fdaf964ff8dc3f528aecedb55b092ad79803234216bed30896f4679db638a877aecd375e244bae5e1df9734faa6021504930c8594f6d74bf7d157e74da930ad1b6f40271ffb40d6edc4785c2008441cc42421baad53890bb7f27dfd1a10d1e0b71fd15406753f3554c25cae15a15cedd8c000f9967ae13e3687eaef99e09418980663100e046781174f14f9e74169702b0bdaaf117bab6b83c3814acb061a6e0b7eee7c554fbc39fa0c6cdbff284ab885e4ec9fba2be565413f17acfc62c092ba78c8d473213753259287d4149f337e826b69770cb7551bfa4982c4b74f67e4fa534d8e804aa10a7def5bbe08a6b5d97f3123de2c049798d0f82fb7d8c18a9856dd9c399287c193cb1ab1c9cc5c362d5ef593cb8eb1bea47768c688159ad0bf840f680caf1d799b064614d34d553cca82fd90c81ad16d95b0936304c02fbde985ef47957936627b10594950cc13a31877325f3650a32d700972053e1a5cbc367cccea854e982b01c1386cbc4f6f3540805697c6b4ff350f93ce252856d828f5bc2b8fb39954558bf6a12d118a3a57e3f65d6aa2756463544f740e374e2a1b67fd397ea7b74fffb3bb833b8effdab2d396114af1d40b8560ca949aa1d8fc7d6a8623a7bdd67a997a1e4bc0a48be4987a3bc103115979bd1c6743d00ec72cc8ebd2a1db2a782c6c4583d872620f61576a13b59251188af138f9992b818d271accc34b3331e8a1cf24a3e5b8d38cc3404a8b22fa9d3a4e3cd71e737e9b40d462bd5878fc7ca33f5d04b9efd6eb575266591d71c50785f05c9e4b5aaf109f2a97f5bf01d80189b799bd49571f3846c1bd576465bd6f23fc880f88af403a5c82323778238b9ceeaa3f381bcdb00f6e005977a88340785dc4cb374bb8ff2ee58bd46cd56abc2b885e1661d3d1b12245c19a0c3b75299248d06eeb835d86a43f09b613976cad786637826fff07b606760f5574e7f46da2e75b3589a864df241a7cd2d6dcf917b4a64cd7beb0de12f603f3dd30785f965753894ce3f144e35292bdbee88f205e6d9c89af640ed997732f010a086125f3446b68469c4c334ea25a49f79342329c5a5e1f6babffa6ebada2c1cbd05820695996dc9ad443b39af085fad9762f908f2d86</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-up" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">      <div style="position: relative; width: 100%;">        <input class="hbe hbe-input-field hbe-input-field-up" type="password" id="hbePass" style="width: 100%;">        <label class="hbe hbe-input-label hbe-input-label-up" for="hbePass">          <span class="hbe hbe-input-label-content hbe-input-label-content-up">这里需要密码才能访问。</span>        </label>      </div>      <button type="button" id="confirmButton" style="width: 100%;">Confirm</button>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
     
     
     <summary type="html">这是一篇加密博文，请输入密码后查看</summary>
@@ -382,25 +401,6 @@
     
     
     <summary type="html">&lt;p&gt;.&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="PC" scheme="https://alphax.top/tags/PC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>百度网盘CE变速齿轮解锁</title>
-    <link href="https://alphax.top/17150f2b/"/>
-    <id>https://alphax.top/17150f2b/</id>
-    <published>2023-10-21T12:43:22.000Z</published>
-    <updated>2023-12-04T12:32:48.318Z</updated>
-    
-    <content type="html"><![CDATA[<p>2023.12.04截至，ce变速概率性可使用，有概率被云流量监控发现并直接限速。</p><span id="more"></span><h2 id="2023-10-24日情况">2023.10.24日情况</h2><p>打开ce选择 BaiduNetdiskHost.exe，有两个相同名字的exe，自行判断选择其中之一，只有一个开变速精灵有效果。</p><p>选中进程后 enable Speedhack   齿轮速度输入500再加三个0。点apply。</p><p>在百度网盘的下载文件底下的 xxx/xxx mb部分观察网速是否有变化，百度网盘内显示的几百K不用理。</p><br><p>百度网盘新版本7.27已不可用，7.25老版本依旧OK。</p><p>老版本的下载链接：<a href="https://drive.google.com/file/d/1Kp430ziHi10zWSDYqZ2fkNNKMqKlpMpU/view?usp=sharing">https://drive.google.com/file/d/1Kp430ziHi10zWSDYqZ2fkNNKMqKlpMpU/view?usp=sharing</a></p><p>百度网盘会自动更新到新版本，需要手动关闭。</p><p>在百度网盘安装目录下找到AutoUpdate文件夹，把文件夹内的内容删光，并把AutoUpdate文件夹改为只读。</p><br><hr><br><h2 id="2023-12月情况">2023.12月情况</h2><p>目前CE变速倍数拉太高，满网速下载很容易被百度云检测到，会直接给账号限速，因此现在做不到完全稳定快速的下载了。</p><p>现在的情况是有概率能高速下载，但也有可能会被云控制裁。</p><p>这里我找了一个老版本的百度网盘（而且是免安装版），配合上懒人版一键给host进程加速的软件（其实就是ce套皮），（主要是不用手动调齿轮倍速）总体下，大部分情况下都能网速起飞。</p><p>把百度网盘最小化到任务栏，貌似能加大加速成功的概率。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;2023.12.04截至，ce变速概率性可使用，有概率被云流量监控发现并直接限速。&lt;/p&gt;</summary>
     
     
     
