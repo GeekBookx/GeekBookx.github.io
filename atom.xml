@@ -6,7 +6,7 @@
   <link href="https://alphax.top/atom.xml" rel="self"/>
   
   <link href="https://alphax.top/"/>
-  <updated>2025-09-24T05:15:29.392Z</updated>
+  <updated>2025-10-13T07:04:44.973Z</updated>
   <id>https://alphax.top/</id>
   
   <author>
@@ -21,16 +21,17 @@
     <link href="https://alphax.top/6f298dc8/"/>
     <id>https://alphax.top/6f298dc8/</id>
     <published>2025-09-24T05:09:20.000Z</published>
-    <updated>2025-09-24T05:15:29.392Z</updated>
+    <updated>2025-10-13T07:04:44.973Z</updated>
     
-    <content type="html"><![CDATA[<p>使用<code>Google</code>时有时候会自动跳转到google.com.hk等一些带有地区后缀的网址。<br>会有些限制，比如hk地区强制开启安全搜索<br>又或者是输入<code>google.com</code>自动重定向到了<code>google.com/m</code>的404错误网页，无法正常使用。</p><p>可以访问<code>google.com/ncr</code>，操作后正常访问<code>google.com</code>主站。<br><code>ncr</code>即<code>no country redirect</code>。</p>]]></content>
+    <content type="html"><![CDATA[<p>1.Google NCR</p><p>使用<code>Google</code>时有时候会自动跳转到google.com.hk等一些带有地区后缀的网址。<br>会有些限制，比如hk地区强制开启安全搜索<br>又或者是输入<code>google.com</code>自动重定向到了<code>google.com/m</code>的404错误网页，无法正常使用。</p><p>可以访问<code>google.com/ncr</code>，操作后正常访问<code>google.com</code>主站。<br><code>ncr</code>即<code>no country redirect</code>。</p><p>2.雨课堂</p><p>浏览器F12在控制台一栏输入代码：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">HTMLVideoElement</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">pause</span> = <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;[Hooked] Blocked pause on video element&#x27;</span>);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>使得视频在后台不暂停。<br>出自：<a href="https://blog.csdn.net/projade/article/details/148897468">https://blog.csdn.net/projade/article/details/148897468</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;使用&lt;code&gt;Google&lt;/code&gt;时有时候会自动跳转到google.com.hk等一些带有地区后缀的网址。&lt;br&gt;
+    <summary type="html">&lt;p&gt;1.Google NCR&lt;/p&gt;
+&lt;p&gt;使用&lt;code&gt;Google&lt;/code&gt;时有时候会自动跳转到google.com.hk等一些带有地区后缀的网址。&lt;br&gt;
 会有些限制，比如hk地区强制开启安全搜索&lt;br&gt;
-又或者是输入&lt;code&gt;google.com&lt;/code&gt;自动重定向到了&lt;code&gt;google.c</summary>
+又或者是输入&lt;code&gt;google.com&lt;/code&gt;自</summary>
       
     
     
